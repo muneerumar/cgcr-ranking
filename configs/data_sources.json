@@ -1,0 +1,69 @@
+{
+  "files": [
+    {
+      "category": "ESCI",
+      "content_length": 51286808,
+      "kind": "shopping_queries_dataset_examples.parquet",
+      "path": "data/raw/esci/shopping_queries_dataset_examples.parquet",
+      "sha256": "4a735b693b4a424a6fc67f5be6e4c811495c488bbf66d02a602d308b2744263a",
+      "url": "https://media.githubusercontent.com/media/amazon-science/esci-data/main/shopping_queries_dataset/shopping_queries_dataset_examples.parquet"
+    },
+    {
+      "category": "ESCI",
+      "content_length": 1108857465,
+      "kind": "shopping_queries_dataset_products.parquet",
+      "path": "data/raw/esci/shopping_queries_dataset_products.parquet",
+      "sha256": "25124442d064d64b26f74082d6fa09438d679efc0c183cf28d19064a2b65a265",
+      "url": "https://media.githubusercontent.com/media/amazon-science/esci-data/main/shopping_queries_dataset/shopping_queries_dataset_products.parquet"
+    },
+    {
+      "category": "Electronics",
+      "content_length": 1312900427,
+      "kind": "metadata",
+      "path": "data/raw/amazon_2023/Electronics/meta_Electronics.jsonl.gz",
+      "sha256": "a4a196a1c8e443e0942d8a5c79b5a5d2d68e29d483f2badec1126690b4b2790d",
+      "url": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/meta_categories/meta_Electronics.jsonl.gz"
+    },
+    {
+      "category": "Electronics",
+      "content_length": 6474438619,
+      "kind": "reviews",
+      "path": "data/raw/amazon_2023/Electronics/Electronics.jsonl.gz",
+      "sha256": "17b2c5f3736d4c0cb874859076436ebd4513f4c2396c528440a63204084e6a28",
+      "url": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/review_categories/Electronics.jsonl.gz"
+    },
+    {
+      "category": "Home_and_Kitchen",
+      "content_length": 2964930883,
+      "kind": "metadata",
+      "path": "data/raw/amazon_2023/Home_and_Kitchen/meta_Home_and_Kitchen.jsonl.gz",
+      "sha256": "ca8d8dcc59fea409e7f49936226f78ed51b1829dd3d9da9be24f5a8489d65fe0",
+      "url": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/meta_categories/meta_Home_and_Kitchen.jsonl.gz"
+    },
+    {
+      "category": "Home_and_Kitchen",
+      "content_length": 8307664299,
+      "kind": "reviews",
+      "path": "data/raw/amazon_2023/Home_and_Kitchen/Home_and_Kitchen.jsonl.gz",
+      "sha256": "49fe8d03284ce71c1a8da720b15290d288e3694f335bcac4a66e2c8aa4ad5965",
+      "url": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/review_categories/Home_and_Kitchen.jsonl.gz"
+    },
+    {
+      "category": "Tools_and_Home_Improvement",
+      "content_length": 1211372176,
+      "kind": "metadata",
+      "path": "data/raw/amazon_2023/Tools_and_Home_Improvement/meta_Tools_and_Home_Improvement.jsonl.gz",
+      "sha256": "d43009b27d3e208dd3a811a09870134e8595d6973a2f76ee247371a8c9ba2ff5",
+      "url": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/meta_categories/meta_Tools_and_Home_Improvement.jsonl.gz"
+    },
+    {
+      "category": "Tools_and_Home_Improvement",
+      "content_length": 3509652638,
+      "kind": "reviews",
+      "path": "data/raw/amazon_2023/Tools_and_Home_Improvement/Tools_and_Home_Improvement.jsonl.gz",
+      "sha256": "9e307776bb323088becf715d9c92590c677208d2cb0574d0059a3fb43057d228",
+      "url": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/review_categories/Tools_and_Home_Improvement.jsonl.gz"
+    }
+  ],
+  "upstream_report_sha256": "61e90337e0289130d97f4a0c391f9be2a4895d5f99ced7a762bb88c2d2a62f20"
+}

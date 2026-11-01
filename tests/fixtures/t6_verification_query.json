@@ -1,0 +1,25 @@
+{
+  "schema": {
+    "attributes": [
+      {"canonical_name": "capacity", "aliases": ["Capacity"], "value_type": "numeric+unit", "variant_sensitive": true}
+    ]
+  },
+  "row": {
+    "item_id": "FIXTURE_PARENT",
+    "product_id": "FIXTURE_PARENT",
+    "catalog": {
+      "details": {"Capacity": "1 Liter"},
+      "categories": ["Kitchen", "Containers"],
+      "price": "12.00", "average_rating": 4.2, "rating_number": 2
+    }
+  },
+  "claims": [
+    {"attribute": "capacity", "value": "1000", "unit": "ml", "claim_type": "SPEC", "span": "1000 ml", "unmapped": false},
+    {"attribute": "use case", "value": "storing rice", "unit": null, "claim_type": "USE_CASE", "span": "storing rice", "unmapped": false}
+  ],
+  "review": {
+    "title": "Container", "text": "I use this container for storing rice.",
+    "user_id": "fixture-reviewer", "verified_purchase": true,
+    "helpful_vote": 0, "rating": 5.0, "timestamp": 0
+  }
+}

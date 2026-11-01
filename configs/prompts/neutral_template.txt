@@ -1,0 +1,5 @@
+Product: {title_normalized}
+Price: {price}
+Rating: {rating_summary}
+Verified attributes:
+{licensed_claims_block}

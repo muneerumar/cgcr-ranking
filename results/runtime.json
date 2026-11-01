@@ -1,0 +1,2408 @@
+{
+  "electronics_qwen": {
+    "attempts": 109,
+    "sources": [
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_000_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2304.420634791022,
+        "sha256": "631c763e7524f7baa0c4aa9efce97b0966c75d5f6573d169dd6e795041cba219"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_000_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1164.9425272090593,
+        "sha256": "eab800745c24aa010e489028b6b6e852809423237f8fe99b4bbdee4a4748c9ac"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_000_finish_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 0.7926890830276534,
+        "sha256": "ae81bb58a64f932a79b90ed734733bb6eb0f5a59b0b814c59b0a7af2acb1e54e"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_000_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 4.474907708005048,
+        "sha256": "c3362c58a29843f4ce571f9d3b67eefb8f01b0476ff9953e9e688be48f697cb2"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_000_ingest_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 0.5301029169932008,
+        "sha256": "5988cf8cb13ec5f8102ddd5015d5e110aaf97422571b56726f6d0159c152e3e4"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_000_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1111.0023305410286,
+        "sha256": "84b342db0b0975a3c3e5e76c16158171b9c5b965e69d17f50ded139eb39cbaf7"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_000_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1524.734649082995,
+        "sha256": "c3d8e1e26e29ae6d1a58a3d3a321965300128cf74a9edcd4100e67fda782d6a3"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_000_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 190.24854591710027,
+        "sha256": "a7d89d957df016ca05489475eff5f84b1baee53d63b0ec3b4626a19b37c00945"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_000_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 78.7167192499619,
+        "sha256": "90d40e473d7c8dfd81bdfe629123dd35de8c46850e6f529f8f82c771faffdfb8"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_001_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2368.1137359580025,
+        "sha256": "5d8680ab99f8c24f03a40a73f17be49c801c562f384034659859d48a4d2bd4e1"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_001_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1036.9935967080528,
+        "sha256": "40bc3f4ee211fd6d96183468666b6618b6820dc0e54bf05c75f0215cc9a15328"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_001_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2.6409956249408424,
+        "sha256": "7798e90c5645667830863c18ac30a9f66d19fb1c6e89f1af716ac70579aebbcd"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_001_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1146.9080235830043,
+        "sha256": "4eb79192acb5145649037ba35cc842c1168355d1473936970c7a78b6890f594b"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_001_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1492.9817455000011,
+        "sha256": "f4d0532d95cdf7d85031e7f23269b6946bd3eae566ba028c14551ceb79dfcaec"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_001_sanitize_002.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 65.52728208398912,
+        "sha256": "f52a9a1ad9ad8cc6e6786c45806d1847d6fe5834029ace61643e5d651e962215"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_001_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 180.25595216697548,
+        "sha256": "01344c848fd77aa9db7375e93dcf1166b21b9a2ebd5fe64e5d43531565a35faf"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_001_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 68.34254833299201,
+        "sha256": "cecad372a1e62393241c9fdd3108889d7d506e2e4bd46245ad80e6540120c5dd"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_002_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2395.8879110419657,
+        "sha256": "05ff2a1600ef84220209a1b6520aab697281914a45b5e9934e59aaf38e70ce92"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_002_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1021.9373653340153,
+        "sha256": "2aba4ee630c157972805365da301421c88fa169d377df161a2660769f8671f83"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_002_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 3.1623950419016182,
+        "sha256": "52fbd8047251ddbb901a186a8a6498c224bb5ce445c8304d57a227e215f68b42"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_002_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1300.4065081670415,
+        "sha256": "f64c07f9d4a1f28154d96f4b95158484448e15cdf42f00d20c01c64d544a07e6"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_002_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1632.1416358329589,
+        "sha256": "578a04d4ac06131ee7d57a6c23726e830601bf3adb1c9d1e24f4a6f2d12ccc58"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_002_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 190.04956029099412,
+        "sha256": "9e1bf99efa42b93cfa30ff578c11febe91a5a74bb010c0da5e8b63f7fb0526e8"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_002_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 62.05390645796433,
+        "sha256": "9f7639ebcd10e3a23c3eebe68ffd484ec91c69041befcb90a9c27f5a34f94cda"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_003_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2509.361262499937,
+        "sha256": "d50887b98949ee45250a8feb333d4d60768fd58cfc1bc4e0075caf956f55c5e1"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_003_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1222.72469574993,
+        "sha256": "be8ee6abf25b2ef376850d9d392a1816383b84661734ac4a4f805a766b9d34f4"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_003_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 3.171460665995255,
+        "sha256": "da6c27a0d4f260fb659b79efc61807334ea0c99405d628e1269bd8795f4b5d15"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_003_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1157.9501613340108,
+        "sha256": "52324e98d99418820d496df8ace03a219271b14ee98cae9f26e1b25c896714ff"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_003_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1634.3831234590616,
+        "sha256": "db4ac7d9ab3b3b025c00c1905e8e9211ad2048e828762f80df4ce2ef1bad9ff1"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_003_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 226.29228958301246,
+        "sha256": "cc922e7289e3d0c07e9fd43312b130fe05449bc0e73fc0ece716e5d1a329f2d6"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_003_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 80.78941287507769,
+        "sha256": "6e85f74efef8f39484ad87082a4a1c46a290a032f3cff5d9ce5520d57ec78554"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_004_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2665.52059275005,
+        "sha256": "61a42ab796e282cca6a9b03685e0f0cbdcdb28dc8568c62b078dfaa018ebd798"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_004_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1108.3521111670416,
+        "sha256": "8e900359b8e459aa209c8f354dcc7f6be08dc133d4597e70f7122694b0b6b03e"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_004_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2.1036523750517517,
+        "sha256": "e01fcc52fe82e0653283df02e8280298821017804dad5e64b9001c689684cf0e"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_004_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1229.6498547089286,
+        "sha256": "4ab26eaa7d2c4a9404282879c46845141a967c87f9fdb808228a175715549e8e"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_004_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1573.28626600001,
+        "sha256": "8dfc381b06b362ed586e50baf798b43c3b88eb24672b70eaccc737fff8350c9a"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_004_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 182.08624595799483,
+        "sha256": "37c8890bf44323742e6886ad61b1516fd92b8b5378bf552f4f8311297f1e54b6"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_004_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 74.45460433303379,
+        "sha256": "4ef3cd579543bb10b508a4418fce4f709939ce37a78328a7edaafc59215d3c96"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_005_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2301.371285500005,
+        "sha256": "c8c4f45bf2f77f6c28f8f6f57ec01da870ce4c9990b35f12c072caf6b28a1edc"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_005_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1027.8109815419884,
+        "sha256": "6c286fae1c30e96f1f784943e77ab52d95d56e259a7a2665cf0f8478def17495"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_005_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 5.779633249971084,
+        "sha256": "c2e6e9aa76f9a838052d4399bd3ed0935fed2c8217e03f64dfb2190cbc8e9a14"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_005_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1149.3335740830516,
+        "sha256": "1016a0758ba7856a5f6d09cf6a308ae4eac29fc68282ff8ff39507ed13d3e7f6"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_005_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1510.4383295419393,
+        "sha256": "9a9d096aa89f42b7c841ba56db1c76cf65ca762fa35914b53846740c9abd3997"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_005_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 158.10727599996608,
+        "sha256": "5e0371bb1f0b40b71aec1b8572f95a1bedc1c24eda3c71698db14b2352e7c7b8"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_005_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 70.31634012493305,
+        "sha256": "6306d0173d7e6251b89da95525ceeea11ff994581ef1de556701a5e0ed2ccf75"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_006_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2329.152427208028,
+        "sha256": "673eef9f1269c55b29a21faee620cef47b422ed625c969d15768dcf04f55e362"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_006_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1111.2020622499986,
+        "sha256": "286f63054eb4d94c2c023329084511a66e6234f621d54c352acc215c84178754"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_006_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.5735162500059232,
+        "sha256": "c936156481f02d113e5570f96dc7885cbfc5442b693027ce978f0e9b195f02f7"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_006_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1100.1535175000317,
+        "sha256": "4a065dde45270663a0028af63c301b3dde9d65b52acfacea64cd768cf61dbb37"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_006_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1494.8345919999992,
+        "sha256": "edafad42e45052a2c1da85d34b57b7b06e2b7e7d77257c1eef21a6c8017c2262"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_006_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 244.03396141692065,
+        "sha256": "21102f8431cfb09425f89dcda88a9a0114a7bbc4ccb89e98ca28ac56ed1f50c6"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_006_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 67.86474566592369,
+        "sha256": "0f239abdec3992833dcacef8c1f4bbff8f8c12c48907adaa84f3b1b8414d6dfd"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_007_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2231.584489708999,
+        "sha256": "4967c93592644a6d7223dd4da8be7b51e0ce35bb4d8ff6cae8a9b0a4068c9bff"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_007_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 845.0249221670674,
+        "sha256": "9e2ae9a50317022213a6e21289d01ad89cde43cfc8a6760f776ece46ca6c4a86"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_007_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 3.1532082500634715,
+        "sha256": "fe8b5a70eedb6fb6867ddc0d4568442c3aadb7c1baff259949a66f2d42426faf"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_007_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1036.8353533750633,
+        "sha256": "603cd519f375a3274f3008853ab7561c55e94de5e5d35cf9468ae4e5fd1f9c82"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_007_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1395.1467044580495,
+        "sha256": "99ef12cab2dbcd168930572c2a1d52e70b317e154f0a441a203e1593ac60e490"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_007_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 145.33779816597234,
+        "sha256": "aec7c06681bc89183986ee958e20d20bf6c9ae6c06a621ca05296245e1459531"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_007_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 48.79055483301636,
+        "sha256": "0d511c0b3f86f376057527176c4c29a6ec711ef85a77a2c20d4c4aac05075c95"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_008_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2355.8940062499605,
+        "sha256": "5e8d1a989fc26ba8333f04a7b49bd796e808bb66f31d534a1a91115ba0413794"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_008_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 995.7267983749043,
+        "sha256": "d8caf9feab372f5a876dc4a5d11551175f393d9176d887867cc95b890f032670"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_008_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2.110212625004351,
+        "sha256": "a9dc18c026555a5c2629f9c8bd2c2e317b658f2103541b3b0d43c08af5fb71b5"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_008_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1145.7772903750883,
+        "sha256": "60e05393199292efdd88e3a8dcf705f312ba69a96c1631b72e9f26a3a3c0529d"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_008_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1508.2883875829866,
+        "sha256": "9a9d8b2271468033108eb012246cbf6110f633c5e1aa97bdef48636c1af91fe7"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_008_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 275.50522345793433,
+        "sha256": "e8cb5e57de4b678ba005bf1aab8bcc51704da708717520746dd63a5b90eb9d49"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_008_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 58.31802845897619,
+        "sha256": "6e45738cadfd85090aa39b4d4a61b375d4346065b2f7fdec46515682ba0b4d53"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_009_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2347.976955124992,
+        "sha256": "24b7d1360bb1be25dc0c16f8e4c993f3af8b0a004b56ba6ddabbe462a3804c8d"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_009_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1062.849502875004,
+        "sha256": "66808fc422dd1e0c4973295743b8b56f161d7cf75457415a353348eacb54413c"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_009_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 3.681747875059955,
+        "sha256": "cc4c59d6b81c9b463c9b2fc919c73d3710c159327a30514da798260d3b6eb835"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_009_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1146.8058338330593,
+        "sha256": "036287656da41a646c9ce7d7d32b3eaec2e01370d55a6737a82452bbf88931c3"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_009_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1530.3028211670462,
+        "sha256": "c9e0237eda81acc9541785b53b5d59d90972199ee92be977f2d6ee0fb0249300"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_009_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 155.02659708296414,
+        "sha256": "81148a274c09165a32221d519d4b902dca27ef103f0ae46b8d48d91808438fad"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_009_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 74.23673616698943,
+        "sha256": "4fb063018f3dc4a69e3f6c39aff8a4cc942f9d4fc5990af0d726cc88908c99e3"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_010_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2272.18244545802,
+        "sha256": "e5dca876297d4b467fb275ae56bd45d9209508e7a4b29e93786a306e494f27d8"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_010_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1053.4312483340036,
+        "sha256": "c4e24a9526e1c6daa39467446a7f11a657b49591a42799c94e4027b53600a5f9"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_010_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 3.1609733750810847,
+        "sha256": "1e72e1bb10fb3aee4cbe8168c5875ea1ba95741d32d9f2764c64533024be0581"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_010_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1104.1850250000134,
+        "sha256": "3ef82cc0d235410c65cee7d2c2ec0a21d66835485c5a46c7a40100e8a643e33b"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_010_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1507.8642243340146,
+        "sha256": "1e81e764adc7be6d818e07dbc8ed6126f6d67b2d5d91c2a6e4f03d17db4b2968"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_010_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 276.1219451659126,
+        "sha256": "863d9881594c585272b8b4dee0f9bf83ba3234ca8d8716bb65205c61ec3438a6"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_010_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 75.66235162504017,
+        "sha256": "d7adf6838b74483ee14c7c8da5b7a283ae9bba39556cbde7cfdcdae9673d4995"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_011_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2280.996113082976,
+        "sha256": "3fd4bbd3904619d879571b4312ba39a9a3b2ca92134fa2093f82da73f758a6d4"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_011_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 957.094028417021,
+        "sha256": "86e907367951d42941fd169d21096ec25e7b726b0c9a0043e3d0a3d7ef17abbc"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_011_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.5823402919340879,
+        "sha256": "24b08059ba3140fa2eec28caee5f5cd37146153fad5dc04da2e7901e56d78f8e"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_011_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1055.7566516670631,
+        "sha256": "2ac0d97e582d835409dfaeb8aa9f956ae29b20a1f28df68b95169765f38c6edc"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_011_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1366.3983687090222,
+        "sha256": "468e82a305e06f7079c0eec16d19615830caf683472ad33deac4d893c27c652a"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_011_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 348.31082512508146,
+        "sha256": "9450f1133c12d4a4f5edfccf84ef2c433149e4b4fdcf1e919cffd5c6a306b014"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_011_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 53.921917041996494,
+        "sha256": "152b9b299e3124fe49dd4a43afb91c733e735f8989d5cc1300a39489641b0998"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_012_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2457.229467333993,
+        "sha256": "e88a498c9ec18ed3bb6cc356e7d12e6baaecd83894928193991a2ddccc858d2b"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_012_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1124.807668125024,
+        "sha256": "2e652672b738c7e992779f7ed521daf51cb88abf82cdefc4c2d5bdfeec3db4e9"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_012_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 3.692757499986328,
+        "sha256": "dcafb54d6aeb228ad6dbd60cedc5eba038f43c49057b5753ed0add329ee0ead2"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_012_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1116.4227744999807,
+        "sha256": "b4fe37b4d07a2255422e7b48bfef6c94f23e427f7308d060f47af122b818253e"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_012_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1754.696034249966,
+        "sha256": "d1fa99b69c14101fe2f40cc28f03fa6eb8a97419a3faa5a3fb2e9f478d6daaaf"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_012_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 209.79579770797864,
+        "sha256": "acde5d0ea81019c30ce16fcec132abf2d594a7be15c747227f2cc99bcf704e61"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_012_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 63.99238791700918,
+        "sha256": "3f57860bb41b4b8ea4ce1b424134e43a4445ff1c2f47be2b115e98ebe99118d8"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_013_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2504.640331874951,
+        "sha256": "3e48b9af5110d5763c690a4b4e9dfee8da79f56b4a12d703cc16409ab7a63f20"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_013_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 985.5549411249813,
+        "sha256": "0cda8c5b26d4652f75560cacaea97300f2b3032f166f65e0832bd58493bf3a4d"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_013_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2.1277185829821974,
+        "sha256": "1b04f9dacfa53cb7cee8476eee8d4184347ca9140fd3482b3c13c7215df8fa40"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_013_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1187.31043974997,
+        "sha256": "c3e75535a9e626120311c4af9cc14247fd8cf0595eca2fd42c4d6b55fe61dcf1"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_013_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1545.3996592919575,
+        "sha256": "865923816c0dbd4bb643799466797390a0ff7edd4f23f176372cece61aab4e98"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_013_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 262.6423680000007,
+        "sha256": "0503193666330fb5dd35e3a983fe0dcb2e82885d6cd998fb7356861b4488389e"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_013_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 61.564702333998866,
+        "sha256": "d16a73b0b714f8fd8d51121d03899e25cefcf1bdf690104fa41b68e863119b33"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_014_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 971.0263053330127,
+        "sha256": "a4d4abaced36be1864eb6f7a2b9e0489ee8032c4dde74780bd7b5dbde42cd6b9"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_014_attacks_002.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 676.0181200420484,
+        "sha256": "61ff0d2fd0dd1955302d14187a36ef8d59b86e0ee79f462f663128e86004a1e6"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_014_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 638.3955201250501,
+        "sha256": "17f4b7d224bec754a52deeb4143cb0860cf19c32ffef4f2c5c1c42c8d139ace5"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_014_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.0663347078952938,
+        "sha256": "1958e46a856c7683e2eb63d1c10f9bf20fd97e766083370165e43462954c77d5"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_014_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 797.983046917012,
+        "sha256": "7ac917cf6c5501adb81e893041221ad06aae3d5a08405f977681288ecf461a84"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_014_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1018.6104879579507,
+        "sha256": "b376bf3937446f4484f277136b6b26c2fb2a97b94b4a8ec95a0179a1f612518c"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_014_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 97.50705758400727,
+        "sha256": "7ec2f5e0915db1f05b3bb4273a340949490b7834633cd57751f308d599dab9ac"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/electronics_qwen_014_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 46.91300812503323,
+        "sha256": "051126d4d95049aa0833a6089ccfc7f7e6559c2c4ba12196991949b8722588e2"
+      }
+    ],
+    "supervised_seconds": 93841.80280333606
+  },
+  "hk_llama_transfer": {
+    "attempts": 17,
+    "sources": [
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_llama_transfer_000_finish_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 0.7972042500041425,
+        "sha256": "f971d47d023156d379643d7e82e61786e4e8c538afe1681f9d72dc53adafd2ca"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_llama_transfer_000_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 983.7448694170453,
+        "sha256": "eb17a5545e90c2eeb99b398c5241c745283e0f64a950359f42c17df477f539d3"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_llama_transfer_000_transfer_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 0.5285439589060843,
+        "sha256": "cae7cd3bfbfbfc70ca6152461ecc5d1566ecbc5fa33a30d886f24771fde602b7"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_llama_transfer_001_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 923.9451777919894,
+        "sha256": "d49a660ed332c1da1fedc0ca5694acfca72abec701b208f160c85570fd351a89"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_llama_transfer_002_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 996.1031852499582,
+        "sha256": "1a4a501b2b2891979072189827cdcaead96396e5977ac613e69259f10032111c"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_llama_transfer_003_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1001.4201409580419,
+        "sha256": "784ff41f473cf8ebc08bc8f23004765df77f3c28be1367d2f8453b27a77bee08"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_llama_transfer_004_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 930.0474931669887,
+        "sha256": "5b42478c5e195d55535e6fdb927404f27ce50bf13050a4f37b8dc65483dda431"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_llama_transfer_005_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 985.7345201669959,
+        "sha256": "17a1a7dd43dc498b5a3d6a4534ed08dd61284016e5c10912459dc1f3afa4a510"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_llama_transfer_006_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 915.9069375830004,
+        "sha256": "95a96703e321bcd71147297556c4b84f4b7561100ecbda967338e1eb74ce6bee"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_llama_transfer_007_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 969.5410637500463,
+        "sha256": "bf8bd5a3098f3562de6268eacd5c99ab52e7ab386878d7cefca522d26e4f369b"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_llama_transfer_008_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1172.1786405839957,
+        "sha256": "146b50a9bbb896dc62e3b10bb211091a720de63a40e58d6d993d7ddf7cc0cedd"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_llama_transfer_009_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1095.751534332987,
+        "sha256": "3a1b1b4e2a4c6bc89a61fa4d88f91d311c3d01391eb422df76e7564d227521c0"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_llama_transfer_010_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1038.6562867499888,
+        "sha256": "9219af882eb6f479ff1160ab2c23be1dcd848b30c9f0165c9c83fa7742837395"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_llama_transfer_011_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1019.9139023749158,
+        "sha256": "645d3e2ed27ae12c9ea1790823910febe03215cc74fcf4a2e1e56cddff671b1f"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_llama_transfer_012_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 969.591668750043,
+        "sha256": "b15461efdbf181568ca1bf0b139feeedf991e694aaf41d73459000d30607e8b9"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_llama_transfer_013_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 974.7907101669116,
+        "sha256": "6a0c94ebd147122911ded8396bdbf85c7a1d3cdb10cf030b5361e48b210fb4b9"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_llama_transfer_014_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 697.2915618330007,
+        "sha256": "7d82959da8779723fe80e5d52c40c0dce210e51d5a5abf83298b25d89d90f4cc"
+      }
+    ],
+    "supervised_seconds": 14675.943441084819
+  },
+  "hk_qwen_full": {
+    "attempts": 157,
+    "sources": [
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_adaptive_candidates_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 880.5590235410491,
+        "sha256": "7697737c5c0c1c6d4405ab9ed47c55a82524dfa35d5a974048a9a01329c36fed"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_adaptive_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 908.1717024589889,
+        "sha256": "c226f857accdac2d22b621260bdec63ed02030019b5fd2336b125b9706989c8e"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_adaptive_prep_geo_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 11.195668749976903,
+        "sha256": "ec25afee1874eebfab64ddb92cb143a46b101a98ac024028c46fc70c60546d47"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_adaptive_prep_ppl_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 5.993003249983303,
+        "sha256": "124c903c14dc1c9b178c71487542c1505c0d99bf65c64bc72181d78c45b31d53"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_adaptive_prep_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 434.1086953750346,
+        "sha256": "3b7cb6a5f0bfe0774734ab3e032fdd6ebd17d50bd74e04176d2f5b7974b80156"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_adaptive_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2116.9062605840154,
+        "sha256": "0f9db7bd8d8b8d743e369bff4c8b44b47c88b5f05db094fd43364a3bfc55c268"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_adaptive_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 901.8613249160117,
+        "sha256": "b7c8cde2e34926bffd6c99d0e0189e2b2e1488d10d5d7de8b088a73b0e6818b0"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_adaptive_select_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 15.959602917078882,
+        "sha256": "df27ede0baeb2fbf021f5f48ff7741a56eb9210976f97618cc9760abd544f42f"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_adaptive_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 77.09482137509622,
+        "sha256": "390bebeb762a7de1dc794af02b618c3e0e07cb4ad85dc89aea93962a70543d60"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2883.0361587500083,
+        "sha256": "248a3e89b46f08b0998520f82a85b300d9dc68e168e04517e5799d9f44e5d68e"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1569.1195207910496,
+        "sha256": "76ed6c467a78b10623182042faab7a1e2846b515604bf321754ea56969cc6076"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_finish_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2.894180624978617,
+        "sha256": "c9a38e294059849fca03cf3aa3c433a472a2ba91f47ba523689f9d7e87aa097b"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_geo_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 29.871729250007775,
+        "sha256": "7f944b0b5c5c794aabcbd3423ef0d7d69fceac375e0e1abe79647e478ddd6b3a"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2.1098997080116533,
+        "sha256": "6bc3dbd2cad571ed48761bf8d829b2cb3cae5b88e6f3a9aeb2b7791ffeff2f73"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_ingest_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 0.5263646669918671,
+        "sha256": "43971c66a0c241ac71e2e3282277dc36546e009b735b0f089d99d6850043187c"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_ppl_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 12.66314370901091,
+        "sha256": "b6c5824c9b4d1fa150b6d4b13b1ff97e2bc413cdaeac4579438995ec827f02cc"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 122.65746241703164,
+        "sha256": "1bba70c7d410ec3af7b98c5130438d5d3951d8202914b1b6241c685a3cfa510f"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_rank_002.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2472.856595750025,
+        "sha256": "a866d672684d7fc91bbaa772a35deab7cec772dd14af95db65e0d9f195a27791"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_rank_003.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 256.1114185830229,
+        "sha256": "e71e2bd78013b3c074b17aee1ace9ca20ae5f74d2df3888da5733cb12569f577"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_rank_004.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 365.3872287500417,
+        "sha256": "f72b8873e96f217d0d3f46a32f15f7ac88990ff48cdef3b16e34908830516094"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_rank_005.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1082.261695000052,
+        "sha256": "52ef5fecf5d387430005f2c5c1908772feec10cb2e01739de9666fe7120f2375"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1859.9338864170131,
+        "sha256": "6d216b860cd6f46a8f3b242cb7b46bf4096175ae7d9b69d471416d5e8ad4d097"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_sanity_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 0.5330886250012554,
+        "sha256": "c7bbd20b40911bdad1915347136570d521f8107de35eb6a7a3c86ab3c60eabf3"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_sanity_002.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 0.2572718330193311,
+        "sha256": "9f0aaf5dbadeb150629b920aaad674fe4cab9eb7d11e601010666c51fb2d0048"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 179.81234287499683,
+        "sha256": "c89efdb5f000595dcaf02d45efe0942487072445370d1cab7bc5da282b4cadd7"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_000_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 77.57394045800902,
+        "sha256": "a36d88402d47395751384d4481a1b3e546220a0914053c4ac94fefac7038dc51"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_001_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 58.296494040987454,
+        "sha256": "f9bc66da293bd1301c6e829d677b47501977a9743f461b9350c9ec2ad1f459f5"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_001_attacks_002.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 3159.418443500006,
+        "sha256": "9381ae890bd1f21322f786e1183d69ebd392d8b1330542ffbc952cc0556f36dc"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_001_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2017.141331666964,
+        "sha256": "67804800d037ff2e7b32131a83fef2380ac0ffe471168d02aed7e1868f81a1c0"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_001_geo_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 32.97282970795641,
+        "sha256": "b07b7d206aff2a90b12729eea320ff6ef79fbfc7bae309d1d5c1553f2a2227b3"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_001_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.0624297910253517,
+        "sha256": "090af4f7d873e29a9da56126e27110f2429fc36407706bac54b9b1d6cd4affef"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_001_ppl_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 14.571333415980916,
+        "sha256": "af8074dce1168a454451fbd955989966681fcc38bf5d1a4218dcb1e410fc33df"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_001_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 3956.7329854170093,
+        "sha256": "ce2fca89c01637e48254ec81c1b94bc357679ec45a7fa9f28c64faca6f52ccbf"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_001_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2321.4385875830194,
+        "sha256": "72e6262717b5e6e270f6d65cbfd99c5d2a892f5f89636603a8f349aa9592f9d3"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_001_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 169.62368712498574,
+        "sha256": "3a181add08f8d6923980daa64ea06ddddfe09d74bc53ab92a320a0a74ad29a5d"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_001_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 89.79606812499696,
+        "sha256": "cab63978c365f6041fc7d27b2c461cc675c36e0b88bfb7897a51e3a8bf0c380d"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_002_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2755.981631833012,
+        "sha256": "1848bb03b331359f69640874f33b4f601d6c6c5eac77c1530c18d9bd7907ac70"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_002_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1534.4711910000187,
+        "sha256": "7bf21cf1e12ff8cd1745a4f0da14622ea6e5526b270862bda946e28865f38227"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_002_geo_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 30.621040500001982,
+        "sha256": "13505f57bab9ebaef71cf188601b0c611a18d6e6678f784d09ce9e94b016bddd"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_002_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.5919220409705304,
+        "sha256": "fa25d5c8af6332d35dec430c2be13b93b3a8efeef614e70e44da16ee8fe8bc0f"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_002_ppl_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 15.170511416974477,
+        "sha256": "96479ccacd4a5289b386fc77f15e43da780dbec648b7079d3cca3e003895b4a1"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_002_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 3920.271619709034,
+        "sha256": "ee716b45921f4223937fbf4339b1dff12927a3783ba55f60731ca43018d79d94"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_002_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1843.920908167027,
+        "sha256": "2cde56c5e09106cdb0ce4061f1c6a18ec127c12a23c51237339575c5f7f72e90"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_002_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 189.46804404101567,
+        "sha256": "e0d7364fb9eb302f365312c039965b0f110e01c6a58376184c0bff2970a1aba1"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_002_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 91.536084167019,
+        "sha256": "3121c6a5f459c7f606850352452fd2e2c58f61094867b63404304fe9903c4f7b"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_003_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2872.3145787910325,
+        "sha256": "9cc7eabaed93cd8bd8858621e980219ae680efdf3bbc49cbdab38520e94c50d7"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_003_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1521.029113082972,
+        "sha256": "4548f5184fb2b69e831fecc642276dae0ec438a173d0fe8909127eefdd4fe84e"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_003_geo_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 31.961280542018358,
+        "sha256": "395dfaa193a10a5e2e46ecf610b77ba2c41220632ac0504d3416e9e333ec0ddd"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_003_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.852187916985713,
+        "sha256": "1a218e1faf581a3b748c999739bd7325260fe9e9774762fc348f3703af48cd87"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_003_ppl_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 15.624563292018138,
+        "sha256": "83951de821ff827804c6d18280693db6abebfd5f8e970410aa0aca697e062425"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_003_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 3903.1752470000065,
+        "sha256": "ff39f67191999c88a317d58c831f97043302bd1d3474d7852fb298ff7af40acf"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_003_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1974.7211450000177,
+        "sha256": "14d93db4aa35452171fb8f1c9f38c23821e34f32e509db91b182a293cda6e469"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_003_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 148.37525358400308,
+        "sha256": "1362c931c3d4e90c66f1aba73f660ea88782584587407e91e4af06cb1760ad7c"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_003_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 61.44159033399774,
+        "sha256": "dd94f30d6a4c29756aa70fe6b61610aa9d962a35c119fadfffa51fe27f46dcee"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_004_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2551.129533957981,
+        "sha256": "49602c75a586debe64b096e4177e7843365505c02e017987d23f8da21ddb0dea"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_004_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1388.5502921249717,
+        "sha256": "131b940776a14671c56f2f98447b88f8b7cdf8b51565da5ee825be5dbff13bf6"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_004_geo_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 28.599165249965154,
+        "sha256": "2a5f17b2a8e05d445545d8c010be596e9dee9291e8f1f84cc63b7b50ff44ad54"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_004_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.327761750028003,
+        "sha256": "2c3fd6697797446a43d173cc64139b357fd0cae5e7651b1b250bc25b8c35cf0e"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_004_ppl_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 13.302318540983833,
+        "sha256": "6e3bbd892052705cad4e040283072ee5fa2fd54eb63b41a0e1693ce060fa184d"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_004_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 3359.53758920799,
+        "sha256": "daec91f7464ac8de332f63057f816adfc0f573a2126b4951f32bd18390e35787"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_004_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1706.2539396660286,
+        "sha256": "15beee5684d581166d26c19357bb39bcb7d9894b11f3d5a558dc2e460a1db02b"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_004_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 291.4193781670183,
+        "sha256": "03d59ec76137f49e884a592311fcb3ea93d6a574b9bc44e8608c0b4196e5a68d"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_004_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 69.97187354200287,
+        "sha256": "2c6ab1f1e34d7f97615fa0e720f0a2a446b35f65087e5262d183510da67df33c"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_005_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2635.7490906250314,
+        "sha256": "ea1e8616918eb7b2c691adde99e08805d4c73ee05a39722070df8f25b152ed7d"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_005_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1400.79405924998,
+        "sha256": "34cc06b598d365b586564ceaf16e97b9650fa52d05a858a9c2d6e295d2a6ebe3"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_005_geo_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 29.66209041699767,
+        "sha256": "55a60c66e7b6b9ead411183855665929eed0d8890d10496dd5e5dec017633a5e"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_005_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.5936965830042027,
+        "sha256": "dd7d1d285a325a3c4d6942e4085897940c8e05d64cfad998815b6758ece5df93"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_005_ppl_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 13.284044542000629,
+        "sha256": "342f33ca991ab1bd449560169797a99714454e7b8894ffcb88e75f6c611741cf"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_005_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1282.5241397500504,
+        "sha256": "0d3e356584f12d550325e2695411d9e839e6aecc634c3628acd9ce00bd3527d6"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_005_rank_002.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2344.342393375002,
+        "sha256": "f4ceb41867f2f842f23cd09b333f6f7029a8d5dbd5bf1354189e20468f04bb1d"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_005_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1661.3599860840477,
+        "sha256": "4fc7a9b0e80cd5c4450a9def096e3463fa6b5e85ab0511b2c101f7bf42959126"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_005_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 173.56654825003352,
+        "sha256": "9456e3eda5715466df8aef1e7b3e27394997872182fb98a6f0321ae4fedef976"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_005_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 71.99981212499551,
+        "sha256": "b51dccc4c9a24a2489815cb89ebd0ee21ea8a5faeb456693b616ebf4c67a6289"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_006_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2305.6626912920037,
+        "sha256": "45477bb40584f5200e9b9012c262f6b635e844a6d3e0398b9e386dd0c9f87d8a"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_006_attacks_002.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 159.8292749170214,
+        "sha256": "8e573ba9425d2c5dd9e650dbe894dee2e31688a05f2ea9030d4153f27d084ea7"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_006_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1344.8625599580118,
+        "sha256": "a3668408a426a0cb063db4a2f34f36cc170b155f5acfc1e09a4b3b6f9b09d086"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_006_geo_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 29.291771874995902,
+        "sha256": "0afde440d71e1bea8c5d0ddc58c97071c5141805403f3004c2c10764d7f9d52f"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_006_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.5947571670403704,
+        "sha256": "48d0de4c970c45ad695d8e53acc8f8595b4c09020df03be1b270d40f8f70f7dc"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_006_ppl_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 12.283913500024937,
+        "sha256": "e1d1e4cf3a02790aff9509f4b5bb1580e901545568e036d00402ebd66f7488b8"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_006_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 3231.6944142499706,
+        "sha256": "ca016511df60bdda3fb44728827201612779ee17c5ad09c52a9cbfe328ac19e0"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_006_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1643.34853333293,
+        "sha256": "f653a7a19d90396074cdd20981ffc3f33b106f64338cc8824d2656fde33250e6"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_006_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 213.0003632500302,
+        "sha256": "4d08b2d1a454dc3ee13515dcb696b2aeb0f8dfd665495c8611615c702bfaaf3f"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_006_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 78.77105591702275,
+        "sha256": "902bedd24023d5628cb16b86d1503e65f02e60d1b619b196fc61a4b40d9f2c8b"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_007_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2610.054090957972,
+        "sha256": "05ceaf3521765e88c1b971fc5d14ba3f6eaf9b3beb6efb9bc239c88b27d3a217"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_007_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1339.4746344590094,
+        "sha256": "68bb9acd7fc16958202057616a365aed60bc10fca6a968d49923a8aa162c22d2"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_007_geo_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 30.216586166992784,
+        "sha256": "6a703fa75197335f874f32a4db641ce6f9b9928e9d2ab79cd78de35b900bbf99"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_007_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2.6591515420004725,
+        "sha256": "af9d75f0d4499cb64020088a566d34eb08fdc910e2ca7425d53b99c7952291c3"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_007_ppl_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 12.751065999967977,
+        "sha256": "08b13b02f757d7485c8c28ad94b0eeff0d303a7ad090a0fc746fbc138274e947"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_007_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 3586.678146708058,
+        "sha256": "1eb6c72cde1b68d486b9009fccaf7246e85f169d637816e63702b3bf2ad262f5"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_007_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1716.9012056669453,
+        "sha256": "6f8549eeedee17a0fe436ba0b99ec93204b1497db2b748c1ffd4fc37721ca676"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_007_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 161.83774466591422,
+        "sha256": "437394fbacee9498341f248d20a70f93609400ea24f5e4e27813154918a291eb"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_007_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 79.06758150004316,
+        "sha256": "0fd87804f41552e45a2ef5ea75ef9cdd797b2472456a920927aabff90a30d09d"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_008_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2675.1235396669945,
+        "sha256": "0fc0e838654eba5581453dd757c14649bf1b0fb44860905bb4f68304a3f62a73"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_008_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1345.1616443329258,
+        "sha256": "abd9bbf1a944f16dc6b30400f0613be5e4d5ca3946b545212f0fc4308cbd6775"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_008_geo_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 30.251512916060165,
+        "sha256": "9e3a24a3f6d356f51b18adf876c034b6686d66f8b58df4efeb5806ff3c08c978"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_008_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2.656568165984936,
+        "sha256": "b5f1a56d9997b0d973c755ce5f6c1e2fe93617e69710964972bb30ae690c9743"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_008_ppl_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 14.643823832971975,
+        "sha256": "5253804e1a503b8394830c4d07acd777ba621d2c86af01c6a674bc4abb2203ad"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_008_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 3652.5441892079543,
+        "sha256": "01d6af23786e45105a466607c09cf2a6ac7ae2c2bd4280bcbdeb9e355d5e4a5e"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_008_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1766.1014155829325,
+        "sha256": "212b9248b1551303a1bb3b4d904707a1b5fa66b7dfb75939a04b0847d148cb08"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_008_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 151.5576793339569,
+        "sha256": "14d47e43bed6dc4069447a0460a40e70a309051601bd95fcfabc4d517d47b51b"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_008_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 73.24251287500374,
+        "sha256": "e9ceb5efd717f9db7e51f91c8f7481c68eda8d5137e48dfa66a0eb951b309535"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_009_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2718.328943750006,
+        "sha256": "3b8eebaf7d36d91366a8e9a974c44a1c45d9cc88744ef63253f7f3d123c042a0"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_009_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1417.1719415000407,
+        "sha256": "4b699401efad9ff6b5d6017e29e1aae96dbb306352e4fff3857e4f275a786aa2"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_009_geo_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 30.293559874990024,
+        "sha256": "4f43f50ad64bff839c453e1c224a9bc090c193e3cc9e9a213a64cc6e15817cab"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_009_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2.9063044580398127,
+        "sha256": "e76d90d565eaa21d6644b1b4a77258c7e04faa2d27ed587540795092cd59fd59"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_009_ppl_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 13.608059208956547,
+        "sha256": "1bca0f58b49017cda547c472cc27f8d0f18b5cfed9d149380b2cf92ac5566b5e"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_009_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 3572.935189874959,
+        "sha256": "c0fd4000131d5bdffdf9a490417048074600f122ed8fd769fa8c2a793f4f317a"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_009_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1775.3297795000253,
+        "sha256": "7bf0e523929b1d4a3238341c337d8fcc7b294ed64ce4a4063350203e8b1c6918"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_009_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 143.8904140420491,
+        "sha256": "be93b1ea9d141b526e7196d88df9fd2b69d1e6f5ca27b8909e905b5ec059ce37"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_009_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 83.3514161669882,
+        "sha256": "be10bbf22caf947a030126556f2dcea8c880aa7931604f5c2981735bfc47a9b6"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_010_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2604.420668125036,
+        "sha256": "32b98c29d53a77ede632fb0000f1d0f92051397982e807f4a238f990626fea82"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_010_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1024.539146666997,
+        "sha256": "b3a16d2693a78dd64a762966711bcd96f56ab1d5d814fb184ab556f0e83096d7"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_010_extract_002.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 520.0817934999941,
+        "sha256": "fe2489d810f492ab84c8a68c58d1f1132b3ec5e8b41d7434691e36162db6d12e"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_010_geo_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 29.94685041694902,
+        "sha256": "707262fd34e724f6ae3e706dde2d9c1e57177ada9d5ebdd5fc96e1af6d2753c2"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_010_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.5941567909903824,
+        "sha256": "3a2b048d17304724b46fb22b76de358b0bac4156e97a9abda1f225224cd25670"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_010_ppl_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 13.333926582941785,
+        "sha256": "72e2a07a9b5917a692c8e3eba03f51ff20666324b6f9e179b20dda222dd0771e"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_010_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 3617.457051292062,
+        "sha256": "1bceb6e0d95d8e6d6bc8118dae703c13667c86f5350f3897baece9f61789454f"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_010_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1720.6308742499677,
+        "sha256": "dbe8140748f2ab23808ae0bf40c1473abf9aace8fe7456b75eeb2e594be55775"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_010_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 262.9010458330158,
+        "sha256": "ca1078a13f3327fa6b7e10e13d24aca6b4cd3c0b4cfaeae596d981473ffec89e"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_010_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 75.739507875056,
+        "sha256": "3669e51b1d539b1c929e671276b7814fb9879d756a835d5d208fcc74c466d1fd"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_011_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2607.814124583034,
+        "sha256": "81cad05dc7684f34830a3f1218aa0a7090b496fd939c618f50fb9e35ceb620fa"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_011_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1315.4942069159588,
+        "sha256": "fa44ac40bb15794dc51ee84c5bd7e918b8db3289e18d774d19fdf058b8de6de8"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_011_geo_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 29.87974454194773,
+        "sha256": "abc95dcfbdf655051521e9c3c774334e391e116f17852aa570622ca5b1a8e6fc"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_011_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.5817881670081988,
+        "sha256": "0ebb44c661bcd007eab5ae6999443e953493851f2d0623130418a9a344b37bce"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_011_ppl_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 12.780555041972548,
+        "sha256": "c9bdf260808aae86139700af8c35d30b34ce33550350c835ba4109d59e888829"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_011_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 3733.537019875017,
+        "sha256": "3841a3d663857fd533592fb46bcb60fd48dbdfa9760a3abce27b6c75b8cffb87"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_011_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1705.1669666670496,
+        "sha256": "3c22e65013219ea6ce4da44863220fe1e5496763067e3277ba562788754c8292"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_011_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 164.153370584012,
+        "sha256": "fae565f723a4fb19812dc68acdadf7624fd8c6ce5acde1aaf3632013cd3b0490"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_011_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 72.87519416597206,
+        "sha256": "5f96679196bd4757aa7b2f5506f5d285cbee5f8c385a594171b2ba1f5e86e814"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_012_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2672.79615666694,
+        "sha256": "12b354180ad3672f4340d6eb76de4516fb71acccc55e9aaab76bda1457e5f2e3"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_012_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1421.6697457500268,
+        "sha256": "5e9b81eda1c8a9f6483096faf2b985d22bbf73264ee8df56371823ace1e4bdd9"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_012_geo_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 31.267420375021175,
+        "sha256": "9b0207409136a67c841723d1cc8c8d8b3c90a7b68f55b185beff625c1acecef6"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_012_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.5931143750203773,
+        "sha256": "e4339283741bdaca50dd8e3c9dc6430654495b1d44d986b4bd491a8d158b0c1d"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_012_ppl_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 14.385373624972999,
+        "sha256": "c8df3f41a3d71675752e1856640f1c423ef3a00d4757061c422f54c72a501ef7"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_012_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 3657.6626540829893,
+        "sha256": "9dc3cdf6f2cd218b8c6ceac1d6a7e453997834a7b14b8eb21cbc7fd52a4fdee8"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_012_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1855.9029391249642,
+        "sha256": "56fbf2de180e31f293dbc07ea43e2bc35371ee0e7ec348769d0effd5780b8797"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_012_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 194.97983641701285,
+        "sha256": "0202de972993ec80132b08971f825981d1f343545fd5ee60228dece9a631034e"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_012_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 76.19085933407769,
+        "sha256": "2553bb2306fb8c48112219ed2fcea22125812f30a9655627df52982fd74098f2"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_013_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2755.489301374997,
+        "sha256": "0cd49115126c20ac975a01103f4457afb7875ca8edffea87e4625cab7e183888"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_013_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1427.702532333089,
+        "sha256": "00594cff70de7fbaf90d2ade4f78fc3f31f81deec7f4ecf959c981f85691a47c"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_013_geo_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 31.81596495793201,
+        "sha256": "766bfbcba755b441d141a4069cd3df00771ae058b0fcaabb1e460c381eefd804"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_013_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.5966741669690236,
+        "sha256": "e91b34b07f0f9b70a22f1652fee7856fd3639280531357e240ad6855d826ff1e"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_013_ppl_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 14.88459791697096,
+        "sha256": "4f8be7959c400dc6b0cb040e308345786c07964cca0dcf4b84508024c8e79706"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_013_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 3766.585373125039,
+        "sha256": "519f1fad542ad89a0434c715e09e7e4bfcba0dbaa5124ab810134e0c46065610"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_013_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1859.2313629169948,
+        "sha256": "bfa24339aa53e05608e7d1d0adefc60d367fd9c45e9a72222ffde002f2578011"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_013_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 274.70521720906254,
+        "sha256": "415dd45fcb333327b8e163ca4d661a77a38ce4ac9cbf30a594d64ef2a30950a4"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_013_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 83.51052920799702,
+        "sha256": "6c689a5a054b0a67e936511e7d596fb487c94c5438167ebc5415b2364862202b"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_014_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1843.5064914589748,
+        "sha256": "fdb9d8c58fb52241da6100c351b70575b216b49a6adbb274631e69b157efd0eb"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_014_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1067.938450833899,
+        "sha256": "26c50dfccc0606d1a6c24b489724b086bc7a7a01e7520ee30935255643aa0d6d"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_014_geo_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 23.117354292073287,
+        "sha256": "c28ac9ef5a83a319197f31f1374e9d64aba89bf2753e31f1e745cc44aab9873a"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_014_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 0.7999168749665841,
+        "sha256": "a0f40c0124af952be5efd0ebe37462a285de3c50b56605a72f84c354a1ff8e22"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_014_ppl_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 11.183145708055235,
+        "sha256": "316e9a8e370b6c8d23385f0a48c280ec06d9ca86106e91c86f04da60aca7b98d"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_014_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2574.11401245906,
+        "sha256": "ddba5f3de076a660a2f534df0b53f75d87c6c6c29c1d18ee37d47b98ef5b79db"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_014_rank_002.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 23.183908791979775,
+        "sha256": "d54e3c348b82f458ab491b36dc89df0077bb29df727ea15377ac99b9f5d90179"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_014_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1268.4999174589757,
+        "sha256": "cdbc7f41d9cad15d0ab4a70be22f74e7d5b40168a89b70e96486f7ead98e1d9b"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_014_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 126.38256762491073,
+        "sha256": "8c706a5b7ea1dba76cef078d4a631ea0573cbf75048703cece937202a0eee384"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/hk_qwen_full_014_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 59.677168165915646,
+        "sha256": "a05bbc91452f9ad1edb3788f73d883629309ac48f341284725d27eecc84bfb05"
+      }
+    ],
+    "supervised_seconds": 152712.38446329534
+  },
+  "responsiveness": {
+    "attempts": 5,
+    "sources": [
+      {
+        "file": "results/20261028-011906_final_study/resources/responsiveness_000_finish_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 0.7796364580281079,
+        "sha256": "d8642f405c1579a06ce4b4b319ae23d0721064363caf661d77d4af85249ed077"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/responsiveness_000_response_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2965.153223958914,
+        "sha256": "f17772127de0b8984d3da5f6f5b5c48b5395b907206d0c744117a15af00e1d11"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/responsiveness_000_response_propose_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 380.9012522920966,
+        "sha256": "18d4efe674f9e5f44b6b019bba5b01e4766dd999e015d24b815ab65dfefcb082"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/responsiveness_000_response_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 5154.852245750022,
+        "sha256": "3ead70a245ba31da84a0078950c8a0c2ba1f71710e7db6c1086afa927479cc6c"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/responsiveness_000_response_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 98.44261775002815,
+        "sha256": "cf8e72c01251c793f71d3ed6a718bc0707866cd31c158dba006b2ed18bfa766a"
+      }
+    ],
+    "supervised_seconds": 8600.12897620909
+  },
+  "tools_qwen": {
+    "attempts": 108,
+    "sources": [
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_000_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2021.1278100840282,
+        "sha256": "d067e1204331f70da10b8a8c2bc4f0f3520e22740662d3b77e54582580421ca8"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_000_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1003.9958188749151,
+        "sha256": "29b2d2990557ee6b8d58fe6d7ebe4eb37ec394e16b05d4794c86c98dd81ea0fe"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_000_finish_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.0506174579495564,
+        "sha256": "f2e4c4b6b0c32e6f4fafb19f801453df3155e50833a04647af9d690a1f818a17"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_000_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.0591207080287859,
+        "sha256": "cdcf48daa9e9b9eaf992cfc4414ce5b8c17cbd53f67baff04296f12a11f66348"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_000_ingest_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 0.5332194580696523,
+        "sha256": "2f4fca646bd3f4d76dfef974d83c829f168831a534b0cdc8bdd0d2fb955dee11"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_000_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 920.6632784580579,
+        "sha256": "4ca8b6886adfe52e8bfa485fa19f4b679c9e4f9ab20158f14d6eb3cbe27c43e9"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_000_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1358.020712666097,
+        "sha256": "1e96148453c0fc00d34f08679d4213142070788499a1c89445c467c919777f5b"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_000_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 115.66979345795698,
+        "sha256": "a1dca6a543314d5099fde4e4c33fb12f120c188a0c3e895e621e5fbd64e7c136"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_000_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 57.304622791940346,
+        "sha256": "b99fa12805f54e1bbd564c376379036fff3058036b583a4310dab1487c0cb0b2"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_001_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2222.527738292003,
+        "sha256": "64fa1acadd400898678a00c6153da06d295d9788f1af3727eb1ba5b30efaa397"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_001_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1012.4924328749767,
+        "sha256": "1dd357d83da4eafc03f22f2626214a557cf334c90f4416ff45ca14eef26af3e5"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_001_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.338183542015031,
+        "sha256": "911d8a8fb0d25e804b185d5a1a8c26d0d70606b04640494a024f862b5468d5d3"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_001_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 981.544398500002,
+        "sha256": "21e86f548e8ee440d5cc274fe55f451bb048ed772e17752f168e686e3a6d46cd"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_001_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1381.4915278330445,
+        "sha256": "3dc73bfd8ff0023f8ddd3297ad826345c71f364dbc1bf4c7467900ffd03b40b1"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_001_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 458.63263924990315,
+        "sha256": "647115d6eef8c6368deba52d9d0fa661bfac6e91972f692b9ae2b7237f027ba8"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_001_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 56.70713558292482,
+        "sha256": "e61f2d0e703ee4ee8574d7f6d0236673d1ab6529a401a0e7084f0db8438e7806"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_002_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2261.0409196659457,
+        "sha256": "314b00c9a15ee801e3b5c13d4cdcb4362bed9929bc2467c147b1558db5598785"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_002_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1082.7513333749957,
+        "sha256": "72aec48ee612afd5b7ae946e25dbfea4f8edfdd7cad18839e88f4700cf31c072"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_002_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.591001542052254,
+        "sha256": "e922f0e0f32caf434991adf365bc58203994c6bb884ddaa874f7c0df635d7f7f"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_002_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1102.6525099159917,
+        "sha256": "1cb05da872277866f5bb3000ecf4eb338df32444d011f79c185631452fab7809"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_002_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1455.649515750003,
+        "sha256": "4bacb49dafae4bab3fc70249f0389f10a4bbb62190e8c4678fd45108523118f4"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_002_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 157.6097384170862,
+        "sha256": "014e45804fd14fd92ea246066b55d29dba3a0df0acdf802c89d959d31ee81796"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_002_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 70.91224745800719,
+        "sha256": "565ccc222544a430a58abdcc806484e8548eb1c924840853fd65002684cf572d"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_003_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2087.545604624902,
+        "sha256": "514a56c5baeaae35e5bc85009f6a3306d34b607e4fc8c39b52eecb3ab4c68620"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_003_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 990.5983171249973,
+        "sha256": "d5f95c33fbf2c172a7a16d0428f61c7146da5833a888580abb6d21740ccf4ecc"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_003_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2.337294499971904,
+        "sha256": "83aded97d8945bf4982c924051a3fa8b33a23b6115e3ca6a123e009f28dff0a4"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_003_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1071.6587103339843,
+        "sha256": "6081c1c45415d8c2e442e0774a6074fb5dc838c4ebe12b595bfd1931e932f661"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_003_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1343.0251207909314,
+        "sha256": "ca46bcd15163d35a7799692f3172179c7bf10ed763b90fc1a262aff0397c0c95"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_003_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 173.12859508302063,
+        "sha256": "9d232b37ac3d998a702c5d5cfdc0bad3ceb78300f13013f78c0aa7b9c75db92d"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_003_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 61.675896500004455,
+        "sha256": "403a1dfeaeed5af89f7e1ad131e4da544f3804bfe7f99c0f29524d0ce162e3bd"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_004_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2055.2967187090544,
+        "sha256": "ac6af7e831328b0ac5b63ddbfe97100f10d7321c71bc3fc245fcea8c2e0732bf"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_004_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1098.983349166927,
+        "sha256": "234617d1cb7e6e49da467f1209e438c14efe4aca9a2e554dababe0c871931f26"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_004_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 0.797678375034593,
+        "sha256": "77456b6fa9482a34382c38649666968cade57ab75b618596b4cdd82604384d44"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_004_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1006.1408538339892,
+        "sha256": "466e613d12383b9c4390fb8512be9ba4b513f87309609fc12cb8954079840b3f"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_004_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1367.1012377910083,
+        "sha256": "09f0a6f4990fa5fa64d10128c417f060a4a0b7a17cd1233b5be9790dfb5cfb9f"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_004_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 328.87723908398766,
+        "sha256": "2de3113e5abf964bcf0eb765fdb699f1f7d9c9f64e1fab0613e57d41605fd39a"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_004_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 62.0295154589694,
+        "sha256": "32bbb4729e0b526fe9c131f61fe8f7095990c0768e5ffcaec2a4e79d30132482"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_005_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2264.940028708894,
+        "sha256": "a6cdd41fa4d616404dc66c8ee472c529a497208cb8893b062d5b2320c34226a9"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_005_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1017.8624614999862,
+        "sha256": "a374348356a2e54b07a32d0d34910c7d1b29c9e4890a8b349d5b27ab1a2c2c35"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_005_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.328549791011028,
+        "sha256": "11c6d04b19b12ea0f2e4283f34822f965a42433b33e1967592f021c71a684c50"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_005_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1115.0771531659411,
+        "sha256": "a2cb5ad5b50f891f8b822fe7e6190e72ff8de42d5f7b6c8b66c56588c9bda638"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_005_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1484.38111604203,
+        "sha256": "b39835ea4715bdaebdcd386528724d87fb8ac4e712c65404c8a3385478369d86"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_005_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 362.13248258293606,
+        "sha256": "9311647239bd7e202c308f4f9f2a0fa5c4209af699b03178c236c736b7db923f"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_005_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 61.26540116604883,
+        "sha256": "970a827134c0fd015bd503317a6db88760a357fdd02191736f33ee0701b7c5fd"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_006_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1880.442325833952,
+        "sha256": "8d400d4b38166dfa614d15fc9e4688bba006cc148ffcc4852050208a4b513a68"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_006_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 805.1348719580565,
+        "sha256": "4c2e912eea58578664936d47cbb99beb7c6a0a8c01dc946bb179ff0745b4c41f"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_006_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.31810408399906,
+        "sha256": "1aceb0756f9090164ce825c72bf2d681ae6939606e223c86500f1285715a7107"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_006_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 914.8068424999947,
+        "sha256": "a26bb1a5422f1aca6bedeb8e72408fd966cc7c7c66e7ff2d8e6708e8a616b98e"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_006_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1219.8106045409804,
+        "sha256": "619fb9054a9e3d0118dde16f8f853cc309164ff0a3b3f6b262db1de8ab4f7c09"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_006_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 175.80729899997823,
+        "sha256": "2da9336421b853865020e68bf48e8b99076526e442df29e89e305b2423ecc24d"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_006_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 46.92837137496099,
+        "sha256": "f8d17ac4838e05a14151b4d67e2caf7641baf80b0bf6d32baad4db4b1292330d"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_007_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2059.1254402080085,
+        "sha256": "88f7c4e0b570f3785633701cb881b12c17a209862e1b7ef848927b8e715898a8"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_007_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 982.2674842079869,
+        "sha256": "63d8fc9da8cfaba9d29cc60464f475bd2a265cf4d7411d0be739f5d87f6ff754"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_007_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.3270437920000404,
+        "sha256": "188e5457ed8165e6d33d9d9c7649f049f171ec9990feb3606b16d418e7d0bd05"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_007_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1035.727427833015,
+        "sha256": "6a081b4dbb1efe3f583608c32b93e814c12ee053a345dc1190c884152b14b332"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_007_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1381.0523304999806,
+        "sha256": "f5237384802b0bec794cf7af5ac65e2248fc321f2831883c71dc3bf90c8fd6f5"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_007_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 140.79958987492137,
+        "sha256": "33d58376c1469c8241a237ad1d51332cbe203cfef86a09801219dace9fa31bb4"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_007_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 49.83980745903682,
+        "sha256": "22455a21eeb70a307169d059457d033147b94791fba2f276d289528256e47872"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_008_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2267.523045249982,
+        "sha256": "5d6ac5dedfb319d55080907dd526af40f603523d47f21c2bffe307dd71784a15"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_008_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1121.8758649580413,
+        "sha256": "29772a2cd922f6aba00c313dd527775f546f61220d574df05ff3452981e625db"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_008_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.3284232909791172,
+        "sha256": "7e04038ad2ff2c36b5c41cecf3a3696e22c34a66de205be199003e44274b2e9d"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_008_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1113.9774386659265,
+        "sha256": "a7c05072b7adb607df4d723fa6d879d1be6ba9417b433aabc74f3c55a5180e7d"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_008_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1452.7559983750107,
+        "sha256": "3cef8c16842ca7559f5a7d5af3054af12269280129bb519e453b8de5c232dd14"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_008_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 272.76639662508387,
+        "sha256": "8c724f053250847cb6411ab221ec547f170c3536462aa5c719df59157ca6ec80"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_008_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 74.7500464579789,
+        "sha256": "92039104aaa6e4f0e67585f6c68ab6b914321591144dffcdfe50ae7ae5cac488"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_009_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1947.0105988750001,
+        "sha256": "64b84c842f8477b6c19e7493b405390bafe27a3f33c6e9e063926a1f967a5a4f"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_009_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 975.8305200419854,
+        "sha256": "b2c9f1e4d05f23432521ea223738bca5053c56637869b595a1170fc932841384"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_009_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.0594547080108896,
+        "sha256": "93837c23e56c8cbd44d374b7ffc289f81f71d962278f18bb3e12952cbc416ab0"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_009_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 949.556390083977,
+        "sha256": "f743cc67da93fe826ec3a2524639d0cf8b93f70151fc791170f7aab530b8d5a2"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_009_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1310.846396583016,
+        "sha256": "ab3e1209ac4db4d8faaa1deff1654c5c49456d9e830973304d4eb1e55162dd0c"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_009_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 119.8417212079512,
+        "sha256": "5ecf2c69b6168009fe2f94496e4ae26c313a94fc2b3bc52625003f91b39f9979"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_009_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 57.914990541059524,
+        "sha256": "8092ccfb6c551b80ba3e34a6cc9316d53527596d7f3fa4c96c8ef344835d1833"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_010_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2165.1233974159695,
+        "sha256": "f72c4cb62157370eb9db02909dcb3aa1eee343fdc0fe6396fa66300274328758"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_010_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1079.0716727499384,
+        "sha256": "52b9c81bbb188b5a5fc7bb211eaf98ee631923f000c02999b896b6596dcb724a"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_010_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.0622633330058306,
+        "sha256": "1b27835555219139faf213b122072a772bac5cab51a23dada4f3dfeced5bb57c"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_010_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1082.94468270801,
+        "sha256": "c19bec1215db6cc444058fea950644c785dc97e2fbb8f03f6fcec62694288cab"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_010_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1420.248651959002,
+        "sha256": "82401e3d73ba1572197ee8676ee47b3f3913703b5a85cc219b58a5fcfe3bb862"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_010_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 224.54196399997454,
+        "sha256": "43a029d626ff7185d02eb58d6340834e95beeb74d6e5db75798f7267739b4019"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_010_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 65.68427195807453,
+        "sha256": "e91b96287fe894bccc6155d6fb86f3fdafe0cc6d96216ba7376a5f2ecb9c7d16"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_011_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2182.4575173750054,
+        "sha256": "8290eeced206606ba3f18622bddde91f3420f3c6062aaa83c2e4cf597f8fcc89"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_011_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 937.930487084086,
+        "sha256": "b9d9dd6eea30c099dd7e9d1178738c9a5e8c1bd640c997ffc5f255ad162483cd"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_011_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 0.8005680420901626,
+        "sha256": "755e1b0ebf75b718c94b39bd9927103b18ef40a4e574df80f6fd184e4a45b621"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_011_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1052.7831922909245,
+        "sha256": "2067a75ce37914faf334b461285bedaf6557f67b219703e4dff0291727b03da5"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_011_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1408.2122779999627,
+        "sha256": "22e61026a3722d113d7f570cdb8fb548359dc13c01a06f2cb872f5ac482b18ba"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_011_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 187.4416623750003,
+        "sha256": "2d2376cbfa0fd980c5f22e7744f33978f49250acc88201ad7150a176570e87c9"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_011_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 49.229191749938764,
+        "sha256": "435b6cf9e6e79e8e6152ce752eedbc59e45e214461af90d411eca981f19443d6"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_012_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2290.2618534590583,
+        "sha256": "ab32ebceaae11a3d9a2f5ca31e2de413b979249e41137684e1e9c169ad92da70"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_012_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1272.0965933339903,
+        "sha256": "ca5898a991dba48becefa8e3a07eea46971604ce3b8acdde898ae54bddc65ae3"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_012_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.3236087089171633,
+        "sha256": "ed850063d2cfcafb83ab14bebdf966bd0e53a62ca868f87cca8b588176f0fb30"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_012_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1235.224176208023,
+        "sha256": "ede11d4d417bd42aada4c10b656eaa83d6e56dc422faecfbbd5622998ec8fb0b"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_012_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1728.9515530829085,
+        "sha256": "e6ac14984fc6e4a81fce66d4f4095e3cd1bc4c75efe0d4c99a9be4400a40afe9"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_012_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 239.3325956669869,
+        "sha256": "e83548d60d73a8f2f5b2b2ad6bcca774bc10d560b6e5fb3b4510ae9809f3f6cf"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_012_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 67.45012024999596,
+        "sha256": "89da8f91ba22724d4dbb02e057845c0dd420ca25ea6748e0c5edbc3258a7a980"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_013_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 491.514884666889,
+        "sha256": "77a4d3f3ab81ead092a4be3b7377d184489e8af14424206b0611cececaec53f0"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_013_attacks_002.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 2131.288195666042,
+        "sha256": "c21635ed2067e23719002640fa02ec465e249a5348ea766fd9d11862304ac9aa"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_013_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1405.0529790000292,
+        "sha256": "c6582968cc58d1a9924c04c6b90ab94f3548f8dd67ff9e51c852672c98da4f28"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_013_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.325149166979827,
+        "sha256": "1e6d12041146ff9cf706921cb0cd693f2912290ee7afbbb73fe2c15ab500e805"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_013_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1231.6160023330012,
+        "sha256": "94adaf681962e7cd01a56be3c52b6655d5c4b1bc84b7ccf694ef766a25e5aa04"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_013_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1758.0062455829466,
+        "sha256": "597251932e0c2f38879c8b5027dbdd6da8012a5234cea03949eda7edd0e7ff58"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_013_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 146.4514414999867,
+        "sha256": "0ad5b3931018a255218a8caa24816a18c406e73e16918bd7f6319d03ab2f633d"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_013_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 65.4106196250068,
+        "sha256": "0b4be29447c774a1b5ba7b731559cfc0fcfbe7f5db3fc02dc927540293079bce"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_014_attacks_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1838.2018634170527,
+        "sha256": "3c8861a8af69fcb03b8a69362971f2d237a83bb046a0cfa333c7bf574653645e"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_014_extract_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 814.9599797920091,
+        "sha256": "59d9e965903f49fd44cfeda9084a58e45bf43b950c6b207d9d445cdadcaa3541"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_014_index_reviews_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1.0573552909772843,
+        "sha256": "dbdac1268f72899120fe2e690966abe085ba49290132d2c3ae731435fce5ff53"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_014_rank_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 754.4233212909894,
+        "sha256": "504e01013fcb8466ce519d81bc53218bda50e8e5d39d35df1c2c8677060b5c4d"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_014_sanitize_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 1296.5215553329326,
+        "sha256": "946ad821b5d0d94f252bfbd8f7df7b1bb5a986ed183a2275e88579e7be4d4eb2"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_014_screen_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 386.48367616697215,
+        "sha256": "bfe8639cf39e064e44caf6c40124dda0a5663e30d409f5d49fb23fbbd2429cac"
+      },
+      {
+        "file": "results/20261028-011906_final_study/resources/tools_qwen_014_verify_001.status.json",
+        "key_path": "/elapsed_s",
+        "seconds": 39.34527595899999,
+        "sha256": "66ee63e3097570d7e21f92ad5af15261cfd4a0835ebdb1d5440dadc461a87188"
+      }
+    ],
+    "supervised_seconds": 89097.80531566218
+  }
+}

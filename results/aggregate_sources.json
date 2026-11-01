@@ -1,0 +1,65 @@
+{
+  "results/20261028-011906_final_study/metrics.json": {
+    "release_sha256": "349034c39e380798c7de554be6e31ec10b78e888bbd850f7a8760af36855e53d",
+    "removed_fields": [
+      "records",
+      "query_ids",
+      "seeds"
+    ],
+    "upstream_sha256": "c541047f065a804d37d65a865b9cd8e299d01b2efde02bbf43240f14b6fd4882"
+  },
+  "results/20261028-011906_final_study/stages/electronics_qwen/metrics.json": {
+    "release_sha256": "bfa893cd2815d40e824cca1ccce201d0cbbef58b13964f46e0a71198e8b8ce92",
+    "removed_fields": [
+      "records",
+      "query_ids",
+      "seeds"
+    ],
+    "upstream_sha256": "b56fc6f90bf887499955c7682744c389e634230d17a0aead02cb629392f5065a"
+  },
+  "results/20261028-011906_final_study/stages/hk_llama_transfer/metrics.json": {
+    "release_sha256": "4b3293c1c67e7b0b58ace8b7fdc4701d8968f7fdc689bb0bc1dd1629cf339e13",
+    "removed_fields": [
+      "records",
+      "query_ids",
+      "seeds"
+    ],
+    "upstream_sha256": "e1a26312f23fae5810b6bfd92588e805881c9bed925252a891ae98f7e46a16ac"
+  },
+  "results/20261028-011906_final_study/stages/hk_qwen_full/adaptive/metrics.json": {
+    "release_sha256": "792ba17caffc68c1deaeb14ac7bbad301f2355f38bff095d2fd603cc3d7878c6",
+    "removed_fields": [
+      "records",
+      "query_ids",
+      "seeds"
+    ],
+    "upstream_sha256": "3c405ce0162c6f609d0018042d4aad0b97df2d8b4fefb4920a01d79ee601a833"
+  },
+  "results/20261028-011906_final_study/stages/hk_qwen_full/metrics.json": {
+    "release_sha256": "d8e0ae90b0786c93c2e633115327781a3ebcca801982c94720b89ce7c653bf02",
+    "removed_fields": [
+      "records",
+      "query_ids",
+      "seeds"
+    ],
+    "upstream_sha256": "5f09b93b6094081ae80d3bce5c88c9648f5f303bc8f91b104ef229bc87e23d06"
+  },
+  "results/20261028-011906_final_study/stages/responsiveness/metrics.json": {
+    "release_sha256": "128b0acbc4874fb526b156573a4ea87b1a6b057a8c33da93857af1f1dc82bf58",
+    "removed_fields": [
+      "records",
+      "query_ids",
+      "seeds"
+    ],
+    "upstream_sha256": "c84f788a3aa79cb7eee4977cf859869a5c06847af653107ac71f3a43c89b7a52"
+  },
+  "results/20261028-011906_final_study/stages/tools_qwen/metrics.json": {
+    "release_sha256": "2306189b2dbad37fec501cf2d42cc2a987df894117eb2f618433d0b3b4e49155",
+    "removed_fields": [
+      "records",
+      "query_ids",
+      "seeds"
+    ],
+    "upstream_sha256": "5d685ad70ec7df2efcf967ea5f004500908af68df3f11ca46ff63d5919f85c36"
+  }
+}

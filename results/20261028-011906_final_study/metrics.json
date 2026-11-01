@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "split": "test",
+  "stages": {
+    "electronics_qwen": "results/20261028-011906_final_study/stages/electronics_qwen/metrics.json",
+    "hk_llama_transfer": "results/20261028-011906_final_study/stages/hk_llama_transfer/metrics.json",
+    "hk_qwen_full": "results/20261028-011906_final_study/stages/hk_qwen_full/metrics.json",
+    "responsiveness": "results/20261028-011906_final_study/stages/responsiveness/metrics.json",
+    "tools_qwen": "results/20261028-011906_final_study/stages/tools_qwen/metrics.json"
+  }
+}

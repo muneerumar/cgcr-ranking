@@ -1,0 +1,74 @@
+[
+  {
+    "source": "T2 Home_and_Kitchen catalog.details",
+    "item_id": "B00WJYS246",
+    "key": "Capacity",
+    "value": "1.42 Liters",
+    "attribute": "capacity",
+    "expected_values": [
+      1420.0
+    ],
+    "expected_unit": "ml"
+  },
+  {
+    "source": "T2 Home_and_Kitchen catalog.details",
+    "item_id": "B0771FC5C9",
+    "key": "Item Weight",
+    "value": "2.29 pounds",
+    "attribute": "item weight",
+    "expected_values": [
+      1038.7265273
+    ],
+    "expected_unit": "g"
+  },
+  {
+    "source": "T2 Home_and_Kitchen catalog.details",
+    "item_id": "B01HH75QU2",
+    "key": "Product Dimensions",
+    "value": "6.5\"D x 13.5\"W x 6.5\"H",
+    "attribute": "product dimensions",
+    "expected_values": [
+      16.51,
+      34.29,
+      16.51
+    ],
+    "expected_unit": "cm",
+    "expected_axes": [
+      "D",
+      "W",
+      "H"
+    ]
+  },
+  {
+    "source": "T2 Home_and_Kitchen catalog.details",
+    "item_id": "B07VFY4MXM",
+    "key": "Wattage",
+    "value": "1500 watts",
+    "attribute": "wattage",
+    "expected_values": [
+      1500.0
+    ],
+    "expected_unit": "W"
+  },
+  {
+    "source": "T2 Home_and_Kitchen catalog.details",
+    "item_id": "B01HVZR3DI",
+    "key": "Maximum Temperature",
+    "value": "2700 Degrees Fahrenheit",
+    "attribute": "maximum temperature",
+    "expected_values": [
+      1482.2222222222222
+    ],
+    "expected_unit": "degC"
+  },
+  {
+    "source": "T2 Home_and_Kitchen catalog.details",
+    "item_id": "B07PFVN7WL",
+    "key": "Temperature Range",
+    "value": "0~2500 Degrees Fahrenheit",
+    "attribute": "temperature range",
+    "expected_values": null,
+    "expected_unit": null,
+    "unparsed": true
+  }
+]

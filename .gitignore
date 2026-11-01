@@ -1,0 +1,12 @@
+/.venv/
+/data/
+/models/
+/private/
+/build/
+/.cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.DS_Store
+.ipynb_checkpoints/

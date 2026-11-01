@@ -1,0 +1,20 @@
+% qualitative pipeline; no attack prompts/texts or empirical numbers.
+\begin{tikzpicture}[
+  box/.style={draw,rounded corners=2pt,align=center,minimum height=1.1cm,text width=2.5cm,inner sep=5pt},
+  evidence/.style={box,fill=blue!5},
+  flow/.style={-{Stealth[length=2mm]},thick},font=\small,node distance=7mm]
+\node[box,fill=orange!8] (seller) {Seller text\\attacker-controlled};
+\node[box,right=of seller] (extract) {Hybrid extraction\\typed claims};
+\node[box,right=of extract] (verify) {Catalog / review\\verification};
+\node[box,right=of verify] (render) {Deterministic\\neutral rendering};
+\node[box,right=of render] (rank) {Fixed-order\\LLM ranking};
+\node[evidence,below=of verify] (catalog) {Frozen typed catalog\\variant / unit checks};
+\node[evidence,below=of catalog] (reviews) {Customer reviews\\retrieval + NLI};
+\node[box,below=of render] (audit) {Per-claim\\evidence trace};
+\draw[flow] (seller)--(extract);\draw[flow] (extract)--(verify);
+\draw[flow] (verify)--node[above,font=\scriptsize]{licensed claims}(render);
+\draw[flow] (render)--(rank);\draw[flow] (catalog)--(verify);
+\draw[flow] (reviews.west)-|([xshift=-6mm]catalog.west)|-(verify.south west);
+\draw[flow] (catalog.west)-| (extract.south);
+\draw[flow] (verify.south east)--(audit.west);
+\end{tikzpicture}

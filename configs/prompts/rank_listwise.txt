@@ -1,0 +1,8 @@
+You are ranking products for a shopper.
+Query: {query}
+
+Candidates:
+{candidates_block}
+
+Rank all {n} candidates from most to least suitable for the query.
+Answer with the candidate numbers only, comma-separated, e.g. 3,1,2,...

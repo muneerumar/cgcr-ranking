@@ -1,0 +1,17 @@
+category,method,attack,budget,verified_flag,promote3_mean,promote3_ci_low,promote3_ci_high,promote3_n,nrg_mean,nrg_ci_low,nrg_ci_high,nrg_n,licensed_mean,licensed_ci_low,licensed_ci_high,licensed_n,direct_licensed_mean,direct_licensed_ci_low,direct_licensed_ci_high,direct_licensed_n
+Home_and_Kitchen,no_defense,mimicry,,not_applicable,0.05263157894736842,0.0,0.13157894736842105,38,0.033187134502923966,-0.055138366750208875,0.1105892335004177,38,,,,,,,,
+Home_and_Kitchen,details_only,mimicry,,not_applicable,0.0,0.0,0.0,38,0.0,0.0,0.0,38,,,,,,,,
+Home_and_Kitchen,cgcr,flood_B0_unverified,0,unverified,0.0,0.0,0.0,48,0.0,0.0,0.0,44,0.0,0.0,0.0,48,0.0,0.0,0.0,48
+Home_and_Kitchen,cgcr,flood_B0_verified,0,verified,0.0,0.0,0.0,48,0.0,0.0,0.0,44,0.0,0.0,0.0,48,0.0,0.0,0.0,48
+Home_and_Kitchen,cgcr,flood_B10_unverified,10,unverified,0.0,0.0,0.0,48,0.0,0.0,0.0,44,0.0,0.0,0.0,48,0.0,0.0,0.0,48
+Home_and_Kitchen,cgcr,flood_B10_verified,10,verified,0.0,0.0,0.0,48,0.0,0.0,0.0,44,0.0,0.0,0.0,48,0.020833333333333332,0.0,0.0625,48
+Home_and_Kitchen,cgcr,flood_B20_unverified,20,unverified,0.0,0.0,0.0,48,-0.011363636363636364,-0.03409090909090909,0.0,44,0.0625,0.0,0.14583333333333334,48,0.0625,0.0,0.14583333333333334,48
+Home_and_Kitchen,cgcr,flood_B20_verified,20,verified,0.0,0.0,0.0,48,-0.011363636363636364,-0.03409090909090909,0.0,44,0.0625,0.0,0.14583333333333334,48,0.0625,0.0,0.14583333333333334,48
+Home_and_Kitchen,cgcr,flood_B3_unverified,3,unverified,0.0,0.0,0.0,48,0.0,0.0,0.0,44,0.0,0.0,0.0,48,0.0,0.0,0.0,48
+Home_and_Kitchen,cgcr,flood_B3_verified,3,verified,0.0,0.0,0.0,48,0.0,0.0,0.0,44,0.0,0.0,0.0,48,0.0,0.0,0.0,48
+Home_and_Kitchen,cgcr,mimicry,,not_applicable,0.02631578947368421,0.0,0.07894736842105263,38,-0.09359243697478992,-0.35205999066293187,0.10739204014939302,34,,,,,,,,
+Home_and_Kitchen,instruction,mimicry,,not_applicable,0.05263157894736842,0.0,0.13157894736842105,38,-0.02105263157894737,-0.14429902882205514,0.07923088972431076,38,,,,,,,,
+Home_and_Kitchen,spotlight,mimicry,,not_applicable,0.0,0.0,0.0,38,0.032207207207207204,-0.059878539253539254,0.1181169562419562,37,,,,,,,,
+Home_and_Kitchen,ppl_filter,mimicry,,not_applicable,0.07894736842105263,0.0,0.18421052631578946,38,0.012458228905597325,-0.08758693609022555,0.0979124895572264,38,,,,,,,,
+Home_and_Kitchen,sanitizer,mimicry,,not_applicable,0.05263157894736842,0.0,0.13157894736842105,38,0.0025375939849623997,-0.15583489974937345,0.13618029448621546,38,,,,,,,,
+Home_and_Kitchen,geo_filter,mimicry,,not_applicable,0.07894736842105263,0.0,0.18421052631578946,38,-0.14206349206349206,-0.5211497211497211,0.14112666237666227,37,,,,,,,,

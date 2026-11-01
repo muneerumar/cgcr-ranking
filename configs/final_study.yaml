@@ -1,0 +1,234 @@
+seed: 13
+split: test
+extractor:
+  family: v3-hybrid
+  prompt: configs/prompts/extract_non_spec_v3.txt
+  temperature: 0.0
+  max_new_tokens: 256
+  gate: lower_non_spec_fragment_rate_and_no_more_than_5pct_format_failures_and_95pct_nonfragmented_SPEC_retention
+  version: v3-3bfb066a75eb781906a18649aeefff24a5f6284a9d79d613fa0c11c29fdffb00
+verifier:
+  license_threshold: 0.4
+  aggregator: trimmed_mean
+  numeric_rel_tolerance: 0.05
+  top_k: 20
+  threads: 4
+  batch_size: 4
+  max_length: 256
+  nli_revision: 6c749ce3425cd33b46d187e45b92bbf96ee12ec7
+schema_paths:
+  Home_and_Kitchen: configs/schemas/Home_and_Kitchen.yaml
+  Electronics: configs/schemas/Electronics.yaml
+  Tools_and_Home_Improvement: configs/schemas/Tools_and_Home_Improvement.yaml
+models:
+  qwen_4bit:
+    source_repo: Qwen/Qwen2.5-7B-Instruct
+    source_revision: a09a35458c702b33eeacc393d103063234e8bc28
+    quantization_bits: 4
+    quantization_group_size: 64
+    quantization_mode: affine
+    converter: mlx-lm==0.29.1
+    path: models/qwen-4bit
+  llama_4bit:
+    source_repo: meta-llama/Llama-3.1-8B-Instruct
+    source_revision: 0e9e39f249a16976918f6564b8830bc894c89659
+    quantization_bits: 4
+    quantization_group_size: 64
+    quantization_mode: affine
+    converter: mlx-lm==0.29.1
+    path: models/llama-4bit
+attacks:
+  standard_six:
+  - core_reasoning_opt5
+  - core_reasoning
+  - framing_M3_opt5
+  - framing_M3_criteria_reframing
+  - framing_Q5_social_proof
+  - framing_Q4_expert_quotation
+  adaptive:
+  - review_flooding
+  - verifiability_mimicry
+  flooding:
+    definition: unsupported by genuine evidence at B=0, genuine-review support below
+      tau
+    budgets:
+    - 0
+    - 3
+    - 10
+    - 20
+    verified_modes:
+    - false
+    - true
+    maximum_candidates: 5
+    selection: verifier-only, never ranking outcomes
+    secondary: catalog-contradicted subset separately, no padding
+defenses:
+- no_defense
+- details_only
+- cgcr
+- instruction
+- spotlight
+- ppl_filter
+- sanitizer
+- geo_filter
+text_budget:
+  base_chars: 1000
+  attack_budget_chars: 400
+query_counts:
+  Home_and_Kitchen:
+    accepted_paired_queries: 147
+    initial_screening_cap: 171
+  Electronics:
+    accepted_paired_queries: 147
+    initial_screening_cap: 171
+  Tools_and_Home_Improvement:
+    accepted_paired_queries: 147
+    initial_screening_cap: 171
+target_design: At least two Exact items; seeded fixed uniform target slot and other-item
+  order; choose an Exact with Qwen clean rank >=4; same target/order across methods/models;
+  report screening shortfall, never retry slots based on outcomes
+orders: 1
+execution_plan:
+- id: hk_qwen_full
+  category: Home_and_Kitchen
+  model: qwen_4bit
+  queries: 147
+  orders: 1
+  include_clean: true
+  defenses:
+  - no_defense
+  - details_only
+  - cgcr
+  - instruction
+  - spotlight
+  - ppl_filter
+  - sanitizer
+  - geo_filter
+  attacks:
+  - core_reasoning_opt5
+  - core_reasoning
+  - framing_M3_opt5
+  - framing_M3_criteria_reframing
+  - framing_Q5_social_proof
+  - framing_Q4_expert_quotation
+  adaptive:
+    queries: 48
+    subset_of: hk_qwen_full
+    selection: seeded from the 147 accepted paired queries, not ranking outcomes
+    mimicry_defenses:
+    - no_defense
+    - details_only
+    - cgcr
+    - instruction
+    - spotlight
+    - ppl_filter
+    - sanitizer
+    - geo_filter
+    flooding_defenses:
+    - cgcr
+    budgets:
+    - 0
+    - 3
+    - 10
+    - 20
+    verified_modes:
+    - false
+    - true
+    definition: unsupported by genuine evidence at B=0; select only on genuine-review
+      support below tau; never ranking outcomes; no padding
+    secondary: catalog-contradicted subset separately, with its observed count
+- id: electronics_qwen
+  category: Electronics
+  model: qwen_4bit
+  queries: 147
+  orders: 1
+  include_clean: true
+  defenses:
+  - no_defense
+  - details_only
+  - cgcr
+  - spotlight
+  - sanitizer
+  attacks:
+  - core_reasoning_opt5
+  - core_reasoning
+  - framing_M3_opt5
+- id: tools_qwen
+  category: Tools_and_Home_Improvement
+  model: qwen_4bit
+  queries: 147
+  orders: 1
+  include_clean: true
+  defenses:
+  - no_defense
+  - details_only
+  - cgcr
+  - spotlight
+  - sanitizer
+  attacks:
+  - core_reasoning_opt5
+  - core_reasoning
+  - framing_M3_opt5
+- id: hk_llama_transfer
+  category: Home_and_Kitchen
+  model: llama_4bit
+  queries: 147
+  orders: 1
+  include_clean: true
+  defenses:
+  - no_defense
+  - details_only
+  - cgcr
+  - spotlight
+  attacks:
+  - core_reasoning_opt5
+  - core_reasoning
+  reuse_from: hk_qwen_full
+  reuse:
+  - query cohort
+  - target item
+  - order and slot
+  - same attacked texts
+  - extracted claims
+  - evidence traces
+  - CGCR renderings
+  regenerate_attacks: false
+  reoptimize_attacks: false
+- id: responsiveness
+  categories:
+  - Home_and_Kitchen
+  - Electronics
+  - Tools_and_Home_Improvement
+  model: qwen_4bit
+  queries_per_category: 147
+  selection: all eligible queries among each category’s fixed 147-query cohort; report
+    shortfall, never pad or select by rank movement
+  methods:
+  - cgcr
+  - details_only
+  - seller_text
+  conditions:
+  - clean
+  - improved
+  orders: 1
+  improvement: one absent, genuine-review-supported USE_CASE; calibrated verifier,
+    same genuine-review protocol as development
+  reuse_clean_rankings: true
+preprocessing_reuse:
+  extraction_key:
+  - item_id
+  - text_sha256
+  - extractor_version
+  one_clean_sanitization_per_query_candidate: true
+  one_attacked_target_sanitization_per_condition: true
+  details_only_attack_rankings: reuse clean result when the complete ranker input
+    and seed are byte-identical
+  transfer: reuse Qwen-stage texts/extraction/verification, but perform Llama ranking
+    separately
+  responsiveness: reuse main clean ranking; unchanged details-only improved input
+    reuses clean
+resource_guards:
+  gpu_min_available_bytes: 1500000000
+  cpu_min_available_bytes: 2500000000
+  cpu_resident_limit_bytes: 1850000000
+scientific_freeze: f5bf1d5

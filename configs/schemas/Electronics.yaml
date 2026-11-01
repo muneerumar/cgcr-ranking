@@ -1,0 +1,4113 @@
+category: Electronics
+source: catalog.details only
+scope: unique selected parent items
+item_count: 12354
+min_coverage_pct: 2.0
+coverage_denominator: all unique items, including missing details
+value_type_rule: YAML overrides; else >=95% boolean; else >=50% parsed numeric; else
+  short repeated values categorical; else text
+attributes:
+- canonical_name: brand
+  aliases:
+  - Brand
+  - Brand Name
+  item_count: 11175
+  coverage_pct: 90.45653229723166
+  value_type: categorical
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Sony
+    item_count: 294
+  - value: SAMSUNG
+    item_count: 280
+  - value: Apple
+    item_count: 219
+  - value: Canon
+    item_count: 192
+  - value: ASUS
+    item_count: 162
+  - value: LG
+    item_count: 149
+  - value: HP
+    item_count: 146
+  - value: Lenovo
+    item_count: 111
+  - value: Logitech
+    item_count: 108
+  - value: Nikon
+    item_count: 92
+  variant_sensitive: false
+- canonical_name: item weight
+  aliases:
+  - Item Weight
+  - Weight
+  item_count: 11016
+  coverage_pct: 89.16949975716368
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - grams
+  - kilograms
+  - ounces
+  - pounds
+  numeric_parse_pct: 100.0
+  top_10_example_values:
+  - value: 3.2 ounces
+    item_count: 133
+  - value: 0.634 ounces
+    item_count: 128
+  - value: 1 pounds
+    item_count: 120
+  - value: 2.39 ounces
+    item_count: 102
+  - value: 1.76 ounces
+    item_count: 101
+  - value: 0.81 ounces
+    item_count: 100
+  - value: 5.6 ounces
+    item_count: 95
+  - value: 6.4 ounces
+    item_count: 92
+  - value: 12 ounces
+    item_count: 87
+  - value: 1.58 ounces
+    item_count: 85
+  variant_sensitive: true
+- canonical_name: manufacturer
+  aliases:
+  - Manufacturer
+  item_count: 9726
+  coverage_pct: 78.7275376396309
+  value_type: categorical
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Samsung
+    item_count: 140
+  - value: Sony
+    item_count: 140
+  - value: Logitech
+    item_count: 90
+  - value: Garmin
+    item_count: 89
+  - value: Amazon Basics
+    item_count: 63
+  - value: ASUS
+    item_count: 60
+  - value: Sound Around
+    item_count: 55
+  - value: Anker
+    item_count: 46
+  - value: Cable Matters
+    item_count: 44
+  - value: Neewer
+    item_count: 44
+  variant_sensitive: false
+- canonical_name: product dimensions
+  aliases:
+  - Item Dimensions  LxWxH
+  - Item Dimensions LxWxH
+  - Product Dimensions
+  item_count: 8799
+  coverage_pct: 71.22389509470617
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - '"'
+  - inches
+  - ounces
+  - pounds
+  numeric_parse_pct: 95.18835426158462
+  top_10_example_values:
+  - value: 1 x 1 x 1 inches
+    item_count: 35
+  - value: 0.39 x 0.39 x 0.39 inches
+    item_count: 17
+  - value: 9.1 x 9.1 x 9.1 inches
+    item_count: 14
+  - value: 9 x 3 x 13 inches
+    item_count: 12
+  - value: 15.99 x 8.99 x 1 inches
+    item_count: 11
+  - value: 0.04 x 0.59 x 0.43 inches
+    item_count: 10
+  - value: 6.26 x 3.11 x 0.39 inches
+    item_count: 10
+  - value: 7 x 4 x 5 inches
+    item_count: 10
+  - value: 0.59 x 0.43 x 0.04 inches
+    item_count: 9
+  - value: 3.54 x 3.15 x 1.57 inches
+    item_count: 8
+  variant_sensitive: true
+- canonical_name: color
+  aliases:
+  - Color
+  - Colour
+  item_count: 7359
+  coverage_pct: 59.56775133559981
+  value_type: categorical
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Black
+    item_count: 2946
+  - value: White
+    item_count: 533
+  - value: Silver
+    item_count: 254
+  - value: Blue
+    item_count: 213
+  - value: black
+    item_count: 127
+  - value: Red
+    item_count: 124
+  - value: Grey
+    item_count: 108
+  - value: Green
+    item_count: 87
+  - value: Gray
+    item_count: 81
+  - value: BLACK
+    item_count: 69
+  variant_sensitive: true
+- canonical_name: special feature
+  aliases:
+  - Special Feature
+  - Special Features
+  - Special features
+  item_count: 5226
+  coverage_pct: 42.30208839242351
+  value_type: text
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Portable
+    item_count: 269
+  - value: Flat
+    item_count: 175
+  - value: Wireless
+    item_count: 149
+  - value: Waterproof
+    item_count: 147
+  - value: Lightweight
+    item_count: 123
+  - value: Ergonomic
+    item_count: 96
+  - value: Fast Charging
+    item_count: 83
+  - value: Night Vision, Motion Sensor
+    item_count: 76
+  - value: Braided
+    item_count: 68
+  - value: WPS
+    item_count: 62
+  variant_sensitive: false
+- canonical_name: compatible devices
+  aliases:
+  - Compatible Devices
+  item_count: 4652
+  coverage_pct: 37.65581997733528
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Personal Computer
+    item_count: 293
+  - value: Smartphone
+    item_count: 238
+  - value: Desktop
+    item_count: 221
+  - value: Tablets
+    item_count: 212
+  - value: Camera
+    item_count: 201
+  - value: Laptops
+    item_count: 166
+  - value: Laptop
+    item_count: 143
+  - value: Television
+    item_count: 141
+  - value: Earphones
+    item_count: 140
+  - value: Tablet
+    item_count: 124
+  variant_sensitive: false
+- canonical_name: connectivity technology
+  aliases:
+  - Connectivity Technology
+  item_count: 4123
+  coverage_pct: 33.37380605471912
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: USB
+    item_count: 630
+  - value: Bluetooth
+    item_count: 512
+  - value: Wireless
+    item_count: 421
+  - value: Wired
+    item_count: 401
+  - value: Wi-Fi
+    item_count: 206
+  - value: Bluetooth, USB
+    item_count: 121
+  - value: HDMI
+    item_count: 121
+  - value: SATA
+    item_count: 97
+  - value: USB, HDMI
+    item_count: 90
+  - value: Bluetooth, Wi-Fi
+    item_count: 66
+  variant_sensitive: false
+- canonical_name: batteries
+  aliases:
+  - Batteries
+  item_count: 2836
+  coverage_pct: 22.95612757001781
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 1 Lithium Ion batteries required. (included)
+    item_count: 640
+  - value: 1 Lithium Polymer batteries required. (included)
+    item_count: 417
+  - value: 1 Lithium Ion batteries required.
+    item_count: 407
+  - value: 2 AAA batteries required.
+    item_count: 132
+  - value: 2 AAA batteries required. (included)
+    item_count: 127
+  - value: 1 Lithium Metal batteries required. (included)
+    item_count: 126
+  - value: 1 Lithium Polymer batteries required.
+    item_count: 112
+  - value: 2 AA batteries required.
+    item_count: 77
+  - value: 2 Lithium Ion batteries required. (included)
+    item_count: 73
+  - value: 2 AA batteries required. (included)
+    item_count: 66
+  variant_sensitive: false
+- canonical_name: country of origin
+  aliases:
+  - Country of Origin
+  item_count: 2619
+  coverage_pct: 21.199611461874696
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: China
+    item_count: 2130
+  - value: Taiwan
+    item_count: 133
+  - value: USA
+    item_count: 114
+  - value: Vietnam
+    item_count: 66
+  - value: Japan
+    item_count: 36
+  - value: Thailand
+    item_count: 28
+  - value: Malaysia
+    item_count: 19
+  - value: Mexico
+    item_count: 18
+  - value: Korea, Republic of
+    item_count: 15
+  - value: Philippines
+    item_count: 12
+  variant_sensitive: false
+- canonical_name: package dimensions
+  aliases:
+  - Package Dimensions
+  item_count: 2561
+  coverage_pct: 20.73012789379958
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - inches
+  - ounces
+  - pounds
+  numeric_parse_pct: 91.60484185864897
+  top_10_example_values:
+  - value: 4 x 3 x 1 inches
+    item_count: 3
+  - value: 10 x 8 x 6 inches
+    item_count: 2
+  - value: 2 x 1 x 0.01 inches
+    item_count: 2
+  - value: 2.48 x 1.77 x 0.94 inches
+    item_count: 2
+  - value: 2.72 x 2.68 x 1.14 inches
+    item_count: 2
+  - value: 4 x 3.1 x 0.9 inches
+    item_count: 2
+  - value: 4.6 x 2.8 x 1.5 inches
+    item_count: 2
+  - value: 5 x 4 x 0.05 inches
+    item_count: 2
+  - value: 5 x 4 x 0.5 inches
+    item_count: 2
+  - value: 5.2 x 3.19 x 2.05 inches
+    item_count: 2
+  variant_sensitive: true
+- canonical_name: screen size
+  aliases:
+  - Screen Size
+  item_count: 2239
+  coverage_pct: 18.123684636554962
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 3 Inches
+    item_count: 216
+  - value: 15.6 Inches
+    item_count: 152
+  - value: 14 Inches
+    item_count: 95
+  - value: 13.3 Inches
+    item_count: 61
+  - value: 2 Inches
+    item_count: 61
+  - value: 7 Inches
+    item_count: 61
+  - value: 65 Inches
+    item_count: 54
+  - value: 27 Inches
+    item_count: 53
+  - value: 10.1 Inches
+    item_count: 50
+  - value: 3.2 Inches
+    item_count: 50
+  variant_sensitive: true
+- canonical_name: form factor
+  aliases:
+  - Form Factor
+  item_count: 1966
+  coverage_pct: 15.913874048891048
+  value_type: categorical
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Case
+    item_count: 721
+  - value: In Ear
+    item_count: 336
+  - value: Over Ear
+    item_count: 129
+  - value: On Ear
+    item_count: 122
+  - value: Compact
+    item_count: 101
+  - value: DSLR
+    item_count: 91
+  - value: Mirrorless
+    item_count: 72
+  - value: Cover
+    item_count: 41
+  - value: Sleeve
+    item_count: 37
+  - value: Smartphone
+    item_count: 35
+  variant_sensitive: false
+- canonical_name: standing screen display size
+  aliases:
+  - Standing screen display size
+  item_count: 1653
+  coverage_pct: 13.380281690140846
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 15.6 Inches
+    item_count: 164
+  - value: 14 Inches
+    item_count: 104
+  - value: 9.7 Inches
+    item_count: 63
+  - value: 13.3 Inches
+    item_count: 62
+  - value: 13 Inches
+    item_count: 54
+  - value: 27 Inches
+    item_count: 50
+  - value: 10.1 Inches
+    item_count: 49
+  - value: 11.6 Inches
+    item_count: 45
+  - value: 17.3 Inches
+    item_count: 42
+  - value: 7 Inches
+    item_count: 42
+  variant_sensitive: true
+- canonical_name: series
+  aliases:
+  - Series
+  item_count: 1541
+  coverage_pct: 12.47369273109924
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: MacBook Pro
+    item_count: 22
+  - value: Touch
+    item_count: 16
+  - value: Optiplex
+    item_count: 12
+  - value: Lenovo Thinkpad
+    item_count: 8
+  - value: MacBook Air
+    item_count: 8
+  - value: iPad Mini 4
+    item_count: 7
+  - value: Lenovo Ideapad
+    item_count: 6
+  - value: Surface
+    item_count: 6
+  - value: iPad
+    item_count: 6
+  - value: 860 EVO
+    item_count: 5
+  variant_sensitive: false
+- canonical_name: included components
+  aliases:
+  - Included Components
+  item_count: 1463
+  coverage_pct: 11.842318277480977
+  value_type: text
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Battery
+    item_count: 50
+  - value: Camera Body & Accessories
+    item_count: 31
+  - value: Stand, TV
+    item_count: 30
+  - value: Mouse, Keybord
+    item_count: 22
+  - value: Stand, TV, Remote
+    item_count: 22
+  - value: Power Cable, Remote Control, Stand
+    item_count: 19
+  - value: '1'
+    item_count: 17
+  - value: USB Cable
+    item_count: 15
+  - value: Camera Kit
+    item_count: 14
+  - value: User Manual, Battery, USB Cable
+    item_count: 14
+  variant_sensitive: false
+- canonical_name: connector type
+  aliases:
+  - Connector Type
+  item_count: 1418
+  coverage_pct: 11.478063785008905
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: HDMI
+    item_count: 178
+  - value: Auxiliary
+    item_count: 98
+  - value: RJ45
+    item_count: 90
+  - value: USB Type C
+    item_count: 84
+  - value: RCA
+    item_count: 57
+  - value: Lightning
+    item_count: 55
+  - value: USB
+    item_count: 45
+  - value: Barrel Connector
+    item_count: 43
+  - value: USB Type A
+    item_count: 38
+  - value: Micro USB
+    item_count: 33
+  variant_sensitive: false
+- canonical_name: operating system
+  aliases:
+  - Operating System
+  item_count: 1359
+  coverage_pct: 11.00048567265663
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Windows 10
+    item_count: 178
+  - value: Windows 10 Home
+    item_count: 168
+  - value: Windows 10 Pro
+    item_count: 77
+  - value: Android
+    item_count: 54
+  - value: Chrome OS
+    item_count: 53
+  - value: Mac OS
+    item_count: 41
+  - value: Windows 11 Home
+    item_count: 32
+  - value: Windows
+    item_count: 26
+  - value: Android 9 Pie
+    item_count: 23
+  - value: Android 9.0
+    item_count: 19
+  variant_sensitive: false
+- canonical_name: number of items
+  aliases:
+  - Number Of Items
+  - Number of Items
+  item_count: 1296
+  coverage_pct: 10.490529383195726
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - count
+  numeric_parse_pct: 100.0
+  top_10_example_values:
+  - value: '1'
+    item_count: 1095
+  - value: '2'
+    item_count: 82
+  - value: '5'
+    item_count: 27
+  - value: '3'
+    item_count: 24
+  - value: '6'
+    item_count: 23
+  - value: '4'
+    item_count: 18
+  - value: '10'
+    item_count: 9
+  - value: '8'
+    item_count: 3
+  - value: '9'
+    item_count: 3
+  - value: '12'
+    item_count: 2
+  variant_sensitive: true
+- canonical_name: material
+  aliases:
+  - Material
+  item_count: 1275
+  coverage_pct: 10.320543953375426
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Plastic
+    item_count: 125
+  - value: Aluminum
+    item_count: 121
+  - value: Alloy Steel
+    item_count: 109
+  - value: Silicone
+    item_count: 102
+  - value: Metal
+    item_count: 47
+  - value: Tempered Glass
+    item_count: 43
+  - value: Vinyl
+    item_count: 30
+  - value: Acrylonitrile Butadiene Styrene
+    item_count: 29
+  - value: Nylon
+    item_count: 28
+  - value: Copper
+    item_count: 25
+  variant_sensitive: false
+- canonical_name: hardware platform
+  aliases:
+  - Hardware Platform
+  item_count: 1109
+  coverage_pct: 8.97684960336733
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: PC
+    item_count: 525
+  - value: Mac
+    item_count: 91
+  - value: PC, Mac
+    item_count: 70
+  - value: Android
+    item_count: 62
+  - value: Windows
+    item_count: 58
+  - value: Laptop, PC
+    item_count: 38
+  - value: Tablet
+    item_count: 19
+  - value: Laptop
+    item_count: 17
+  - value: PC, Linux, Mac
+    item_count: 16
+  - value: Chrome
+    item_count: 10
+  variant_sensitive: false
+- canonical_name: ram
+  aliases:
+  - RAM
+  item_count: 1080
+  coverage_pct: 8.742107819329771
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 16 GB DDR4
+    item_count: 115
+  - value: 8 GB DDR4
+    item_count: 101
+  - value: DDR4
+    item_count: 86
+  - value: 4 GB DDR4
+    item_count: 41
+  - value: 2 GB
+    item_count: 40
+  - value: 8 GB DDR3
+    item_count: 39
+  - value: 16 GB
+    item_count: 35
+  - value: 4 GB
+    item_count: 33
+  - value: 32 GB
+    item_count: 32
+  - value: 1 GB
+    item_count: 31
+  variant_sensitive: false
+- canonical_name: voltage
+  aliases:
+  - Voltage
+  item_count: 1077
+  coverage_pct: 8.7178241864983
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - volts
+  numeric_parse_pct: 93.03621169916434
+  top_10_example_values:
+  - value: 12 Volts
+    item_count: 174
+  - value: 240 Volts
+    item_count: 133
+  - value: 5 Volts
+    item_count: 121
+  - value: 125 Volts
+    item_count: 81
+  - value: 120 Volts
+    item_count: 76
+  - value: 230 Volts
+    item_count: 29
+  - value: 110 Volts
+    item_count: 28
+  - value: 100240 Volts
+    item_count: 27
+  - value: 1.2 Volts
+    item_count: 24
+  - value: 3.7 Volts
+    item_count: 23
+  variant_sensitive: false
+- canonical_name: power source
+  aliases:
+  - Power Source
+  item_count: 1001
+  coverage_pct: 8.102638821434354
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Battery Powered
+    item_count: 430
+  - value: Corded Electric
+    item_count: 233
+  - value: AC
+    item_count: 89
+  - value: AC & Battery
+    item_count: 61
+  - value: DC
+    item_count: 38
+  - value: Corded Electric, Battery Powered
+    item_count: 31
+  - value: Adapter
+    item_count: 15
+  - value: Ac/dc
+    item_count: 11
+  - value: 12 Volt DC
+    item_count: 5
+  - value: Battery
+    item_count: 4
+  variant_sensitive: false
+- canonical_name: hard drive
+  aliases:
+  - Hard Drive
+  item_count: 956
+  coverage_pct: 7.73838432896228
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 512 GB SSD
+    item_count: 93
+  - value: 256 GB SSD
+    item_count: 90
+  - value: 1 TB SSD
+    item_count: 54
+  - value: 32 GB
+    item_count: 41
+  - value: 128 GB SSD
+    item_count: 38
+  - value: SSD
+    item_count: 36
+  - value: 128 GB
+    item_count: 24
+  - value: 16 GB
+    item_count: 22
+  - value: 1 TB HDD
+    item_count: 19
+  - value: 500 GB HDD
+    item_count: 18
+  variant_sensitive: false
+- canonical_name: other display features
+  aliases:
+  - Other display features
+  item_count: 950
+  coverage_pct: 7.689817063299336
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Wireless
+    item_count: 742
+  - value: Personal Computer
+    item_count: 65
+  - value: CE
+    item_count: 54
+  - value: PC Accessory
+    item_count: 42
+  - value: Car Audio or Theater
+    item_count: 12
+  - value: Speakers
+    item_count: 8
+  - value: Photography
+    item_count: 7
+  - value: Automotive Parts and Accessories
+    item_count: 3
+  - value: BISS Basic
+    item_count: 3
+  - value: GPS or Navigation System
+    item_count: 3
+  variant_sensitive: false
+- canonical_name: recommended uses for product
+  aliases:
+  - Recommended Uses For Product
+  item_count: 910
+  coverage_pct: 7.3660352922130485
+  value_type: text
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Gaming
+    item_count: 65
+  - value: Home
+    item_count: 55
+  - value: Outdoor Security
+    item_count: 46
+  - value: Security
+    item_count: 42
+  - value: Office
+    item_count: 38
+  - value: Camera
+    item_count: 30
+  - value: Indoor,Outdoor
+    item_count: 25
+  - value: Spying
+    item_count: 23
+  - value: Surveillance
+    item_count: 23
+  - value: Music
+    item_count: 22
+  variant_sensitive: false
+- canonical_name: computer memory type
+  aliases:
+  - Computer Memory Type
+  item_count: 875
+  coverage_pct: 7.082726242512546
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: DDR4 SDRAM
+    item_count: 384
+  - value: DDR3 SDRAM
+    item_count: 229
+  - value: Unknown
+    item_count: 63
+  - value: DDR SDRAM
+    item_count: 54
+  - value: SDRAM
+    item_count: 22
+  - value: DIMM
+    item_count: 20
+  - value: DDR DRAM
+    item_count: 14
+  - value: DDR2 SDRAM
+    item_count: 13
+  - value: SODIMM
+    item_count: 13
+  - value: DRAM
+    item_count: 8
+  variant_sensitive: false
+- canonical_name: memory storage capacity
+  aliases:
+  - Memory Storage Capacity
+  item_count: 872
+  coverage_pct: 7.058442609681075
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 32 GB
+    item_count: 155
+  - value: 64 GB
+    item_count: 122
+  - value: 16 GB
+    item_count: 109
+  - value: 128 GB
+    item_count: 99
+  - value: 1 TB
+    item_count: 72
+  - value: 8 GB
+    item_count: 50
+  - value: 256 GB
+    item_count: 46
+  - value: 512 GB
+    item_count: 31
+  - value: 500 GB
+    item_count: 25
+  - value: 4 GB
+    item_count: 23
+  variant_sensitive: true
+- canonical_name: mounting type
+  aliases:
+  - Mounting Type
+  item_count: 853
+  coverage_pct: 6.904646268415088
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Wall Mount
+    item_count: 339
+  - value: Table Mount
+    item_count: 50
+  - value: Wrist Mount
+    item_count: 31
+  - value: Tabletop
+    item_count: 28
+  - value: Car Mount
+    item_count: 22
+  - value: Tabletop Mount
+    item_count: 19
+  - value: Dashboard Mount, Found in image
+    item_count: 14
+  - value: Tripod
+    item_count: 14
+  - value: Ceiling Mount
+    item_count: 12
+  - value: Floor Mount
+    item_count: 12
+  variant_sensitive: false
+- canonical_name: wireless type
+  aliases:
+  - Wireless Type
+  item_count: 849
+  coverage_pct: 6.872268091306459
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 802.11ac
+    item_count: 167
+  - value: Bluetooth
+    item_count: 135
+  - value: 802.11a
+    item_count: 37
+  - value: 2.4 GHz Radio Frequency
+    item_count: 32
+  - value: 802.11abg
+    item_count: 30
+  - value: 802.11bgn
+    item_count: 29
+  - value: 802.11ax
+    item_count: 28
+  - value: 802.11n
+    item_count: 28
+  - value: 802.11a/b/g/n/ac
+    item_count: 26
+  - value: Bluetooth, 802.11ac
+    item_count: 21
+  variant_sensitive: false
+- canonical_name: number of processors
+  aliases:
+  - Number of Processors
+  item_count: 835
+  coverage_pct: 6.7589444714262585
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - count
+  numeric_parse_pct: 100.0
+  top_10_example_values:
+  - value: '4'
+    item_count: 276
+  - value: '2'
+    item_count: 201
+  - value: '1'
+    item_count: 200
+  - value: '8'
+    item_count: 71
+  - value: '6'
+    item_count: 63
+  - value: '12'
+    item_count: 5
+  - value: '10'
+    item_count: 4
+  - value: '16'
+    item_count: 4
+  - value: '14'
+    item_count: 3
+  - value: '1000'
+    item_count: 1
+  variant_sensitive: true
+- canonical_name: flash memory size
+  aliases:
+  - Flash Memory Size
+  item_count: 811
+  coverage_pct: 6.564675408774486
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 256 GB
+    item_count: 70
+  - value: 32 GB
+    item_count: 60
+  - value: 512 GB
+    item_count: 60
+  - value: 128 GB
+    item_count: 53
+  - value: 1 TB
+    item_count: 47
+  - value: '512'
+    item_count: 44
+  - value: '16'
+    item_count: 42
+  - value: 16 GB
+    item_count: 42
+  - value: '256'
+    item_count: 41
+  - value: 64 GB
+    item_count: 39
+  variant_sensitive: true
+- canonical_name: processor
+  aliases:
+  - Processor
+  item_count: 778
+  coverage_pct: 6.297555447628299
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 3.2 GHz core_i5
+    item_count: 27
+  - value: 1.3 GHz
+    item_count: 20
+  - value: pentium
+    item_count: 15
+  - value: 1.5 GHz
+    item_count: 11
+  - value: 3.4 GHz core_i7
+    item_count: 11
+  - value: 2.9 GHz core_i5
+    item_count: 9
+  - value: 2.4 GHz
+    item_count: 8
+  - value: 2.8 GHz core_i7
+    item_count: 8
+  - value: '8032'
+    item_count: 8
+  - value: athlon
+    item_count: 8
+  variant_sensitive: false
+- canonical_name: processor brand
+  aliases:
+  - Processor Brand
+  item_count: 759
+  coverage_pct: 6.143759106362312
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Intel
+    item_count: 520
+  - value: AMD
+    item_count: 116
+  - value: Apple
+    item_count: 26
+  - value: MediaTek
+    item_count: 15
+  - value: Qualcomm
+    item_count: 14
+  - value: Allwinner
+    item_count: 11
+  - value: Dual Core
+    item_count: 8
+  - value: Nvidia
+    item_count: 6
+  - value: ARM
+    item_count: 4
+  - value: Samsung
+    item_count: 4
+  variant_sensitive: false
+- canonical_name: hard drive interface
+  aliases:
+  - Hard Drive Interface
+  item_count: 742
+  coverage_pct: 6.006151853650639
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Solid State
+    item_count: 274
+  - value: Serial ATA
+    item_count: 114
+  - value: USB
+    item_count: 40
+  - value: Serial ATA-600
+    item_count: 37
+  - value: USB 3.0
+    item_count: 36
+  - value: Unknown
+    item_count: 29
+  - value: USB 1.1
+    item_count: 21
+  - value: PCIE x 4
+    item_count: 19
+  - value: NVMe
+    item_count: 18
+  - value: USB 3.1
+    item_count: 18
+  variant_sensitive: false
+- canonical_name: hardware interface
+  aliases:
+  - Hardware Interface
+  item_count: 725
+  coverage_pct: 5.868544600938967
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: USB
+    item_count: 183
+  - value: AV Port
+    item_count: 76
+  - value: USB 3.0
+    item_count: 55
+  - value: Bluetooth
+    item_count: 53
+  - value: USB 2.0
+    item_count: 32
+  - value: SDHC
+    item_count: 14
+  - value: Ethernet
+    item_count: 11
+  - value: USB Type C
+    item_count: 10
+  - value: Bluetooth, USB
+    item_count: 9
+  - value: 3.5mm Audio
+    item_count: 8
+  variant_sensitive: false
+- canonical_name: max screen resolution
+  aliases:
+  - Max Screen Resolution
+  item_count: 721
+  coverage_pct: 5.836166423830338
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 1920 x 1080 Pixels
+    item_count: 168
+  - value: 1366 x 768 Pixels
+    item_count: 38
+  - value: 1920 x 1080
+    item_count: 37
+  - value: 1366 x 768
+    item_count: 35
+  - value: 2048 x 1536
+    item_count: 28
+  - value: 2560 x 1440 Pixels
+    item_count: 25
+  - value: 1920x1080 Pixels
+    item_count: 21
+  - value: 3840 x 2160 Pixels
+    item_count: 20
+  - value: 1920x1080
+    item_count: 17
+  - value: 3440 x 1440 Pixels
+    item_count: 16
+  variant_sensitive: false
+- canonical_name: speaker type
+  aliases:
+  - Speaker Type
+  item_count: 710
+  coverage_pct: 5.747126436781609
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Subwoofer
+    item_count: 130
+  - value: Built-In
+    item_count: 96
+  - value: Outdoor
+    item_count: 75
+  - value: Soundbar
+    item_count: 74
+  - value: Stereo
+    item_count: 27
+  - value: Surround
+    item_count: 18
+  - value: Surround Sound
+    item_count: 18
+  - value: Bookshelf
+    item_count: 16
+  - value: Computer
+    item_count: 16
+  - value: Multi Room
+    item_count: 14
+  variant_sensitive: false
+- canonical_name: shell type
+  aliases:
+  - Shell Type
+  item_count: 694
+  coverage_pct: 5.617613728347094
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Soft
+    item_count: 338
+  - value: Hard
+    item_count: 203
+  - value: Hybrid
+    item_count: 123
+  - value: 混合式
+    item_count: 10
+  - value: Hard,soft
+    item_count: 4
+  - value: Hard,hybrid,soft
+    item_count: 2
+  - value: Silicone
+    item_count: 2
+  - value: hard,hybrid,soft
+    item_count: 2
+  - value: hard,soft
+    item_count: 2
+  - value: Hard case,hybrid,soft case,soft tpu
+    item_count: 1
+  variant_sensitive: false
+- canonical_name: cpu model
+  aliases:
+  - CPU Model
+  item_count: 672
+  coverage_pct: 5.439533754249636
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Core i5
+    item_count: 110
+  - value: Core i7
+    item_count: 98
+  - value: Celeron
+    item_count: 39
+  - value: Pentium
+    item_count: 26
+  - value: Athlon
+    item_count: 22
+  - value: Core i7 Family
+    item_count: 20
+  - value: Intel Core i7
+    item_count: 19
+  - value: Intel Core i5
+    item_count: 17
+  - value: Core i5 Family
+    item_count: 14
+  - value: AMD Ryzen 7
+    item_count: 12
+  variant_sensitive: false
+- canonical_name: graphics coprocessor
+  aliases:
+  - Graphics Coprocessor
+  item_count: 670
+  coverage_pct: 5.423344665695321
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Intel UHD Graphics 620
+    item_count: 34
+  - value: Intel UHD Graphics 600
+    item_count: 26
+  - value: Intel HD Graphics
+    item_count: 25
+  - value: Intel UHD Graphics
+    item_count: 19
+  - value: Intel UHD Graphics 630
+    item_count: 18
+  - value: NVIDIA GeForce GTX 1650
+    item_count: 17
+  - value: Intel
+    item_count: 14
+  - value: Intel Iris Xe Graphics
+    item_count: 14
+  - value: AMD Radeon Graphics
+    item_count: 13
+  - value: Intel HD Graphics 400
+    item_count: 13
+  variant_sensitive: false
+- canonical_name: department
+  aliases:
+  - Department
+  item_count: 665
+  coverage_pct: 5.382871944309535
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Unisex-adult
+    item_count: 94
+  - value: unisex-adult
+    item_count: 89
+  - value: Electronics
+    item_count: 60
+  - value: Unisex Adult
+    item_count: 53
+  - value: Mens
+    item_count: 33
+  - value: mens
+    item_count: 22
+  - value: Womens
+    item_count: 17
+  - value: womens
+    item_count: 17
+  - value: Unisex
+    item_count: 14
+  - value: Unisex-Adult
+    item_count: 14
+  variant_sensitive: false
+- canonical_name: chipset brand
+  aliases:
+  - Chipset Brand
+  item_count: 654
+  coverage_pct: 5.293831957260807
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Intel
+    item_count: 367
+  - value: NVIDIA
+    item_count: 167
+  - value: AMD
+    item_count: 85
+  - value: intel
+    item_count: 6
+  - value: Allwinner
+    item_count: 4
+  - value: Apple
+    item_count: 4
+  - value: MediaTek
+    item_count: 3
+  - value: PowerVR
+    item_count: 2
+  - value: AMD Radeon RX 580
+    item_count: 1
+  - value: GTX 1070 TI
+    item_count: 1
+  variant_sensitive: false
+- canonical_name: connector gender
+  aliases:
+  - Connector Gender
+  item_count: 642
+  coverage_pct: 5.19669742593492
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Male-to-Male
+    item_count: 323
+  - value: Male-to-Female
+    item_count: 164
+  - value: Male
+    item_count: 46
+  - value: Female-to-Female
+    item_count: 30
+  - value: Female-to-Male
+    item_count: 24
+  - value: Genderless
+    item_count: 7
+  - value: Female
+    item_count: 6
+  - value: Male, Female
+    item_count: 5
+  - value: Female, Male
+    item_count: 4
+  - value: Other
+    item_count: 3
+  variant_sensitive: false
+- canonical_name: video capture resolution
+  aliases:
+  - Video Capture Resolution
+  item_count: 639
+  coverage_pct: 5.172413793103448
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 1080p
+    item_count: 257
+  - value: FHD 1080p
+    item_count: 65
+  - value: 4K
+    item_count: 57
+  - value: 4K UHD 2160p
+    item_count: 57
+  - value: 2160p
+    item_count: 38
+  - value: 720p
+    item_count: 23
+  - value: 480p
+    item_count: 13
+  - value: HD 720p
+    item_count: 9
+  - value: 1080p, 4K
+    item_count: 8
+  - value: 2160p, 1080p
+    item_count: 8
+  variant_sensitive: false
+- canonical_name: card description
+  aliases:
+  - Card Description
+  item_count: 632
+  coverage_pct: 5.115751983163348
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Integrated
+    item_count: 390
+  - value: Dedicated
+    item_count: 188
+  - value: Integrated, Dedicated
+    item_count: 6
+  - value: Integrated Card
+    item_count: 3
+  - value: '- Integrated Intel UHD Graphics'
+    item_count: 2
+  - value: GTX 1650
+    item_count: 2
+  - value: GeForce RTX 2070 Super
+    item_count: 2
+  - value: Integrated Card, Integrated
+    item_count: 2
+  - value: integrated
+    item_count: 2
+  - value: 'Chipset: NVIDIA GeForce GTX 1650'
+    item_count: 1
+  variant_sensitive: false
+- canonical_name: memory speed
+  aliases:
+  - Memory Speed
+  item_count: 623
+  coverage_pct: 5.042901084668933
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 2400 MHz
+    item_count: 82
+  - value: 2666 MHz
+    item_count: 54
+  - value: 3200 MHz
+    item_count: 45
+  - value: 1600 MHz
+    item_count: 44
+  - value: 2133 MHz
+    item_count: 43
+  - value: 2.6 GHz
+    item_count: 24
+  - value: 1.6 GHz
+    item_count: 12
+  - value: 1866 MHz
+    item_count: 12
+  - value: 3000 MHz
+    item_count: 12
+  - value: 2933 MHz
+    item_count: 10
+  variant_sensitive: false
+- canonical_name: ram memory installed size
+  aliases:
+  - Ram Memory Installed Size
+  item_count: 619
+  coverage_pct: 5.010522907560304
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 8 GB
+    item_count: 204
+  - value: 16 GB
+    item_count: 188
+  - value: 4 GB
+    item_count: 110
+  - value: 32 GB
+    item_count: 35
+  - value: 12 GB
+    item_count: 26
+  - value: 2 GB
+    item_count: 17
+  - value: 64 GB
+    item_count: 8
+  - value: 6 GB
+    item_count: 5
+  - value: 1 GB
+    item_count: 4
+  - value: 20 GB
+    item_count: 3
+  variant_sensitive: true
+- canonical_name: screen resolution
+  aliases:
+  - Screen Resolution
+  item_count: 616
+  coverage_pct: 4.986239274728833
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 1920 x 1080 pixels
+    item_count: 138
+  - value: 1366 x 768 pixels
+    item_count: 80
+  - value: 1920 x 1080
+    item_count: 72
+  - value: 3840 x 2160
+    item_count: 36
+  - value: 2048x1536
+    item_count: 33
+  - value: 1280 x 800 pixels
+    item_count: 30
+  - value: 2560 x 1440
+    item_count: 22
+  - value: 2560 x 1600 pixels
+    item_count: 18
+  - value: 3440 x 1440
+    item_count: 18
+  - value: 1024x600
+    item_count: 15
+  variant_sensitive: false
+- canonical_name: unit count
+  aliases:
+  - Unit Count
+  item_count: 614
+  coverage_pct: 4.970050186174518
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - count
+  - feet
+  - foot
+  - inch
+  numeric_parse_pct: 86.15635179153094
+  top_10_example_values:
+  - value: 1 Count
+    item_count: 243
+  - value: 1.0 Count
+    item_count: 163
+  - value: 2 Count
+    item_count: 29
+  - value: 2.0 Count
+    item_count: 14
+  - value: 3 Count
+    item_count: 10
+  - value: 3.0 Count
+    item_count: 8
+  - value: 4 Count
+    item_count: 8
+  - value: 30 Foot
+    item_count: 7
+  - value: 10 Count
+    item_count: 5
+  - value: 4.0 Count
+    item_count: 5
+  variant_sensitive: true
+- canonical_name: cable type
+  aliases:
+  - Cable Type
+  item_count: 598
+  coverage_pct: 4.840537477740003
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: USB
+    item_count: 171
+  - value: Ethernet
+    item_count: 66
+  - value: AUX
+    item_count: 59
+  - value: HDMI
+    item_count: 56
+  - value: Lightning
+    item_count: 43
+  - value: USB, Lightning
+    item_count: 34
+  - value: Coaxial
+    item_count: 31
+  - value: Composite
+    item_count: 28
+  - value: HDMI, Ethernet
+    item_count: 8
+  - value: Lightning to USB
+    item_count: 8
+  variant_sensitive: false
+- canonical_name: flash memory type
+  aliases:
+  - Flash Memory Type
+  item_count: 592
+  coverage_pct: 4.79197021207706
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Micro SD
+    item_count: 110
+  - value: SDXC
+    item_count: 79
+  - value: SD
+    item_count: 73
+  - value: SD Card
+    item_count: 57
+  - value: SDHC
+    item_count: 54
+  - value: Micro SDXC
+    item_count: 18
+  - value: Memory Stick
+    item_count: 17
+  - value: MicroSDHC
+    item_count: 13
+  - value: XQD
+    item_count: 9
+  - value: Micro SDHC
+    item_count: 8
+  variant_sensitive: false
+- canonical_name: color name
+  aliases:
+  - Color Name
+  item_count: 570
+  coverage_pct: 4.613890237979602
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Black
+    item_count: 365
+  - value: White
+    item_count: 36
+  - value: black
+    item_count: 18
+  - value: Silver
+    item_count: 6
+  - value: Silver, Black
+    item_count: 6
+  - value: Gray
+    item_count: 5
+  - value: BLACK
+    item_count: 4
+  - value: Blue
+    item_count: 4
+  - value: Original
+    item_count: 4
+  - value: Red
+    item_count: 4
+  variant_sensitive: true
+- canonical_name: style
+  aliases:
+  - Style
+  item_count: 550
+  coverage_pct: 4.451999352436458
+  value_type: categorical
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Modern
+    item_count: 179
+  - value: Classic
+    item_count: 26
+  - value: Umbrella
+    item_count: 13
+  - value: Watch
+    item_count: 12
+  - value: Compatible
+    item_count: 8
+  - value: Portable
+    item_count: 8
+  - value: Travel
+    item_count: 8
+  - value: Retro
+    item_count: 7
+  - value: Bluetooth
+    item_count: 5
+  - value: Vintage
+    item_count: 5
+  variant_sensitive: false
+- canonical_name: display resolution maximum
+  aliases:
+  - Display Resolution Maximum
+  item_count: 517
+  coverage_pct: 4.18487939129027
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 1920 x 1080 Pixels
+    item_count: 74
+  - value: 1920 x 1080
+    item_count: 35
+  - value: 2048 x 1536
+    item_count: 27
+  - value: 2560 x 1440 Pixels
+    item_count: 24
+  - value: 3840 x 2160 Pixels
+    item_count: 19
+  - value: 3440 x 1440 Pixels
+    item_count: 17
+  - value: 1024 x 600
+    item_count: 12
+  - value: 1280 x 800
+    item_count: 11
+  - value: 1920x1080
+    item_count: 11
+  - value: 3840 x 2160
+    item_count: 11
+  variant_sensitive: false
+- canonical_name: hard disk size
+  aliases:
+  - Hard Disk Size
+  item_count: 517
+  coverage_pct: 4.18487939129027
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 512 GB
+    item_count: 99
+  - value: 256 GB
+    item_count: 96
+  - value: 1 TB
+    item_count: 68
+  - value: 128 GB
+    item_count: 43
+  - value: 64 GB
+    item_count: 33
+  - value: 32 GB
+    item_count: 32
+  - value: 500 GB
+    item_count: 31
+  - value: 2 TB
+    item_count: 29
+  - value: 4 TB
+    item_count: 13
+  - value: 16 GB
+    item_count: 10
+  variant_sensitive: true
+- canonical_name: lens type
+  aliases:
+  - Lens Type
+  item_count: 512
+  coverage_pct: 4.144406669904485
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Zoom
+    item_count: 123
+  - value: Wide Angle
+    item_count: 91
+  - value: Telephoto
+    item_count: 68
+  - value: Standard
+    item_count: 37
+  - value: Macro
+    item_count: 22
+  - value: Normal
+    item_count: 19
+  - value: Interchangeable
+    item_count: 15
+  - value: Fixed
+    item_count: 11
+  - value: Wide-Angle
+    item_count: 11
+  - value: zoom
+    item_count: 10
+  variant_sensitive: false
+- canonical_name: resolution
+  aliases:
+  - Resolution
+  item_count: 512
+  coverage_pct: 4.144406669904485
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 4K
+    item_count: 198
+  - value: 1080p
+    item_count: 69
+  - value: 720p
+    item_count: 38
+  - value: 4k
+    item_count: 24
+  - value: 1920 x 1080 pixel
+    item_count: 21
+  - value: 480 x 272
+    item_count: 20
+  - value: 3840 x 2160 pixel
+    item_count: 15
+  - value: 1920 x 1080 Pixels
+    item_count: 10
+  - value: 1024 x 600
+    item_count: 8
+  - value: 4K (2160p)
+    item_count: 6
+  variant_sensitive: false
+- canonical_name: compatible mountings
+  aliases:
+  - Compatible Mountings
+  item_count: 494
+  coverage_pct: 3.998704872915655
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Canon EF
+    item_count: 77
+  - value: Sony E
+    item_count: 71
+  - value: Micro Four Thirds
+    item_count: 62
+  - value: Canon EF-S
+    item_count: 32
+  - value: Nikon F
+    item_count: 22
+  - value: Canon RF
+    item_count: 16
+  - value: Canon
+    item_count: 12
+  - value: Canon EF, Canon EF-S
+    item_count: 12
+  - value: Nikon Z
+    item_count: 12
+  - value: Pentax KAF
+    item_count: 12
+  variant_sensitive: false
+- canonical_name: refresh rate
+  aliases:
+  - Refresh Rate
+  item_count: 473
+  coverage_pct: 3.8287194430953537
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 60 Hz
+    item_count: 194
+  - value: 120 Hz
+    item_count: 91
+  - value: 144 Hz
+    item_count: 52
+  - value: 75 Hz
+    item_count: 31
+  - value: 240 Hz
+    item_count: 25
+  - value: 165 Hz
+    item_count: 18
+  - value: '60'
+    item_count: 18
+  - value: 100 Hz
+    item_count: 12
+  - value: '120'
+    item_count: 7
+  - value: 170 Hz
+    item_count: 2
+  variant_sensitive: false
+- canonical_name: compatible phone models
+  aliases:
+  - Compatible Phone Models
+  item_count: 441
+  coverage_pct: 3.5696940262263235
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Ipad
+    item_count: 26
+  - value: IPhone
+    item_count: 21
+  - value: Iphone
+    item_count: 10
+  - value: Laptops
+    item_count: 8
+  - value: Audiovox CDM3000
+    item_count: 6
+  - value: VoIP phones
+    item_count: 6
+  - value: Samsung
+    item_count: 5
+  - value: Sony
+    item_count: 5
+  - value: Phone
+    item_count: 4
+  - value: Samsung Galaxy S3
+    item_count: 4
+  variant_sensitive: false
+- canonical_name: shape
+  aliases:
+  - Shape
+  item_count: 435
+  coverage_pct: 3.5211267605633805
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Round
+    item_count: 255
+  - value: Rectangular
+    item_count: 61
+  - value: Heart
+    item_count: 32
+  - value: Irregular
+    item_count: 23
+  - value: Apple,Heart
+    item_count: 12
+  - value: Square
+    item_count: 11
+  - value: Flat
+    item_count: 7
+  - value: Apple
+    item_count: 4
+  - value: Bulb
+    item_count: 4
+  - value: Flat+round
+    item_count: 4
+  variant_sensitive: false
+- canonical_name: batteries included
+  aliases:
+  - Are Batteries Included
+  - Batteries Included?
+  item_count: 427
+  coverage_pct: 3.4563704063461227
+  value_type: boolean
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 'Yes'
+    item_count: 213
+  - value: 'No'
+    item_count: 212
+  - value: 'False'
+    item_count: 1
+  - value: 'false'
+    item_count: 1
+  variant_sensitive: false
+- canonical_name: whats in the box
+  aliases:
+  - Whats in the box
+  item_count: 425
+  coverage_pct: 3.4401813177918084
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Case
+    item_count: 10
+  - value: Adapter, USB Cable
+    item_count: 9
+  - value: '1'
+    item_count: 8
+  - value: Cable
+    item_count: 5
+  - value: Charger
+    item_count: 5
+  - value: 'No'
+    item_count: 5
+  - value: Battery
+    item_count: 4
+  - value: Handset + Cling, Travel Adapter, Data Cable, Ejection Pin, Quick Reference
+      Manual, Terms & Conditions/Health & Safety Guide
+    item_count: 4
+  - value: Headset
+    item_count: 4
+  - value: Receiver^Hardware^Harness^Manual
+    item_count: 4
+  variant_sensitive: false
+- canonical_name: number of usb 2.0 ports
+  aliases:
+  - Number of USB 2.0 Ports
+  item_count: 417
+  coverage_pct: 3.3754249635745506
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - count
+  numeric_parse_pct: 100.0
+  top_10_example_values:
+  - value: '1'
+    item_count: 184
+  - value: '2'
+    item_count: 153
+  - value: '4'
+    item_count: 31
+  - value: '6'
+    item_count: 14
+  - value: '3'
+    item_count: 12
+  - value: '10'
+    item_count: 9
+  - value: '8'
+    item_count: 7
+  - value: '5'
+    item_count: 2
+  - value: '11'
+    item_count: 1
+  - value: '12'
+    item_count: 1
+  variant_sensitive: true
+- canonical_name: age range (description)
+  aliases:
+  - Age Range (Description)
+  item_count: 406
+  coverage_pct: 3.2863849765258215
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Adult
+    item_count: 310
+  - value: Kid
+    item_count: 48
+  - value: Adults
+    item_count: 7
+  - value: adult
+    item_count: 7
+  - value: Youth,Kid
+    item_count: 5
+  - value: Adult , Kid
+    item_count: 3
+  - value: Kid,Teen
+    item_count: 3
+  - value: Adult,Teen
+    item_count: 2
+  - value: All
+    item_count: 2
+  - value: kid
+    item_count: 2
+  variant_sensitive: false
+- canonical_name: batteries required
+  aliases:
+  - Batteries Required?
+  - Batteries required
+  item_count: 406
+  coverage_pct: 3.2863849765258215
+  value_type: boolean
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 'No'
+    item_count: 242
+  - value: 'Yes'
+    item_count: 162
+  - value: 'False'
+    item_count: 1
+  - value: 'false'
+    item_count: 1
+  variant_sensitive: false
+- canonical_name: connectivity technologies
+  aliases:
+  - Connectivity technologies
+  item_count: 402
+  coverage_pct: 3.254006799417193
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Bluetooth
+    item_count: 72
+  - value: USB
+    item_count: 48
+  - value: Wi-Fi
+    item_count: 42
+  - value: Wireless
+    item_count: 33
+  - value: Wired
+    item_count: 29
+  - value: Bluetooth, USB
+    item_count: 17
+  - value: GPS
+    item_count: 17
+  - value: Infrared
+    item_count: 12
+  - value: Bluetooth, Auxiliary, USB
+    item_count: 8
+  - value: Wi Fi
+    item_count: 7
+  variant_sensitive: false
+- canonical_name: specific uses for product
+  aliases:
+  - Specific Uses For Product
+  item_count: 398
+  coverage_pct: 3.221628622308564
+  value_type: text
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Gaming
+    item_count: 57
+  - value: Business
+    item_count: 41
+  - value: Personal, Gaming, Business
+    item_count: 34
+  - value: Personal
+    item_count: 25
+  - value: Multimedia, Personal, Business
+    item_count: 16
+  - value: TV
+    item_count: 15
+  - value: Monitor,Projector
+    item_count: 13
+  - value: Monitor,Projector,Tv
+    item_count: 11
+  - value: Business, personal
+    item_count: 9
+  - value: Multimedia, Personal, Gaming
+    item_count: 9
+  variant_sensitive: false
+- canonical_name: average battery life (in hours)
+  aliases:
+  - Average Battery Life (in hours)
+  item_count: 395
+  coverage_pct: 3.1973449894770924
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 10 Hours
+    item_count: 70
+  - value: 8 Hours
+    item_count: 50
+  - value: 6 Hours
+    item_count: 40
+  - value: 9 Hours
+    item_count: 28
+  - value: 5 Hours
+    item_count: 27
+  - value: 12 Hours
+    item_count: 20
+  - value: 11 Hours
+    item_count: 11
+  - value: 7 Hours
+    item_count: 9
+  - value: 13 Hours
+    item_count: 8
+  - value: 15 Hours
+    item_count: 8
+  variant_sensitive: false
+- canonical_name: units
+  aliases:
+  - Units
+  item_count: 387
+  coverage_pct: 3.1325886352598347
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 1.0 Count
+    item_count: 196
+  - value: 1 Count
+    item_count: 159
+  - value: 1.00 Count
+    item_count: 6
+  - value: 2 Count
+    item_count: 5
+  - value: 4 Count
+    item_count: 3
+  - value: 5 Count
+    item_count: 3
+  - value: 10.0 Count
+    item_count: 2
+  - value: 2.0 Count
+    item_count: 2
+  - value: 3 Count
+    item_count: 2
+  - value: 1 1
+    item_count: 1
+  variant_sensitive: false
+- canonical_name: wattage
+  aliases:
+  - Wattage
+  item_count: 387
+  coverage_pct: 3.1325886352598347
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - watts
+  numeric_parse_pct: 93.28165374677003
+  top_10_example_values:
+  - value: 65 watts
+    item_count: 28
+  - value: 45 watts
+    item_count: 19
+  - value: 200 watts
+    item_count: 16
+  - value: 60 watts
+    item_count: 14
+  - value: 24 watts
+    item_count: 10
+  - value: 10 watts
+    item_count: 9
+  - value: 100 watts
+    item_count: 9
+  - value: 40 watts
+    item_count: 9
+  - value: 500 watts
+    item_count: 9
+  - value: 600 watts
+    item_count: 9
+  variant_sensitive: false
+- canonical_name: display type
+  aliases:
+  - Display Type
+  item_count: 384
+  coverage_pct: 3.1083050024283634
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: LCD
+    item_count: 309
+  - value: LED
+    item_count: 14
+  - value: OLED
+    item_count: 14
+  - value: Digital
+    item_count: 11
+  - value: LCoS
+    item_count: 3
+  - value: Tilting LCD
+    item_count: 3
+  - value: AMOLED
+    item_count: 2
+  - value: VFD
+    item_count: 2
+  - value: WVGA color
+    item_count: 2
+  - value: 128 x 128 pixels
+    item_count: 1
+  variant_sensitive: false
+- canonical_name: number of usb 3.0 ports
+  aliases:
+  - Number of USB 3.0 Ports
+  item_count: 384
+  coverage_pct: 3.1083050024283634
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - count
+  numeric_parse_pct: 100.0
+  top_10_example_values:
+  - value: '1'
+    item_count: 122
+  - value: '2'
+    item_count: 114
+  - value: '3'
+    item_count: 65
+  - value: '4'
+    item_count: 48
+  - value: '6'
+    item_count: 17
+  - value: '5'
+    item_count: 10
+  - value: '9'
+    item_count: 3
+  - value: '7'
+    item_count: 2
+  - value: '8'
+    item_count: 2
+  - value: '16'
+    item_count: 1
+  variant_sensitive: true
+- canonical_name: size
+  aliases:
+  - Size
+  item_count: 379
+  coverage_pct: 3.0678322810425773
+  value_type: categorical
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Small
+    item_count: 22
+  - value: 1 Count (Pack of 1)
+    item_count: 21
+  - value: One Size
+    item_count: 20
+  - value: Large
+    item_count: 5
+  - value: 5x7ft
+    item_count: 4
+  - value: Medium
+    item_count: 4
+  - value: Standard
+    item_count: 4
+  - value: 1 Pack
+    item_count: 3
+  - value: 2 Pack
+    item_count: 3
+  - value: 4 Bay
+    item_count: 3
+  variant_sensitive: true
+- canonical_name: wireless communication technology
+  aliases:
+  - Wireless Communication Technology
+  item_count: 376
+  coverage_pct: 3.0435486482111056
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Wi-Fi
+    item_count: 121
+  - value: Bluetooth
+    item_count: 87
+  - value: Bluetooth, Wi-Fi
+    item_count: 53
+  - value: 'Yes'
+    item_count: 17
+  - value: Wi-Fi, NFC
+    item_count: 16
+  - value: Optical Pulse
+    item_count: 7
+  - value: Infrared
+    item_count: 6
+  - value: BuiltIn; 802.11b/g/n
+    item_count: 5
+  - value: BuiltIn; 802.11b/g/n + Bluetooth
+    item_count: 5
+  - value: BuiltIn; 802.11b/g/n with NFC
+    item_count: 5
+  variant_sensitive: false
+- canonical_name: display technology
+  aliases:
+  - Display Technology
+  - Display technology
+  item_count: 374
+  coverage_pct: 3.0273595596567913
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: LED
+    item_count: 191
+  - value: LCD
+    item_count: 59
+  - value: OLED
+    item_count: 44
+  - value: AMOLED
+    item_count: 23
+  - value: QLED
+    item_count: 23
+  - value: LCD, LED
+    item_count: 6
+  - value: TFT LCD
+    item_count: 5
+  - value: QLED, LED
+    item_count: 3
+  - value: E Ink
+    item_count: 2
+  - value: Neo QLED
+    item_count: 2
+  variant_sensitive: false
+- canonical_name: graphics card description
+  aliases:
+  - Graphics Card Description
+  item_count: 370
+  coverage_pct: 2.9949813825481626
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Integrated
+    item_count: 261
+  - value: Dedicated
+    item_count: 85
+  - value: Integrated, Dedicated
+    item_count: 6
+  - value: Integrated Card
+    item_count: 3
+  - value: Integrated Card, Integrated
+    item_count: 2
+  - value: Intel Iris Plus Graphics
+    item_count: 2
+  - value: GTX 1650
+    item_count: 1
+  - value: GTX 1660 Ti
+    item_count: 1
+  - value: GeForce RTX 3050 Ti
+    item_count: 1
+  - value: Integrated - 2020 Version
+    item_count: 1
+  variant_sensitive: false
+- canonical_name: supported internet services
+  aliases:
+  - Supported Internet Services
+  item_count: 358
+  coverage_pct: 2.897846851222276
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Browser
+    item_count: 39
+  - value: YouTube, Browser
+    item_count: 27
+  - value: Netflix
+    item_count: 17
+  - value: Netflix, Hulu, Amazon Instant Video, YouTube, Browser
+    item_count: 16
+  - value: Alexa
+    item_count: 13
+  - value: Netflix, Hulu, Amazon Instant Video, Browser
+    item_count: 12
+  - value: Netflix, Hulu, Browser
+    item_count: 11
+  - value: Netflix, Amazon Instant Video
+    item_count: 10
+  - value: Roku TV
+    item_count: 10
+  - value: Netflix, Prime Video, Hulu, Vudu, Google TV
+    item_count: 8
+  variant_sensitive: false
+- canonical_name: photo sensor technology
+  aliases:
+  - Photo Sensor Technology
+  item_count: 355
+  coverage_pct: 2.8735632183908044
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: CMOS
+    item_count: 290
+  - value: CCD
+    item_count: 25
+  - value: MOS
+    item_count: 13
+  - value: aps-c
+    item_count: 8
+  - value: BSI CMOS
+    item_count: 6
+  - value: Other
+    item_count: 6
+  - value: APS-C
+    item_count: 3
+  - value: Aps-c
+    item_count: 2
+  - value: 1/3'' 2MP sensor
+    item_count: 1
+  - value: webcam usb video camera module
+    item_count: 1
+  variant_sensitive: false
+- canonical_name: optical zoom
+  aliases:
+  - Optical Zoom
+  item_count: 343
+  coverage_pct: 2.7764286870649184
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 1 x
+    item_count: 82
+  - value: 3 x
+    item_count: 38
+  - value: 2 x
+    item_count: 31
+  - value: 40 x
+    item_count: 16
+  - value: 30 x
+    item_count: 14
+  - value: 4 x
+    item_count: 14
+  - value: 10 x
+    item_count: 10
+  - value: '1'
+    item_count: 9
+  - value: 20 x
+    item_count: 8
+  - value: 5 x
+    item_count: 7
+  variant_sensitive: false
+- canonical_name: speakers maximum output power
+  aliases:
+  - Speakers Maximum Output Power
+  item_count: 328
+  coverage_pct: 2.6550105229075602
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 300 Watts
+    item_count: 21
+  - value: 5 Watts
+    item_count: 20
+  - value: 10 Watts
+    item_count: 18
+  - value: 100 Watts
+    item_count: 18
+  - value: 200 Watts
+    item_count: 18
+  - value: 120 Watts
+    item_count: 14
+  - value: 400 Watts
+    item_count: 12
+  - value: 600 Watts
+    item_count: 12
+  - value: 20 Watts
+    item_count: 11
+  - value: 800 Watts
+    item_count: 11
+  variant_sensitive: false
+- canonical_name: indoor/outdoor usage
+  aliases:
+  - Indoor/Outdoor Usage
+  item_count: 325
+  coverage_pct: 2.6307268900760885
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Outdoor, Indoor
+    item_count: 222
+  - value: Indoor
+    item_count: 55
+  - value: Outdoor
+    item_count: 48
+  variant_sensitive: false
+- canonical_name: hard drive rotational speed
+  aliases:
+  - Hard Drive Rotational Speed
+  item_count: 316
+  coverage_pct: 2.557875991581674
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 7200 RPM
+    item_count: 97
+  - value: 5400 RPM
+    item_count: 54
+  - value: '7200'
+    item_count: 27
+  - value: 0.01 RPM
+    item_count: 18
+  - value: '1'
+    item_count: 16
+  - value: 1 RPM
+    item_count: 14
+  - value: '7200.00'
+    item_count: 13
+  - value: '1.00'
+    item_count: 9
+  - value: 10000 RPM
+    item_count: 9
+  - value: '0.1'
+    item_count: 8
+  variant_sensitive: false
+- canonical_name: number of batteries
+  aliases:
+  - Number of Batteries
+  item_count: 314
+  coverage_pct: 2.5416869030273594
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 1 Lithium Ion batteries required. (included)
+    item_count: 134
+  - value: 1 Lithium Ion batteries required.
+    item_count: 33
+  - value: 2 Lithium Ion batteries required. (included)
+    item_count: 25
+  - value: 1 Lithium Polymer batteries required. (included)
+    item_count: 18
+  - value: 1 Lithium Metal batteries required. (included)
+    item_count: 15
+  - value: 2 AAA batteries required.
+    item_count: 4
+  - value: 2 Lithium Ion batteries required.
+    item_count: 4
+  - value: 4 AAA batteries required. (included)
+    item_count: 4
+  - value: 1 A batteries required.
+    item_count: 3
+  - value: 1 A batteries required. (included)
+    item_count: 3
+  variant_sensitive: true
+- canonical_name: battery cell composition
+  aliases:
+  - Battery Cell Composition
+  item_count: 307
+  coverage_pct: 2.485025093087259
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Lithium Ion
+    item_count: 244
+  - value: NiMH
+    item_count: 18
+  - value: Alkaline
+    item_count: 14
+  - value: Lithium
+    item_count: 10
+  - value: Sealed Lead Acid
+    item_count: 9
+  - value: Lead Acid
+    item_count: 5
+  - value: Lithium Polymer
+    item_count: 4
+  - value: Lead-Acid, AGM
+    item_count: 1
+  - value: Lithium Metal
+    item_count: 1
+  - value: Manganese
+    item_count: 1
+  variant_sensitive: false
+- canonical_name: maximum focal length
+  aliases:
+  - Maximum Focal Length
+  item_count: 307
+  coverage_pct: 2.485025093087259
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - millimeters
+  numeric_parse_pct: 94.46254071661238
+  top_10_example_values:
+  - value: 55 Millimeters
+    item_count: 59
+  - value: 70 Millimeters
+    item_count: 28
+  - value: 35 Millimeters
+    item_count: 22
+  - value: 50 Millimeters
+    item_count: 19
+  - value: 300 Millimeters
+    item_count: 18
+  - value: 105 Millimeters
+    item_count: 13
+  - value: 100 Millimeters
+    item_count: 12
+  - value: 960 Millimeters
+    item_count: 8
+  - value: 1200 Millimeters
+    item_count: 6
+  - value: 600 Millimeters
+    item_count: 6
+  variant_sensitive: true
+- canonical_name: data transfer rate
+  aliases:
+  - Data Transfer Rate
+  item_count: 306
+  coverage_pct: 2.476930548810102
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 0.48 Gigabits Per Second
+    item_count: 55
+  - value: 5 Gigabits Per Second
+    item_count: 34
+  - value: 480 Megabits Per Second
+    item_count: 21
+  - value: 10 Gigabits Per Second
+    item_count: 16
+  - value: 1000 Megabits Per Second
+    item_count: 10
+  - value: 18 Gigabits Per Second
+    item_count: 10
+  - value: 300 Megabits Per Second
+    item_count: 10
+  - value: 1200 Megabits Per Second
+    item_count: 9
+  - value: 480 Megabytes Per Second
+    item_count: 9
+  - value: 1 Gigabits Per Second
+    item_count: 8
+  variant_sensitive: false
+- canonical_name: effective still resolution
+  aliases:
+  - Effective Still Resolution
+  item_count: 305
+  coverage_pct: 2.4688360045329447
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 24.2 MP
+    item_count: 43
+  - value: 24.1 MP
+    item_count: 27
+  - value: 26.2 MP
+    item_count: 18
+  - value: 16 MP
+    item_count: 17
+  - value: 24.3 MP
+    item_count: 16
+  - value: 20.3 MP
+    item_count: 15
+  - value: 20.1 MP
+    item_count: 13
+  - value: 24.5 MP
+    item_count: 13
+  - value: 18 MP
+    item_count: 12
+  - value: 30.4 MP
+    item_count: 12
+  variant_sensitive: false
+- canonical_name: controller type
+  aliases:
+  - Controller Type
+  item_count: 303
+  coverage_pct: 2.4526469159786304
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Remote Control
+    item_count: 53
+  - value: Android
+    item_count: 46
+  - value: Remote
+    item_count: 27
+  - value: Push Button
+    item_count: 20
+  - value: Button Control
+    item_count: 12
+  - value: Hand Control
+    item_count: 11
+  - value: IOS, Android
+    item_count: 11
+  - value: Remote Control, Voice Control
+    item_count: 11
+  - value: iOS
+    item_count: 11
+  - value: Amazon Alexa
+    item_count: 9
+  variant_sensitive: false
+- canonical_name: auto focus technology
+  aliases:
+  - Auto Focus Technology
+  item_count: 298
+  coverage_pct: 2.4121741945928443
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Contrast Detection
+    item_count: 184
+  - value: Phase Detection, Contrast Detection
+    item_count: 23
+  - value: Phase Detection
+    item_count: 16
+  - value: Eye Detection
+    item_count: 13
+  - value: Multi area, Contrast Detection, Sensor
+    item_count: 11
+  - value: Manual, Automatic
+    item_count: 6
+  - value: Multi area, Contrast Detection, sensor
+    item_count: 6
+  - value: Phase Detection, Center, Selective single-point, Face Detection, Tracking,
+      Multi-area, Single, Continuous, Live View, Contrast Detection
+    item_count: 4
+  - value: Phase Detection, Contra, Multi area, sensor
+    item_count: 4
+  - value: Face/Eye Detection / Tracking / 49-area / Custom Multi / 1-area / Pinpoint
+    item_count: 3
+  variant_sensitive: false
+- canonical_name: focus type
+  aliases:
+  - Focus Type
+  item_count: 296
+  coverage_pct: 2.39598510603853
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Auto Focus
+    item_count: 89
+  - value: Manual Focus
+    item_count: 77
+  - value: manual-and-auto
+    item_count: 30
+  - value: Manual-and-auto
+    item_count: 28
+  - value: Automatic_only
+    item_count: 13
+  - value: automatic_only
+    item_count: 10
+  - value: Depth From Defocus
+    item_count: 5
+  - value: Auto Focus, Manual Focus
+    item_count: 4
+  - value: Automatic with Manual
+    item_count: 4
+  - value: Continuous-Servo AF, Manual Focus, Single-Servo AF
+    item_count: 4
+  variant_sensitive: false
+- canonical_name: language
+  aliases:
+  - Language
+  item_count: 293
+  coverage_pct: 2.3717014732070583
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: English
+    item_count: 193
+  - value: English, English, English, English, English
+    item_count: 61
+  - value: English, English, English, English
+    item_count: 16
+  - value: English, French
+    item_count: 4
+  - value: English, English, English
+    item_count: 2
+  - value: English, French, Italian, German, Spanish
+    item_count: 2
+  - value: English, French, Spanish
+    item_count: 2
+  - value: French
+    item_count: 2
+  - value: German
+    item_count: 2
+  - value: Adangme
+    item_count: 1
+  variant_sensitive: false
+- canonical_name: continuous shooting speed
+  aliases:
+  - Continuous Shooting Speed
+  item_count: 282
+  coverage_pct: 2.282661486158329
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 10 fps
+    item_count: 44
+  - value: 30 fps
+    item_count: 29
+  - value: 5 fps
+    item_count: 21
+  - value: 6 fps
+    item_count: 14
+  - value: 3 fps
+    item_count: 13
+  - value: 11 fps
+    item_count: 9
+  - value: 12 fps
+    item_count: 9
+  - value: '3.00'
+    item_count: 8
+  - value: '5'
+    item_count: 8
+  - value: '5.00'
+    item_count: 8
+  variant_sensitive: false
+- canonical_name: graphics card ram size
+  aliases:
+  - Graphics Card Ram Size
+  item_count: 280
+  coverage_pct: 2.266472397604015
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 8 GB
+    item_count: 54
+  - value: 4 GB
+    item_count: 42
+  - value: 6 GB
+    item_count: 36
+  - value: 2 MB
+    item_count: 30
+  - value: 2 GB
+    item_count: 28
+  - value: 128 MB
+    item_count: 16
+  - value: 12 GB
+    item_count: 10
+  - value: '1'
+    item_count: 6
+  - value: 1 GB
+    item_count: 6
+  - value: 16 GB
+    item_count: 5
+  variant_sensitive: true
+- canonical_name: photo sensor size
+  aliases:
+  - Photo Sensor Size
+  item_count: 269
+  coverage_pct: 2.177432410555286
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: APS-C
+    item_count: 89
+  - value: Full Frame (35mm)
+    item_count: 87
+  - value: 1/2.3-inch
+    item_count: 45
+  - value: 1-inch
+    item_count: 20
+  - value: Micro Four Thirds
+    item_count: 8
+  - value: 35mm Full Frame (36 x 24 mm)
+    item_count: 4
+  - value: 1 Inches
+    item_count: 2
+  - value: 0.33inches
+    item_count: 1
+  - value: 1.0-inch
+    item_count: 1
+  - value: 1.5-inch
+    item_count: 1
+  variant_sensitive: true
+- canonical_name: target gender
+  aliases:
+  - Target Gender
+  item_count: 259
+  coverage_pct: 2.0964869677837137
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Unisex
+    item_count: 254
+  - value: Female
+    item_count: 3
+  - value: Male
+    item_count: 2
+  variant_sensitive: false
+- canonical_name: skill level
+  aliases:
+  - Skill Level
+  item_count: 255
+  coverage_pct: 2.064108790675085
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Professional
+    item_count: 217
+  - value: Amateur
+    item_count: 23
+  - value: Novice
+    item_count: 12
+  - value: All
+    item_count: 1
+  - value: Amateur/Novice
+    item_count: 1
+  - value: Beginner
+    item_count: 1
+  variant_sensitive: false
+- canonical_name: number of channels
+  aliases:
+  - Number of Channels
+  item_count: 252
+  coverage_pct: 2.0398251578436133
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - count
+  numeric_parse_pct: 100.0
+  top_10_example_values:
+  - value: '4'
+    item_count: 63
+  - value: '8'
+    item_count: 38
+  - value: '2'
+    item_count: 37
+  - value: '16'
+    item_count: 18
+  - value: '40'
+    item_count: 17
+  - value: '1'
+    item_count: 14
+  - value: '22'
+    item_count: 12
+  - value: '100'
+    item_count: 7
+  - value: '128'
+    item_count: 5
+  - value: '200'
+    item_count: 5
+  variant_sensitive: true
+- canonical_name: optical drive type
+  aliases:
+  - Optical Drive Type
+  item_count: 250
+  coverage_pct: 2.023636069289299
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: No Optical Drive
+    item_count: 148
+  - value: DVD-RW
+    item_count: 28
+  - value: DVD
+    item_count: 20
+  - value: BD-R
+    item_count: 18
+  - value: DVD-ROM
+    item_count: 8
+  - value: DVD+RW
+    item_count: 5
+  - value: No Drive
+    item_count: 5
+  - value: DVD-RAM
+    item_count: 3
+  - value: DVD+R DL
+    item_count: 2
+  - value: DVD-R
+    item_count: 2
+  variant_sensitive: false
+excluded_observed_keys:
+  ? ''
+  : 28
+  Best Sellers Rank: 10051
+  Date First Available: 11273
+  Domestic Shipping: 95
+  International Shipping: 95
+  Is Discontinued By Manufacturer: 6178
+  Item model number: 9395
+  Manufacturer Part Number: 173
+  Model Name: 3097
+  Model Number: 278
+  Model number: 11
+  Part Number: 213
+  Part number: 1
+  UPC: 2
+below_threshold:
+- canonical_name: ac adapter current
+  item_count: 6
+- canonical_name: actuator type
+  item_count: 2
+- canonical_name: age range description
+  item_count: 33
+- canonical_name: air flow capacity
+  item_count: 24
+- canonical_name: alarm clock
+  item_count: 10
+- canonical_name: alert type
+  item_count: 9
+- canonical_name: amperage
+  item_count: 32
+- canonical_name: amperage capacity
+  item_count: 1
+- canonical_name: answering system type
+  item_count: 1
+- canonical_name: antenna
+  item_count: 120
+- canonical_name: antenna type
+  item_count: 6
+- canonical_name: aperture modes
+  item_count: 44
+- canonical_name: arm style
+  item_count: 1
+- canonical_name: aspect ratio
+  item_count: 130
+- canonical_name: assembled diameter
+  item_count: 1
+- canonical_name: assembled height
+  item_count: 7
+- canonical_name: assembled length
+  item_count: 6
+- canonical_name: assembled width
+  item_count: 7
+- canonical_name: assembly required
+  item_count: 57
+- canonical_name: audio encoding
+  item_count: 90
+- canonical_name: audio input
+  item_count: 43
+- canonical_name: audio jack
+  item_count: 57
+- canonical_name: audio output mode
+  item_count: 201
+- canonical_name: audio output type
+  item_count: 29
+- canonical_name: audio recording
+  item_count: 66
+- canonical_name: audio sensitivity
+  item_count: 13
+- canonical_name: audio-out ports (#)
+  item_count: 13
+- canonical_name: auto part position
+  item_count: 7
+- canonical_name: autofocus points
+  item_count: 97
+- canonical_name: average battery life
+  item_count: 2
+- canonical_name: average life
+  item_count: 2
+- canonical_name: band color
+  item_count: 11
+- canonical_name: band material type
+  item_count: 14
+- canonical_name: band width
+  item_count: 1
+- canonical_name: base type
+  item_count: 6
+- canonical_name: battery average life standby
+  item_count: 1
+- canonical_name: battery capacity
+  item_count: 63
+- canonical_name: battery cell type
+  item_count: 21
+- canonical_name: battery description
+  item_count: 118
+- canonical_name: battery life
+  item_count: 127
+- canonical_name: battery power
+  item_count: 4
+- canonical_name: battery power rating
+  item_count: 18
+- canonical_name: battery type
+  item_count: 17
+- canonical_name: battery weight
+  item_count: 162
+- canonical_name: binocular prism description
+  item_count: 1
+- canonical_name: blade length
+  item_count: 2
+- canonical_name: brightness
+  item_count: 4
+- canonical_name: brightness rating
+  item_count: 2
+- canonical_name: built in decoders
+  item_count: 3
+- canonical_name: bulb base
+  item_count: 4
+- canonical_name: bulb features
+  item_count: 1
+- canonical_name: bulb length
+  item_count: 1
+- canonical_name: bulb shape size
+  item_count: 3
+- canonical_name: cable feature
+  item_count: 1
+- canonical_name: cable length
+  item_count: 39
+- canonical_name: cache size
+  item_count: 21
+- canonical_name: camcorder type
+  item_count: 200
+- canonical_name: camera flash
+  item_count: 196
+- canonical_name: camera lens description
+  item_count: 232
+- canonical_name: capacity total
+  item_count: 30
+- canonical_name: cartoon character
+  item_count: 22
+- canonical_name: case material
+  item_count: 2
+- canonical_name: case type
+  item_count: 53
+- canonical_name: cellular technology
+  item_count: 47
+- canonical_name: certification
+  item_count: 3
+- canonical_name: charging time
+  item_count: 84
+- canonical_name: chassis size
+  item_count: 24
+- canonical_name: chipset type
+  item_count: 96
+- canonical_name: circuit type
+  item_count: 1
+- canonical_name: clarity
+  item_count: 7
+- canonical_name: closure
+  item_count: 2
+- canonical_name: closure type
+  item_count: 68
+- canonical_name: coating description
+  item_count: 28
+- canonical_name: collection name
+  item_count: 4
+- canonical_name: color depth
+  item_count: 47
+- canonical_name: color rendering index
+  item_count: 4
+- canonical_name: color rendering index (cri)
+  item_count: 1
+- canonical_name: color screen
+  item_count: 6
+- canonical_name: color temperature
+  item_count: 6
+- canonical_name: compatible processors
+  item_count: 87
+- canonical_name: component type
+  item_count: 58
+- canonical_name: computer memory size
+  item_count: 63
+- canonical_name: configuration
+  item_count: 15
+- canonical_name: connectivity protocol
+  item_count: 15
+- canonical_name: contact material
+  item_count: 2
+- canonical_name: contact type
+  item_count: 1
+- canonical_name: control method
+  item_count: 62
+- canonical_name: control type
+  item_count: 6
+- canonical_name: cooler heatsink compatibility
+  item_count: 1
+- canonical_name: cooling method
+  item_count: 186
+- canonical_name: coverage
+  item_count: 1
+- canonical_name: cpu manufacturer
+  item_count: 101
+- canonical_name: cpu socket
+  item_count: 135
+- canonical_name: cpu speed
+  item_count: 112
+- canonical_name: current rating
+  item_count: 23
+- canonical_name: data link protocol
+  item_count: 96
+- canonical_name: delay between shots
+  item_count: 3
+- canonical_name: depth
+  item_count: 15
+- canonical_name: description pile
+  item_count: 5
+- canonical_name: dialer type
+  item_count: 1
+- canonical_name: diaphragm blades
+  item_count: 31
+- canonical_name: digital recording time
+  item_count: 60
+- canonical_name: digital scene transition
+  item_count: 50
+- canonical_name: digital storage capacity
+  item_count: 209
+- canonical_name: digital zoom
+  item_count: 94
+- canonical_name: display dimensions
+  item_count: 47
+- canonical_name: display fixture type
+  item_count: 113
+- canonical_name: display resolution
+  item_count: 161
+- canonical_name: display size
+  item_count: 38
+- canonical_name: display style
+  item_count: 4
+- canonical_name: dots per screen area
+  item_count: 6
+- canonical_name: drive system
+  item_count: 1
+- canonical_name: ear placement
+  item_count: 1
+- canonical_name: electric fan design
+  item_count: 7
+- canonical_name: embellishment
+  item_count: 2
+- canonical_name: ethernet cable category
+  item_count: 16
+- canonical_name: exit pupil
+  item_count: 6
+- canonical_name: expanded iso maximum
+  item_count: 213
+- canonical_name: expanded iso minimum
+  item_count: 194
+- canonical_name: expansion
+  item_count: 15
+- canonical_name: exposure control type
+  item_count: 245
+- canonical_name: exposures per roll
+  item_count: 39
+- canonical_name: exterior
+  item_count: 10
+- canonical_name: exterior finish
+  item_count: 5
+- canonical_name: eye piece lens description
+  item_count: 46
+- canonical_name: fabric type
+  item_count: 4
+- canonical_name: fan count
+  item_count: 24
+- canonical_name: fan size
+  item_count: 21
+- canonical_name: fastener type
+  item_count: 1
+- canonical_name: field of view
+  item_count: 6
+- canonical_name: film color
+  item_count: 86
+- canonical_name: film format type
+  item_count: 118
+- canonical_name: finderscope
+  item_count: 69
+- canonical_name: finish
+  item_count: 16
+- canonical_name: finish type
+  item_count: 168
+- canonical_name: fishing technique
+  item_count: 5
+- canonical_name: fit type
+  item_count: 4
+- canonical_name: flash memory installed size
+  item_count: 9
+- canonical_name: flash modes description
+  item_count: 139
+- canonical_name: flash sync speed
+  item_count: 71
+- canonical_name: focal length description
+  item_count: 138
+- canonical_name: folded size
+  item_count: 6
+- canonical_name: format
+  item_count: 18
+- canonical_name: frame material
+  item_count: 8
+- canonical_name: frame rate
+  item_count: 49
+- canonical_name: frame type
+  item_count: 1
+- canonical_name: frequency
+  item_count: 109
+- canonical_name: frequency band class
+  item_count: 103
+- canonical_name: frequency bands supported
+  item_count: 3
+- canonical_name: frequency range
+  item_count: 24
+- canonical_name: frequency response curve
+  item_count: 1
+- canonical_name: gauge
+  item_count: 104
+- canonical_name: gps
+  item_count: 149
+- canonical_name: gpu
+  item_count: 1
+- canonical_name: gpu clock speed
+  item_count: 59
+- canonical_name: graphics card interface
+  item_count: 22
+- canonical_name: graphics processor manufacturer
+  item_count: 18
+- canonical_name: graphics ram size
+  item_count: 67
+- canonical_name: graphics ram type
+  item_count: 3
+- canonical_name: grip size
+  item_count: 1
+- canonical_name: grip type
+  item_count: 1
+- canonical_name: guide number
+  item_count: 23
+- canonical_name: hand orientation
+  item_count: 20
+- canonical_name: handle material
+  item_count: 1
+- canonical_name: hard disk description
+  item_count: 228
+- canonical_name: hard disk form factor
+  item_count: 196
+- canonical_name: hard disk interface
+  item_count: 187
+- canonical_name: hard disk rotational speed
+  item_count: 24
+- canonical_name: hard drive size
+  item_count: 1
+- canonical_name: has image stabilization
+  item_count: 24
+- canonical_name: has self-timer
+  item_count: 55
+- canonical_name: head style
+  item_count: 5
+- canonical_name: head type
+  item_count: 1
+- canonical_name: headphones jack
+  item_count: 114
+- canonical_name: height
+  item_count: 18
+- canonical_name: hose length
+  item_count: 1
+- canonical_name: human interface input
+  item_count: 195
+- canonical_name: image brightness
+  item_count: 22
+- canonical_name: image capture speed
+  item_count: 3
+- canonical_name: image contrast ratio
+  item_count: 3
+- canonical_name: image stabilization
+  item_count: 107
+- canonical_name: impedance
+  item_count: 62
+- canonical_name: import
+  item_count: 6
+- canonical_name: ink color
+  item_count: 5
+- canonical_name: input current
+  item_count: 28
+- canonical_name: input device
+  item_count: 1
+- canonical_name: input device interface
+  item_count: 22
+- canonical_name: input video compatability
+  item_count: 10
+- canonical_name: input voltage
+  item_count: 244
+- canonical_name: installation method
+  item_count: 21
+- canonical_name: installation type
+  item_count: 239
+- canonical_name: interface type
+  item_count: 17
+- canonical_name: international protection rating
+  item_count: 18
+- canonical_name: internet service provider
+  item_count: 19
+- canonical_name: is dishwasher safe
+  item_count: 1
+- canonical_name: is microwaveable
+  item_count: 1
+- canonical_name: is waterproof
+  item_count: 3
+- canonical_name: item diameter
+  item_count: 1
+- canonical_name: item display dimensions l x w x h
+  item_count: 2
+- canonical_name: item display height
+  item_count: 26
+- canonical_name: item form
+  item_count: 6
+- canonical_name: item hardness
+  item_count: 58
+- canonical_name: item length
+  item_count: 13
+- canonical_name: item package dimensions l x w x h
+  item_count: 103
+- canonical_name: item volume
+  item_count: 3
+- canonical_name: jpeg quality level
+  item_count: 220
+- canonical_name: keyboard backlighting color support
+  item_count: 90
+- canonical_name: keyboard description
+  item_count: 182
+- canonical_name: keyboard layout
+  item_count: 1
+- canonical_name: lan port bandwidth
+  item_count: 4
+- canonical_name: league
+  item_count: 11
+- canonical_name: leg diameter
+  item_count: 4
+- canonical_name: lens coating description
+  item_count: 29
+- canonical_name: lens design
+  item_count: 5
+- canonical_name: lift type
+  item_count: 1
+- canonical_name: light color
+  item_count: 7
+- canonical_name: light sensitivity
+  item_count: 17
+- canonical_name: light source type
+  item_count: 26
+- canonical_name: light type
+  item_count: 6
+- canonical_name: line size
+  item_count: 7
+- canonical_name: liquid volume
+  item_count: 4
+- canonical_name: lock type
+  item_count: 2
+- canonical_name: low light technology
+  item_count: 50
+- canonical_name: lower temperature rating
+  item_count: 38
+- canonical_name: luminous flux
+  item_count: 2
+- canonical_name: lux rating
+  item_count: 17
+- canonical_name: magnification maximum
+  item_count: 97
+- canonical_name: magnification minimum
+  item_count: 1
+- canonical_name: main power connector type
+  item_count: 13
+- canonical_name: manufacturer recommended age
+  item_count: 8
+- canonical_name: manufacturer warranty description parts
+  item_count: 68
+- canonical_name: map type
+  item_count: 101
+- canonical_name: material feature
+  item_count: 1
+- canonical_name: material type
+  item_count: 96
+- canonical_name: max input sheet capacity
+  item_count: 3
+- canonical_name: max number of supported devices
+  item_count: 118
+- canonical_name: max printspeed monochrome
+  item_count: 4
+- canonical_name: max shutter speed
+  item_count: 86
+- canonical_name: max. compatible device size
+  item_count: 1
+- canonical_name: maximum aperture
+  item_count: 152
+- canonical_name: maximum compatible wattage
+  item_count: 1
+- canonical_name: maximum downstream data transfer rate
+  item_count: 1
+- canonical_name: maximum height
+  item_count: 53
+- canonical_name: maximum input voltage
+  item_count: 13
+- canonical_name: maximum measuring depth
+  item_count: 7
+- canonical_name: maximum memory speed
+  item_count: 1
+- canonical_name: maximum print speed (color)
+  item_count: 4
+- canonical_name: maximum range
+  item_count: 88
+- canonical_name: maximum rotational speed
+  item_count: 76
+- canonical_name: maximum storage temperature
+  item_count: 15
+- canonical_name: maximum supply voltage
+  item_count: 3
+- canonical_name: maximum surge rating
+  item_count: 1
+- canonical_name: maximum tilt angle
+  item_count: 104
+- canonical_name: maximum upstream data transfer rate
+  item_count: 3
+- canonical_name: maximum webcam image resolution
+  item_count: 69
+- canonical_name: maximum weight recommendation
+  item_count: 47
+- canonical_name: measurement system
+  item_count: 3
+- canonical_name: media format
+  item_count: 2
+- canonical_name: media format digital video
+  item_count: 1
+- canonical_name: media playback supported
+  item_count: 12
+- canonical_name: media type
+  item_count: 193
+- canonical_name: memory card slot
+  item_count: 15
+- canonical_name: memory clock speed
+  item_count: 86
+- canonical_name: memory slots available
+  item_count: 125
+- canonical_name: metal type
+  item_count: 5
+- canonical_name: metering description
+  item_count: 113
+- canonical_name: mfg warranty description labor
+  item_count: 89
+- canonical_name: microphone form factor
+  item_count: 54
+- canonical_name: microphone operation mode
+  item_count: 1
+- canonical_name: min shutter speed
+  item_count: 134
+- canonical_name: minimum aperture
+  item_count: 141
+- canonical_name: minimum compatible size
+  item_count: 147
+- canonical_name: minimum focal length
+  item_count: 195
+- canonical_name: minimum frequency
+  item_count: 1
+- canonical_name: minimum height
+  item_count: 48
+- canonical_name: minimum input voltage
+  item_count: 12
+- canonical_name: minimum system requirements
+  item_count: 4
+- canonical_name: mirror adjustment
+  item_count: 1
+- canonical_name: mirror lighting type
+  item_count: 1
+- canonical_name: model
+  item_count: 34
+- canonical_name: model year
+  item_count: 30
+- canonical_name: modem type
+  item_count: 8
+- canonical_name: motherboard compatability
+  item_count: 47
+- canonical_name: motor type
+  item_count: 25
+- canonical_name: movement detection technology
+  item_count: 93
+- canonical_name: movement type
+  item_count: 162
+- canonical_name: national stock number
+  item_count: 41
+- canonical_name: networking feature
+  item_count: 2
+- canonical_name: night vision
+  item_count: 1
+- canonical_name: night vision range
+  item_count: 18
+- canonical_name: no. of wires
+  item_count: 5
+- canonical_name: noise control
+  item_count: 1
+- canonical_name: noise level
+  item_count: 84
+- canonical_name: number of blades
+  item_count: 6
+- canonical_name: number of buttons
+  item_count: 53
+- canonical_name: number of cable strands
+  item_count: 13
+- canonical_name: number of compartments
+  item_count: 1
+- canonical_name: number of component outputs
+  item_count: 22
+- canonical_name: number of discs
+  item_count: 19
+- canonical_name: number of drawers
+  item_count: 1
+- canonical_name: number of expansion slots
+  item_count: 21
+- canonical_name: number of handles
+  item_count: 2
+- canonical_name: number of holes
+  item_count: 1
+- canonical_name: number of keys
+  item_count: 172
+- canonical_name: number of labels
+  item_count: 1
+- canonical_name: number of leg sections
+  item_count: 19
+- canonical_name: number of light sources
+  item_count: 1
+- canonical_name: number of lights
+  item_count: 1
+- canonical_name: number of pieces
+  item_count: 97
+- canonical_name: number of pins
+  item_count: 37
+- canonical_name: number of pockets
+  item_count: 1
+- canonical_name: number of ports
+  item_count: 114
+- canonical_name: number of positions
+  item_count: 3
+- canonical_name: number of sets
+  item_count: 3
+- canonical_name: number of shelves
+  item_count: 3
+- canonical_name: number of speeds
+  item_count: 5
+- canonical_name: number of usb 2 ports
+  item_count: 21
+- canonical_name: number of usb 3 ports
+  item_count: 7
+- canonical_name: objective lens description
+  item_count: 10
+- canonical_name: objective lens diameter
+  item_count: 151
+- canonical_name: occasion
+  item_count: 74
+- canonical_name: oem part number
+  item_count: 4
+- canonical_name: operating humidity
+  item_count: 13
+- canonical_name: operating voltage
+  item_count: 4
+- canonical_name: operation mode
+  item_count: 20
+- canonical_name: optical sensor technology
+  item_count: 43
+- canonical_name: optical storage device
+  item_count: 15
+- canonical_name: optical storage read speed
+  item_count: 5
+- canonical_name: optical storage write speed
+  item_count: 21
+- canonical_name: optical tube length
+  item_count: 13
+- canonical_name: orientation
+  item_count: 24
+- canonical_name: os
+  item_count: 130
+- canonical_name: other camera features
+  item_count: 103
+- canonical_name: our recommended age
+  item_count: 1
+- canonical_name: outer material
+  item_count: 1
+- canonical_name: output current
+  item_count: 13
+- canonical_name: output power
+  item_count: 30
+- canonical_name: output voltage
+  item_count: 71
+- canonical_name: output wattage
+  item_count: 123
+- canonical_name: package quantity
+  item_count: 107
+- canonical_name: package type
+  item_count: 239
+- canonical_name: package weight
+  item_count: 103
+- canonical_name: paper finish
+  item_count: 3
+- canonical_name: pattern
+  item_count: 97
+- canonical_name: pci-express connector configuration
+  item_count: 3
+- canonical_name: personal computer design type
+  item_count: 141
+- canonical_name: phone standby time (with data)
+  item_count: 3
+- canonical_name: phone talk time
+  item_count: 8
+- canonical_name: photo filter effect type
+  item_count: 43
+- canonical_name: photo filter thread size
+  item_count: 74
+- canonical_name: photo paper base
+  item_count: 1
+- canonical_name: platform
+  item_count: 142
+- canonical_name: plug format
+  item_count: 22
+- canonical_name: polar pattern
+  item_count: 27
+- canonical_name: position
+  item_count: 2
+- canonical_name: power connector type
+  item_count: 51
+- canonical_name: power consumption
+  item_count: 6
+- canonical_name: power plug type
+  item_count: 1
+- canonical_name: power source type
+  item_count: 1
+- canonical_name: power supply design
+  item_count: 21
+- canonical_name: power supply mounting type
+  item_count: 14
+- canonical_name: preamp voltage
+  item_count: 11
+- canonical_name: pressure sensitivity
+  item_count: 36
+- canonical_name: pricing
+  item_count: 2
+- canonical_name: print media
+  item_count: 4
+- canonical_name: printer output
+  item_count: 8
+- canonical_name: printing technology
+  item_count: 10
+- canonical_name: processor count
+  item_count: 13
+- canonical_name: processor description
+  item_count: 103
+- canonical_name: processor speed
+  item_count: 1
+- canonical_name: product care instructions
+  item_count: 47
+- canonical_name: radio bands supported
+  item_count: 33
+- canonical_name: ram memory maximum size
+  item_count: 20
+- canonical_name: ram memory technology
+  item_count: 167
+- canonical_name: read speed
+  item_count: 49
+- canonical_name: real angle of view
+  item_count: 44
+- canonical_name: rear webcam resolution
+  item_count: 204
+- canonical_name: rechargeable battery included
+  item_count: 165
+- canonical_name: recording capacity
+  item_count: 3
+- canonical_name: recording mode
+  item_count: 7
+- canonical_name: release date
+  item_count: 3
+- canonical_name: remote control included
+  item_count: 7
+- canonical_name: remote control technology
+  item_count: 1
+- canonical_name: removable memory
+  item_count: 40
+- canonical_name: response time
+  item_count: 2
+- canonical_name: reusability
+  item_count: 67
+- canonical_name: room type
+  item_count: 54
+- canonical_name: s/pdif connector type
+  item_count: 4
+- canonical_name: safety rating
+  item_count: 1
+- canonical_name: scanner resolution
+  item_count: 95
+- canonical_name: scanner type
+  item_count: 8
+- canonical_name: scent
+  item_count: 2
+- canonical_name: screen surface description
+  item_count: 50
+- canonical_name: secondary cache
+  item_count: 1
+- canonical_name: secure digital association speed class
+  item_count: 1
+- canonical_name: security protocol
+  item_count: 3
+- canonical_name: self timer duration
+  item_count: 70
+- canonical_name: sensor type
+  item_count: 3
+- canonical_name: shade material
+  item_count: 1
+- canonical_name: sheet count
+  item_count: 3
+- canonical_name: sheet size
+  item_count: 11
+- canonical_name: shelf type
+  item_count: 2
+- canonical_name: shock resistant
+  item_count: 40
+- canonical_name: shooting modes
+  item_count: 211
+- canonical_name: signal format
+  item_count: 51
+- canonical_name: sim card slot count
+  item_count: 17
+- canonical_name: size map
+  item_count: 1
+- canonical_name: software included
+  item_count: 6
+- canonical_name: sound level
+  item_count: 10
+- canonical_name: speaker amplification type
+  item_count: 7
+- canonical_name: speaker count
+  item_count: 1
+- canonical_name: speaker maximum output power
+  item_count: 1
+- canonical_name: speaker size
+  item_count: 2
+- canonical_name: specific instructions for use
+  item_count: 3
+- canonical_name: specification met
+  item_count: 202
+- canonical_name: specifications
+  item_count: 1
+- canonical_name: sport
+  item_count: 53
+- canonical_name: sport type
+  item_count: 36
+- canonical_name: standard sheet capacity
+  item_count: 1
+- canonical_name: strap type
+  item_count: 2
+- canonical_name: subwoofer diameter
+  item_count: 63
+- canonical_name: suggested users
+  item_count: 51
+- canonical_name: supported application
+  item_count: 23
+- canonical_name: supported audio format
+  item_count: 42
+- canonical_name: supported file format
+  item_count: 18
+- canonical_name: supported image format
+  item_count: 89
+- canonical_name: supported standards
+  item_count: 36
+- canonical_name: surface recommendation
+  item_count: 18
+- canonical_name: surround sound channel configuration
+  item_count: 96
+- canonical_name: switch style
+  item_count: 4
+- canonical_name: switch type
+  item_count: 23
+- canonical_name: system bus standard supported
+  item_count: 3
+- canonical_name: tab color
+  item_count: 1
+- canonical_name: talking range maximum
+  item_count: 13
+- canonical_name: target audience
+  item_count: 99
+- canonical_name: team name
+  item_count: 1
+- canonical_name: telescope mount description
+  item_count: 34
+- canonical_name: temperature rating
+  item_count: 1
+- canonical_name: terminal
+  item_count: 8
+- canonical_name: theme
+  item_count: 68
+- canonical_name: thickness
+  item_count: 3
+- canonical_name: thread coverage
+  item_count: 3
+- canonical_name: thread size
+  item_count: 2
+- canonical_name: total ethernet ports
+  item_count: 13
+- canonical_name: total hdmi ports
+  item_count: 55
+- canonical_name: total power outlets
+  item_count: 101
+- canonical_name: total recycled content percentage
+  item_count: 2
+- canonical_name: total usb ports
+  item_count: 151
+- canonical_name: touch screen type
+  item_count: 12
+- canonical_name: towel form type
+  item_count: 2
+- canonical_name: tripod head type
+  item_count: 52
+- canonical_name: tuner technology
+  item_count: 91
+- canonical_name: tv size
+  item_count: 152
+- canonical_name: type of bulb
+  item_count: 12
+- canonical_name: type of item
+  item_count: 2
+- canonical_name: ul listed
+  item_count: 3
+- canonical_name: upper temperature rating
+  item_count: 63
+- canonical_name: usage
+  item_count: 14
+- canonical_name: vehicle service type
+  item_count: 75
+- canonical_name: video capture format
+  item_count: 163
+- canonical_name: video encoding
+  item_count: 34
+- canonical_name: video input
+  item_count: 4
+- canonical_name: video input format
+  item_count: 47
+- canonical_name: video output interface
+  item_count: 126
+- canonical_name: video output resolution
+  item_count: 12
+- canonical_name: video standard
+  item_count: 174
+- canonical_name: viewfinder magnification
+  item_count: 62
+- canonical_name: viewfinder type
+  item_count: 241
+- canonical_name: viewing angle
+  item_count: 12
+- canonical_name: voice command
+  item_count: 31
+- canonical_name: warranty
+  item_count: 77
+- canonical_name: warranty description
+  item_count: 79
+- canonical_name: warranty type
+  item_count: 44
+- canonical_name: watch movement
+  item_count: 1
+- canonical_name: water resistance depth
+  item_count: 6
+- canonical_name: water resistance level
+  item_count: 239
+- canonical_name: waterproof
+  item_count: 1
+- canonical_name: weight limit
+  item_count: 59
+- canonical_name: white balance settings
+  item_count: 225
+- canonical_name: width
+  item_count: 15
+- canonical_name: wireless carrier
+  item_count: 46
+- canonical_name: wireless comm standard
+  item_count: 1
+- canonical_name: wireless communication standard
+  item_count: 145
+- canonical_name: wireless communication technologies
+  item_count: 233
+- canonical_name: wireless network technology
+  item_count: 72
+- canonical_name: wireless remote
+  item_count: 52
+- canonical_name: write speed
+  item_count: 22
+- canonical_name: year
+  item_count: 27
+- canonical_name: zoom ratio
+  item_count: 2
+- canonical_name: zoom type
+  item_count: 84

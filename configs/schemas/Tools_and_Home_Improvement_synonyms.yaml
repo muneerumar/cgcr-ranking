@@ -1,0 +1,64 @@
+# details-key aliases only. No features or seller prose creates attributes.
+# Keep shipping/package dimensions distinct from product dimensions and weights.
+synonyms:
+  item weight: [Item Weight, Weight]
+  brand: [Brand, Brand Name]
+  product dimensions: [Product Dimensions, Item Dimensions LxWxH, Item Dimensions L x W x H, Item Dimensions, Item Dimensions LxWxH (L x W x H)]
+  package dimensions: [Package Dimensions, Package Dimensions LxWxH]
+  special feature: [Special Feature, Special Features]
+  finish type: [Finish Type, Finish types]
+  product care instructions: [Product Care Instructions, Care instructions]
+  batteries required: [Batteries required, 'Batteries Required?']
+  batteries included: ['Batteries Included?', Are Batteries Included, Batteries Included]
+  assembly required: [Assembly required, Assembly Required]
+  number of pieces: [Number of Pieces, Number of pieces, Number Of Pieces]
+  package quantity: [Item Package Quantity, Package Quantity]
+  color: [Color, Colour]
+  maximum weight recommendation: [Maximum Weight Recommendation, Maximum recommended load]
+# Deliberately distinct: Capacity vs Volume (capacity can also be load/seating);
+# Number of Items vs Pieces vs Unit Count; Material vs Fabric Type; Brand vs Manufacturer.
+exclude:
+  '': Unlabelled scraped fragments are not structured key/value attributes.
+  Best Sellers Rank: Dynamic listing rank, not an intrinsic product attribute.
+  Date First Available: Listing history; not a product specification.
+  ASIN: Platform identifier, retained separately as provenance.
+  Customer Reviews: Aggregate listing widget; use explicit average_rating and rating_number instead.
+  Is Discontinued: Listing lifecycle status.
+  Is Discontinued By Manufacturer: Listing lifecycle status.
+  Item model number: Model identifier, not a comparable attribute.
+  Model Number: Model identifier, not a comparable attribute.
+  Manufacturer Model Number: Model identifier, not a comparable attribute.
+  Manufacturer Part Number: Part identifier, not a comparable attribute.
+  Part Number: Part identifier, not a comparable attribute.
+  Model Name: Product/model identifier; review separately if useful for identity.
+  UPC: Identifier, not a comparable attribute.
+  EAN: Identifier, not a comparable attribute.
+  GTIN: Identifier, not a comparable attribute.
+  Domestic Shipping: Fulfillment restriction, not a product specification.
+  International Shipping: Fulfillment restriction, not a product specification.
+  Shipping Weight: Shipping/logistics field; keep Item Weight and Package Weight separate.
+  Warranty & Support: Listing support widget, not a product specification.
+
+# Semantic type choices reviewed on development data; examples are descriptive, never an enum.
+value_types:
+  brand: categorical
+  manufacturer: categorical
+  color: categorical
+  size: categorical
+  style: categorical
+  theme: categorical
+  occasion: categorical
+  furniture finish: categorical
+  fabric type: categorical
+  handle material: categorical
+  form factor: categorical
+  refill: categorical
+  cartoon character: categorical
+  plant or animal product type: categorical
+  top material type: categorical
+  special feature: text
+  recommended uses for product: text
+  specific uses for product: text
+  warranty description: text
+  included components: text
+  product care instructions: text

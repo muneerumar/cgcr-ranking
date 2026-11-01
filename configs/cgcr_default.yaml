@@ -1,0 +1,121 @@
+seed: 13
+candidates_per_query: 10
+permutation_orders: 1
+extractor:
+  family: v3-hybrid
+  prompt: configs/prompts/extract_non_spec_v3.txt
+  temperature: 0.0
+  max_new_tokens: 256
+  gate: lower_non_spec_fragment_rate_and_no_more_than_5pct_format_failures_and_95pct_nonfragmented_SPEC_retention
+  version: v3-3bfb066a75eb781906a18649aeefff24a5f6284a9d79d613fa0c11c29fdffb00
+verifier:
+  catalog:
+    numeric_rel_tolerance: 0.05
+  reviews:
+    retriever: bm25
+    top_k_sentences: 20
+    nli_model: cross-encoder/nli-deberta-v3-base
+    aggregator: trimmed_mean
+    trim_fraction: 0.1
+    per_reviewer_cap: 1
+    weights:
+      verified_purchase: 1.0
+      unverified: 0.3
+      helpful_vote_log_bonus: 0.1
+  type_priors:
+    AUTHORITY: requires_external
+    TEMPORAL: requires_external
+    COMPARATIVE: requires_external
+    SUBJECTIVE: never
+  license_threshold: 0.4
+renderer:
+  mode: template
+  template: configs/prompts/neutral_template.txt
+  include:
+  - title_normalized
+  - licensed_claims
+  - price
+  - rating_summary
+ranker:
+  model: Qwen/Qwen2.5-7B-Instruct
+  revision: a09a35458c702b33eeacc393d103063234e8bc28
+  prompt: configs/prompts/rank_listwise.txt
+  temperature: 0.0
+  local_backend: mlx
+  max_new_tokens: 128
+  max_context_tokens: 8192
+  max_doc_chars: 2000
+  repair_prompt: configs/prompts/rank_repair.txt
+  ollama:
+    model: qwen2.5:0.5b-instruct
+    digest: a8b0c51577010a279d933d14c2a8ab4b268079d44c5c8830c0a93900f1827c67
+    size_bytes: 397821319
+    debug_only: true
+  cross_encoder:
+    cpu_threads: 4
+    init:
+      model_id: cross-encoder/ms-marco-MiniLM-L6-v2
+      revision: 233902d25c440f23af6f7d6e94d2946bac0bee0a
+      device: cpu
+      batch_size: 16
+      max_length: 512
+  memory:
+    min_available_bytes: 1500000000
+    one_llm_per_process: true
+    telemetry: RSS and Metal separately; overlapping unified allocations are not summed
+data:
+  user_id_salt: cgcr-t2-reviewer-salt-v1
+t3:
+  schema_min_coverage: 0.02
+  pilot_queries: 300
+  min_utility_queries: 200
+evidence:
+  detail_types:
+  - numeric+unit
+  - categorical
+  - boolean
+  text_details: ATTACKABLE
+  variant_sensitive_mismatch: unknown_variant
+  unit_convention: US customary liquid
+  ranges: range_unparsed
+  catalog_snapshot: frozen platform record at attack time
+  canonical_title:
+  - details.brand
+  - categories.leaf
+  - licensed_variant_attributes
+metrics:
+  gains:
+    E: 1.0
+    S: 0.1
+    C: 0.01
+    I: 0.0
+models:
+  qwen_4bit:
+    source_repo: Qwen/Qwen2.5-7B-Instruct
+    source_revision: a09a35458c702b33eeacc393d103063234e8bc28
+    quantization_bits: 4
+    quantization_group_size: 64
+    quantization_mode: affine
+    converter: mlx-lm==0.29.1
+    path: models/qwen-4bit
+  llama_4bit:
+    source_repo: meta-llama/Llama-3.1-8B-Instruct
+    source_revision: 0e9e39f249a16976918f6564b8830bc894c89659
+    quantization_bits: 4
+    quantization_group_size: 64
+    quantization_mode: affine
+    converter: mlx-lm==0.29.1
+    path: models/llama-4bit
+throughput:
+  budget:
+    base_chars: 1000
+    attack_chars: 400
+  main_target_slot: 10
+  position_subset_queries: 50
+  position_slots:
+  - 1
+  - 5
+  - 10
+  prefill_step_size: 512
+  prefix_cache: enabled_after_equivalence
+  bootstrap_replicates: 10000

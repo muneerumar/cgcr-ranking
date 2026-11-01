@@ -1,0 +1,3 @@
+The previous output failed strict JSON/schema or exact-span validation. Return a corrected JSON object with only the key claims. Use only claims explicitly present in the original product text. Each span must be an exact contiguous substring of that text. Each claim must contain attribute, value, unit (string or null), claim_type (SPEC, USE_CASE, COMPARATIVE, AUTHORITY, TEMPORAL, SUBJECTIVE), and span. At most 32 claims. No markdown or explanation.
+
+Validation error records (zero-based claim indices): {errors}

@@ -1,0 +1,129 @@
+{
+  "categories": {
+    "Electronics": {
+      "methods": {
+        "cgcr": {
+          "rank_improves": {
+            "ci95": [
+              0.09401709401709402,
+              0.23076923076923078
+            ],
+            "mean": 0.1623931623931624,
+            "n": 117
+          }
+        },
+        "details_only": {
+          "rank_improves": {
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0,
+            "n": 117
+          }
+        },
+        "seller_text": {
+          "rank_improves": {
+            "ci95": [
+              0.13675213675213677,
+              0.28205128205128205
+            ],
+            "mean": 0.20512820512820512,
+            "n": 117
+          }
+        }
+      },
+      "selection": {
+        "eligible": 117,
+        "requested": 147,
+        "screened": 147,
+        "selection": "all accepted cohort queries; genuine-review-supported absent use case; never rank outcomes",
+        "shortfall": 30
+      }
+    },
+    "Home_and_Kitchen": {
+      "methods": {
+        "cgcr": {
+          "rank_improves": {
+            "ci95": [
+              0.10891089108910891,
+              0.25742574257425743
+            ],
+            "mean": 0.1782178217821782,
+            "n": 101
+          }
+        },
+        "details_only": {
+          "rank_improves": {
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0,
+            "n": 101
+          }
+        },
+        "seller_text": {
+          "rank_improves": {
+            "ci95": [
+              0.15841584158415842,
+              0.3170792079207885
+            ],
+            "mean": 0.2376237623762376,
+            "n": 101
+          }
+        }
+      },
+      "selection": {
+        "eligible": 101,
+        "requested": 147,
+        "screened": 147,
+        "selection": "all accepted cohort queries; genuine-review-supported absent use case; never rank outcomes",
+        "shortfall": 46
+      }
+    },
+    "Tools_and_Home_Improvement": {
+      "methods": {
+        "cgcr": {
+          "rank_improves": {
+            "ci95": [
+              0.09523809523809523,
+              0.25
+            ],
+            "mean": 0.16666666666666666,
+            "n": 84
+          }
+        },
+        "details_only": {
+          "rank_improves": {
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0,
+            "n": 84
+          }
+        },
+        "seller_text": {
+          "rank_improves": {
+            "ci95": [
+              0.15476190476190477,
+              0.3333333333333333
+            ],
+            "mean": 0.23809523809523808,
+            "n": 84
+          }
+        }
+      },
+      "selection": {
+        "eligible": 84,
+        "requested": 147,
+        "screened": 147,
+        "selection": "all accepted cohort queries; genuine-review-supported absent use case; never rank outcomes",
+        "shortfall": 63
+      }
+    }
+  },
+  "complete": true,
+  "split": "test"
+}

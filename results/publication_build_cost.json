@@ -1,0 +1,20 @@
+{
+  "figures": {
+    "cpu_threads": 4,
+    "device": "cpu",
+    "elapsed_s": 2.333587000030093,
+    "minimum_available_bytes": 5417844736,
+    "peak_resident_bytes": 288849920,
+    "returncode": 0,
+    "upstream_sha256": "17f06250787e98cd6f09dcb4c7c28a5c5bef2ca5ba02c249b539f896fa54bcc3"
+  },
+  "tables": {
+    "cpu_threads": 4,
+    "device": "cpu",
+    "elapsed_s": 1.816272166906856,
+    "minimum_available_bytes": 5478662144,
+    "peak_resident_bytes": 212025344,
+    "returncode": 0,
+    "upstream_sha256": "369d32d321c2a57b2ce1135ae188bcb6a15139129a6c70a20cfd3a34ad7ac6ba"
+  }
+}

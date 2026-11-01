@@ -1,0 +1,3786 @@
+category: Tools_and_Home_Improvement
+source: catalog.details only
+scope: unique selected parent items
+item_count: 9795
+min_coverage_pct: 2.0
+coverage_denominator: all unique items, including missing details
+value_type_rule: YAML overrides; else >=95% boolean; else >=50% parsed numeric; else
+  short repeated values categorical; else text
+attributes:
+- canonical_name: manufacturer
+  aliases:
+  - Manufacturer
+  item_count: 9081
+  coverage_pct: 92.71056661562021
+  value_type: categorical
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: DEWALT
+    item_count: 178
+  - value: Makita
+    item_count: 112
+  - value: Bosch
+    item_count: 67
+  - value: Milwaukee
+    item_count: 57
+  - value: 3M
+    item_count: 53
+  - value: Delta Faucet
+    item_count: 46
+  - value: WEN
+    item_count: 44
+  - value: Klein Tools
+    item_count: 40
+  - value: Moen Incorporated
+    item_count: 40
+  - value: KOHLER
+    item_count: 38
+  variant_sensitive: false
+- canonical_name: item weight
+  aliases:
+  - Item Weight
+  - Weight
+  item_count: 8677
+  coverage_pct: 88.5860132720776
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - grams
+  - kilograms
+  - ounces
+  - pounds
+  numeric_parse_pct: 100.0
+  top_10_example_values:
+  - value: 1 pounds
+    item_count: 186
+  - value: 0.01 ounces
+    item_count: 137
+  - value: 3.2 ounces
+    item_count: 88
+  - value: 8 ounces
+    item_count: 80
+  - value: 9.6 ounces
+    item_count: 76
+  - value: 1 Pounds
+    item_count: 69
+  - value: 12 ounces
+    item_count: 69
+  - value: 6.4 ounces
+    item_count: 68
+  - value: 0.01 Ounces
+    item_count: 65
+  - value: 8.8 ounces
+    item_count: 64
+  variant_sensitive: true
+- canonical_name: brand
+  aliases:
+  - Brand
+  - Brand Name
+  item_count: 8278
+  coverage_pct: 84.51250638080653
+  value_type: categorical
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: DEWALT
+    item_count: 213
+  - value: Makita
+    item_count: 114
+  - value: Milwaukee
+    item_count: 107
+  - value: BOSCH
+    item_count: 71
+  - value: BLACK+DECKER
+    item_count: 50
+  - value: Honeywell
+    item_count: 49
+  - value: DELTA FAUCET
+    item_count: 47
+  - value: Kwikset
+    item_count: 42
+  - value: WEN
+    item_count: 40
+  - value: Moen
+    item_count: 39
+  variant_sensitive: false
+- canonical_name: batteries required
+  aliases:
+  - Batteries Required
+  - Batteries Required?
+  - Batteries required
+  item_count: 7500
+  coverage_pct: 76.5696784073507
+  value_type: boolean
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 'No'
+    item_count: 6773
+  - value: 'Yes'
+    item_count: 712
+  - value: 'False'
+    item_count: 10
+  - value: 'false'
+    item_count: 3
+  - value: 'True'
+    item_count: 2
+  variant_sensitive: false
+- canonical_name: color
+  aliases:
+  - Color
+  - Colour
+  item_count: 7396
+  coverage_pct: 75.5079122001021
+  value_type: categorical
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Black
+    item_count: 1002
+  - value: White
+    item_count: 894
+  - value: Silver
+    item_count: 261
+  - value: Multicolor
+    item_count: 231
+  - value: Blue
+    item_count: 176
+  - value: Red
+    item_count: 160
+  - value: Chrome
+    item_count: 148
+  - value: Multi
+    item_count: 145
+  - value: Yellow
+    item_count: 123
+  - value: Brushed Nickel
+    item_count: 121
+  variant_sensitive: true
+- canonical_name: product dimensions
+  aliases:
+  - Item Dimensions  LxWxH
+  - Item Dimensions LxWxH
+  - Product Dimensions
+  item_count: 7040
+  coverage_pct: 71.87340479836651
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - '"'
+  - inches
+  - ounces
+  - pounds
+  numeric_parse_pct: 83.55525965379493
+  top_10_example_values:
+  - value: 1 x 1 x 1 inches
+    item_count: 48
+  - value: 2 x 2 x 2 inches
+    item_count: 11
+  - value: 5"L x 5"W
+    item_count: 11
+  - value: 9.1 x 9.1 x 9.1 inches
+    item_count: 10
+  - value: 12"L x 12"W
+    item_count: 8
+  - value: 6 x 6 x 6 inches
+    item_count: 8
+  - value: 6.25 x 0.82 x 0.51 inches
+    item_count: 8
+  - value: 10"L x 10"W
+    item_count: 7
+  - value: 3 x 3 x 3 inches
+    item_count: 7
+  - value: 5 x 5 x 5 inches
+    item_count: 7
+  variant_sensitive: true
+- canonical_name: material
+  aliases:
+  - Material
+  item_count: 6920
+  coverage_pct: 70.64828994384891
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Plastic
+    item_count: 820
+  - value: Metal
+    item_count: 658
+  - value: Stainless Steel
+    item_count: 383
+  - value: Aluminum
+    item_count: 319
+  - value: Alloy Steel
+    item_count: 252
+  - value: Steel
+    item_count: 209
+  - value: Blend
+    item_count: 187
+  - value: Brass
+    item_count: 185
+  - value: Glass
+    item_count: 158
+  - value: Wood
+    item_count: 117
+  variant_sensitive: false
+- canonical_name: batteries included
+  aliases:
+  - Are Batteries Included
+  - Batteries Included
+  - Batteries Included?
+  item_count: 6335
+  coverage_pct: 64.67585502807555
+  value_type: boolean
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 'No'
+    item_count: 5717
+  - value: 'Yes'
+    item_count: 608
+  - value: 'False'
+    item_count: 8
+  - value: 'True'
+    item_count: 1
+  - value: 'false'
+    item_count: 1
+  variant_sensitive: false
+- canonical_name: style
+  aliases:
+  - Style
+  item_count: 5339
+  coverage_pct: 54.50740173557938
+  value_type: categorical
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Modern
+    item_count: 1085
+  - value: Classic
+    item_count: 142
+  - value: Traditional
+    item_count: 138
+  - value: Contemporary
+    item_count: 112
+  - value: Industrial
+    item_count: 74
+  - value: Antique
+    item_count: 58
+  - value: Art Deco
+    item_count: 58
+  - value: Compact
+    item_count: 44
+  - value: Gun
+    item_count: 39
+  - value: Transitional
+    item_count: 32
+  variant_sensitive: false
+- canonical_name: package quantity
+  aliases:
+  - Item Package Quantity
+  item_count: 5207
+  coverage_pct: 53.159775395610005
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - count
+  numeric_parse_pct: 100.0
+  top_10_example_values:
+  - value: '1'
+    item_count: 4826
+  - value: '2'
+    item_count: 96
+  - value: '10'
+    item_count: 45
+  - value: '4'
+    item_count: 43
+  - value: '6'
+    item_count: 40
+  - value: '12'
+    item_count: 28
+  - value: '3'
+    item_count: 22
+  - value: '5'
+    item_count: 21
+  - value: '8'
+    item_count: 10
+  - value: '20'
+    item_count: 9
+  variant_sensitive: true
+- canonical_name: included components
+  aliases:
+  - Included Components
+  item_count: 4540
+  coverage_pct: 46.35017866258295
+  value_type: text
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Unit^Instruction Guide
+    item_count: 82
+  - value: Bare-Tool
+    item_count: 80
+  - value: Bulb included
+    item_count: 62
+  - value: Bulb
+    item_count: 59
+  - value: Light kit inlcuded
+    item_count: 47
+  - value: Battery
+    item_count: 39
+  - value: Batteries included
+    item_count: 37
+  - value: Remote
+    item_count: 35
+  - value: Screw
+    item_count: 32
+  - value: Air Filters
+    item_count: 28
+  variant_sensitive: false
+- canonical_name: size
+  aliases:
+  - Size
+  item_count: 4196
+  coverage_pct: 42.83818274629913
+  value_type: categorical
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: One Size
+    item_count: 313
+  - value: 1 Count (Pack of 1)
+    item_count: 114
+  - value: 1 Pack
+    item_count: 85
+  - value: Small
+    item_count: 67
+  - value: Medium
+    item_count: 62
+  - value: 4 Count (Pack of 1)
+    item_count: 61
+  - value: 6 Count (Pack of 1)
+    item_count: 61
+  - value: 2 Count (Pack of 1)
+    item_count: 56
+  - value: Pack of 1
+    item_count: 54
+  - value: Large
+    item_count: 51
+  variant_sensitive: true
+- canonical_name: special feature
+  aliases:
+  - Special Feature
+  - Special Features
+  - Special features
+  item_count: 3584
+  coverage_pct: 36.59009698825932
+  value_type: text
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Dimmable
+    item_count: 170
+  - value: Waterproof
+    item_count: 119
+  - value: Easy to Install
+    item_count: 100
+  - value: Brushless
+    item_count: 63
+  - value: Lightweight
+    item_count: 61
+  - value: Adjustable
+    item_count: 59
+  - value: Durable
+    item_count: 58
+  - value: Variable Speed
+    item_count: 58
+  - value: Brake
+    item_count: 54
+  - value: Not Dimmable
+    item_count: 54
+  variant_sensitive: false
+- canonical_name: power source
+  aliases:
+  - Power Source
+  - Power source
+  item_count: 3284
+  coverage_pct: 33.52730985196529
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Corded Electric
+    item_count: 1016
+  - value: Battery Powered
+    item_count: 596
+  - value: AC
+    item_count: 340
+  - value: Hand Powered
+    item_count: 183
+  - value: Solar Powered
+    item_count: 119
+  - value: AC/DC
+    item_count: 75
+  - value: Air Powered
+    item_count: 48
+  - value: Cordless
+    item_count: 41
+  - value: Manual
+    item_count: 39
+  - value: DC
+    item_count: 37
+  variant_sensitive: false
+- canonical_name: country of origin
+  aliases:
+  - Country of Origin
+  item_count: 3049
+  coverage_pct: 31.128126595201632
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: China
+    item_count: 1968
+  - value: USA
+    item_count: 575
+  - value: Taiwan
+    item_count: 185
+  - value: Mexico
+    item_count: 87
+  - value: Vietnam
+    item_count: 39
+  - value: Canada
+    item_count: 29
+  - value: India
+    item_count: 22
+  - value: Germany
+    item_count: 17
+  - value: Italy
+    item_count: 13
+  - value: Japan
+    item_count: 13
+  variant_sensitive: false
+- canonical_name: voltage
+  aliases:
+  - Voltage
+  item_count: 2816
+  coverage_pct: 28.749361919346605
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - volts
+  numeric_parse_pct: 93.2528409090909
+  top_10_example_values:
+  - value: 120 Volts
+    item_count: 992
+  - value: 110 Volts
+    item_count: 360
+  - value: 12 Volts
+    item_count: 190
+  - value: 20 Volts
+    item_count: 138
+  - value: 125 Volts
+    item_count: 98
+  - value: 18 Volts
+    item_count: 98
+  - value: 5 Volts
+    item_count: 88
+  - value: 240 Volts
+    item_count: 69
+  - value: 115 Volts
+    item_count: 57
+  - value: 3.7 Volts
+    item_count: 49
+  variant_sensitive: false
+- canonical_name: finish type
+  aliases:
+  - Finish Type
+  - Finish Types
+  - Finish types
+  item_count: 2630
+  coverage_pct: 26.850433894844308
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Polished
+    item_count: 300
+  - value: Brushed
+    item_count: 279
+  - value: Painted
+    item_count: 232
+  - value: Powder Coated
+    item_count: 124
+  - value: Matte
+    item_count: 97
+  - value: Chrome
+    item_count: 83
+  - value: Oil Rubbed
+    item_count: 83
+  - value: Clear
+    item_count: 64
+  - value: White
+    item_count: 64
+  - value: Black
+    item_count: 54
+  variant_sensitive: false
+- canonical_name: shape
+  aliases:
+  - Shape
+  item_count: 2370
+  coverage_pct: 24.19601837672282
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Rectangular
+    item_count: 412
+  - value: Round
+    item_count: 383
+  - value: Square
+    item_count: 237
+  - value: Bulb
+    item_count: 119
+  - value: Circular
+    item_count: 112
+  - value: Oval
+    item_count: 66
+  - value: Rectangle
+    item_count: 63
+  - value: Straight
+    item_count: 41
+  - value: Linear
+    item_count: 39
+  - value: Irregular
+    item_count: 37
+  variant_sensitive: false
+- canonical_name: finish
+  aliases:
+  - Finish
+  item_count: 2311
+  coverage_pct: 23.593670239918325
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Polished
+    item_count: 248
+  - value: Brushed
+    item_count: 223
+  - value: Painted
+    item_count: 131
+  - value: Chrome
+    item_count: 101
+  - value: White
+    item_count: 95
+  - value: Powder Coated
+    item_count: 89
+  - value: Matte
+    item_count: 77
+  - value: Oil Rubbed
+    item_count: 67
+  - value: Black
+    item_count: 65
+  - value: Satin
+    item_count: 46
+  variant_sensitive: false
+- canonical_name: warranty description
+  aliases:
+  - Warranty Description
+  item_count: 2299
+  coverage_pct: 23.471158754466565
+  value_type: text
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Limited Lifetime Warranty
+    item_count: 92
+  - value: Warranty
+    item_count: 50
+  - value: 3 year limited warranty
+    item_count: 47
+  - value: Manufacturer
+    item_count: 30
+  - value: Limited Lifetime
+    item_count: 27
+  - value: 1 Year Limited Warranty
+    item_count: 23
+  - value: Limited lifetime warranty.
+    item_count: 23
+  - value: Limited lifetime.
+    item_count: 23
+  - value: 1 year manufacturer
+    item_count: 20
+  - value: Faucet and Finish Lifetime Limited Warranty
+    item_count: 20
+  variant_sensitive: false
+- canonical_name: package dimensions
+  aliases:
+  - Package Dimensions
+  item_count: 2117
+  coverage_pct: 21.613067891781522
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - inches
+  - ounces
+  - pounds
+  numeric_parse_pct: 71.42182333490788
+  top_10_example_values:
+  - value: 49 x 3 x 3 inches
+    item_count: 3
+  - value: 16 x 15 x 10 inches
+    item_count: 2
+  - value: 26 x 25 x 25 inches
+    item_count: 2
+  - value: 36 x 31 x 22 inches
+    item_count: 2
+  - value: 49.5 x 3 x 3 inches
+    item_count: 2
+  - value: 8.8 x 2.8 x 2.8 inches
+    item_count: 2
+  - value: 9.2 x 3.5 x 3.2 inches
+    item_count: 2
+  - value: 9.6 x 9.5 x 9.2 inches
+    item_count: 2
+  - value: 0.5 x 0.5 x 0.5 inches; 1.4 Pounds
+    item_count: 1
+  - value: 10 x 10 x 0.39 inches; 6.72 Ounces
+    item_count: 1
+  variant_sensitive: true
+- canonical_name: wattage
+  aliases:
+  - Wattage
+  item_count: 1924
+  coverage_pct: 19.64267483409903
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - kw
+  - watts
+  numeric_parse_pct: 91.63201663201663
+  top_10_example_values:
+  - value: 60 watts
+    item_count: 183
+  - value: 5 watts
+    item_count: 88
+  - value: 40 watts
+    item_count: 78
+  - value: 3 watts
+    item_count: 67
+  - value: 6 watts
+    item_count: 48
+  - value: 9 watts
+    item_count: 48
+  - value: 10 watts
+    item_count: 46
+  - value: 100 watts
+    item_count: 45
+  - value: 4 watts
+    item_count: 41
+  - value: 1 watts
+    item_count: 38
+  variant_sensitive: false
+- canonical_name: number of pieces
+  aliases:
+  - Number Of Pieces
+  - Number of Pieces
+  - Number of pieces
+  item_count: 1832
+  coverage_pct: 18.703420112302194
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - count
+  numeric_parse_pct: 98.68995633187772
+  top_10_example_values:
+  - value: '1'
+    item_count: 969
+  - value: '2'
+    item_count: 195
+  - value: '4'
+    item_count: 106
+  - value: '10'
+    item_count: 85
+  - value: '3'
+    item_count: 60
+  - value: '5'
+    item_count: 57
+  - value: '6'
+    item_count: 46
+  - value: '12'
+    item_count: 35
+  - value: '20'
+    item_count: 28
+  - value: '16'
+    item_count: 17
+  variant_sensitive: true
+- canonical_name: mounting type
+  aliases:
+  - Mounting Type
+  item_count: 1579
+  coverage_pct: 16.120469627360897
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Wall Mount
+    item_count: 495
+  - value: Tabletop
+    item_count: 125
+  - value: Floor Mount
+    item_count: 123
+  - value: Ceiling Mount
+    item_count: 117
+  - value: Deck Mount
+    item_count: 94
+  - value: Door Mount
+    item_count: 61
+  - value: Pole Mount
+    item_count: 29
+  - value: Embedded
+    item_count: 28
+  - value: Protruding
+    item_count: 28
+  - value: Plug-In Mount
+    item_count: 26
+  variant_sensitive: false
+- canonical_name: number of items
+  aliases:
+  - Number Of Items
+  - Number of Items
+  item_count: 1354
+  coverage_pct: 13.823379275140377
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - count
+  numeric_parse_pct: 100.0
+  top_10_example_values:
+  - value: '1'
+    item_count: 844
+  - value: '2'
+    item_count: 135
+  - value: '4'
+    item_count: 73
+  - value: '6'
+    item_count: 66
+  - value: '10'
+    item_count: 42
+  - value: '3'
+    item_count: 34
+  - value: '12'
+    item_count: 23
+  - value: '20'
+    item_count: 19
+  - value: '25'
+    item_count: 18
+  - value: '5'
+    item_count: 18
+  variant_sensitive: true
+- canonical_name: light source type
+  aliases:
+  - Light Source Type
+  item_count: 1291
+  coverage_pct: 13.180193976518632
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: LED
+    item_count: 1031
+  - value: Incandescent
+    item_count: 61
+  - value: LED, Incandescent
+    item_count: 16
+  - value: Light Emitting Diode
+    item_count: 10
+  - value: Fluorescent
+    item_count: 8
+  - value: Halogen, LED, Fluorescent, Incandescent
+    item_count: 8
+  - value: CFL
+    item_count: 6
+  - value: Halogen
+    item_count: 6
+  - value: Halogen, LED, CFL, Incandescent
+    item_count: 6
+  - value: Incandescent, LED, CFL
+    item_count: 5
+  variant_sensitive: false
+- canonical_name: room type
+  aliases:
+  - Room Type
+  item_count: 1191
+  coverage_pct: 12.15926493108729
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Bedroom
+    item_count: 102
+  - value: Bathroom
+    item_count: 85
+  - value: Garage
+    item_count: 52
+  - value: Living Room
+    item_count: 44
+  - value: Kitchen
+    item_count: 35
+  - value: Bedroom, Living Room, Dining Room
+    item_count: 34
+  - value: Living Room, Bedroom
+    item_count: 32
+  - value: Bedroom, Living Room
+    item_count: 30
+  - value: Patio
+    item_count: 30
+  - value: Office, Bedroom, Living Room
+    item_count: 18
+  variant_sensitive: false
+- canonical_name: indoor/outdoor usage
+  aliases:
+  - Indoor/Outdoor Usage
+  item_count: 1154
+  coverage_pct: 11.781521184277693
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Indoor
+    item_count: 637
+  - value: Outdoor
+    item_count: 281
+  - value: Outdoor, Indoor
+    item_count: 236
+  variant_sensitive: false
+- canonical_name: control method
+  aliases:
+  - Control Method
+  item_count: 1124
+  coverage_pct: 11.47524247064829
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Remote
+    item_count: 457
+  - value: App
+    item_count: 391
+  - value: Touch
+    item_count: 164
+  - value: Voice
+    item_count: 85
+  - value: App, Remote
+    item_count: 9
+  - value: App, Touch
+    item_count: 5
+  - value: App, Voice
+    item_count: 4
+  - value: App, Remote, Touch, Voice
+    item_count: 3
+  - value: App, Remote, Voice
+    item_count: 3
+  - value: App, Remote, Touch
+    item_count: 1
+  variant_sensitive: false
+- canonical_name: number of light sources
+  aliases:
+  - Number of Light Sources
+  item_count: 1103
+  coverage_pct: 11.260847371107708
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - count
+  numeric_parse_pct: 100.0
+  top_10_example_values:
+  - value: '1'
+    item_count: 333
+  - value: '2'
+    item_count: 109
+  - value: '4'
+    item_count: 85
+  - value: '3'
+    item_count: 63
+  - value: '6'
+    item_count: 57
+  - value: '150'
+    item_count: 35
+  - value: '300'
+    item_count: 30
+  - value: '8'
+    item_count: 28
+  - value: '10'
+    item_count: 23
+  - value: '12'
+    item_count: 23
+  variant_sensitive: true
+- canonical_name: pattern
+  aliases:
+  - Pattern
+  item_count: 1038
+  coverage_pct: 10.597243491577336
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Solid
+    item_count: 171
+  - value: Pleated
+    item_count: 19
+  - value: Floral
+    item_count: 18
+  - value: Modern
+    item_count: 17
+  - value: Kit
+    item_count: 16
+  - value: Contemporary Bathroom Accessories
+    item_count: 14
+  - value: Saw
+    item_count: 13
+  - value: Cartoon
+    item_count: 11
+  - value: Marble
+    item_count: 10
+  - value: Tree
+    item_count: 10
+  variant_sensitive: false
+- canonical_name: batteries
+  aliases:
+  - Batteries
+  item_count: 1018
+  coverage_pct: 10.393057682491067
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 1 Lithium Ion batteries required. (included)
+    item_count: 193
+  - value: 1 Lithium Ion batteries required.
+    item_count: 98
+  - value: 2 Lithium Ion batteries required. (included)
+    item_count: 84
+  - value: 1 Lithium Metal batteries required. (included)
+    item_count: 46
+  - value: 1 CR2 batteries required. (included)
+    item_count: 38
+  - value: Lithium Ion batteries required.
+    item_count: 28
+  - value: 2 AA batteries required. (included)
+    item_count: 27
+  - value: 1 Lithium Polymer batteries required. (included)
+    item_count: 26
+  - value: 1 12V batteries required. (included)
+    item_count: 25
+  - value: 1 AA batteries required. (included)
+    item_count: 25
+  variant_sensitive: false
+- canonical_name: shade material
+  aliases:
+  - Shade Material
+  item_count: 980
+  coverage_pct: 10.005104645227156
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Plastic
+    item_count: 212
+  - value: Glass
+    item_count: 134
+  - value: Metal
+    item_count: 124
+  - value: Aluminum
+    item_count: 51
+  - value: Fabric
+    item_count: 37
+  - value: Crystal
+    item_count: 34
+  - value: Acrylonitrile Butadiene Styrene
+    item_count: 28
+  - value: Acrylic
+    item_count: 21
+  - value: Polycarbonate
+    item_count: 15
+  - value: Linen
+    item_count: 13
+  variant_sensitive: false
+- canonical_name: controller type
+  aliases:
+  - Controller Type
+  item_count: 975
+  coverage_pct: 9.95405819295559
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Push Button
+    item_count: 274
+  - value: Remote Control
+    item_count: 222
+  - value: Hand Control
+    item_count: 73
+  - value: Button Control
+    item_count: 68
+  - value: Amazon Alexa
+    item_count: 21
+  - value: Pull Chain Control
+    item_count: 21
+  - value: App Control
+    item_count: 14
+  - value: Ring
+    item_count: 13
+  - value: Voice Control
+    item_count: 12
+  variant_sensitive: false
+- canonical_name: unit count
+  aliases:
+  - Unit Count
+  item_count: 967
+  coverage_pct: 9.872383869321082
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - count
+  - fl oz
+  - foot
+  - ft
+  - ounce
+  - pack
+  - piece
+  numeric_parse_pct: 88.00413650465357
+  top_10_example_values:
+  - value: 1.0 Count
+    item_count: 310
+  - value: 1 Count
+    item_count: 123
+  - value: 2.0 Count
+    item_count: 45
+  - value: 6 Count
+    item_count: 40
+  - value: 4 Count
+    item_count: 37
+  - value: 2 Count
+    item_count: 33
+  - value: 4.0 Count
+    item_count: 31
+  - value: 10.0 Count
+    item_count: 26
+  - value: 6.0 Count
+    item_count: 24
+  - value: 10 Count
+    item_count: 21
+  variant_sensitive: true
+- canonical_name: measurement system
+  aliases:
+  - Measurement System
+  item_count: 876
+  coverage_pct: 8.94333843797856
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Metric
+    item_count: 466
+  - value: Inch
+    item_count: 141
+  - value: English/Standard
+    item_count: 93
+  - value: inch
+    item_count: 58
+  - value: Imperial
+    item_count: 46
+  - value: US
+    item_count: 16
+  - value: metric, inch
+    item_count: 14
+  - value: Inch, Metric
+    item_count: 13
+  - value: Both
+    item_count: 4
+  - value: English
+    item_count: 3
+  variant_sensitive: false
+- canonical_name: theme
+  aliases:
+  - Theme
+  item_count: 836
+  coverage_pct: 8.534966819806023
+  value_type: categorical
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Christmas
+    item_count: 65
+  - value: Indoor
+    item_count: 63
+  - value: Modern
+    item_count: 46
+  - value: Music
+    item_count: 42
+  - value: Space
+    item_count: 32
+  - value: Botanical
+    item_count: 25
+  - value: Holiday
+    item_count: 16
+  - value: Fantasy
+    item_count: 14
+  - value: Mosaic
+    item_count: 13
+  - value: Wedding
+    item_count: 13
+  variant_sensitive: false
+- canonical_name: usage
+  aliases:
+  - Usage
+  item_count: 729
+  coverage_pct: 7.442572741194487
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Commercial/Residential
+    item_count: 86
+  - value: Indoor use only
+    item_count: 58
+  - value: Inside
+    item_count: 44
+  - value: Professional
+    item_count: 28
+  - value: General Purpose
+    item_count: 24
+  - value: Interior
+    item_count: 16
+  - value: Commercial, Personal, Residential, Business
+    item_count: 13
+  - value: Inside; Amateur
+    item_count: 13
+  - value: Interior/Exterior
+    item_count: 13
+  - value: Residential
+    item_count: 11
+  variant_sensitive: false
+- canonical_name: installation type
+  aliases:
+  - Installation Type
+  item_count: 726
+  coverage_pct: 7.411944869831546
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Freestanding
+    item_count: 58
+  - value: Self-Adhesive
+    item_count: 56
+  - value: Wall Mounted
+    item_count: 56
+  - value: Screw-In
+    item_count: 51
+  - value: Single Hole
+    item_count: 44
+  - value: Flush Mount
+    item_count: 37
+  - value: Semi Flush Mount
+    item_count: 27
+  - value: Wall Mount
+    item_count: 27
+  - value: Screw In
+    item_count: 25
+  - value: Undermount
+    item_count: 21
+  variant_sensitive: false
+- canonical_name: specific uses for product
+  aliases:
+  - Specific Uses For Product
+  item_count: 722
+  coverage_pct: 7.371107708014293
+  value_type: text
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Indoor use only
+    item_count: 87
+  - value: General purpose
+    item_count: 41
+  - value: Home
+    item_count: 41
+  - value: Interior
+    item_count: 31
+  - value: Interior/Exterior
+    item_count: 27
+  - value: Cabinets, Drawer
+    item_count: 11
+  - value: Cupboard, Cabinets, Drawer
+    item_count: 11
+  - value: Decoration
+    item_count: 11
+  - value: Lamps
+    item_count: 11
+  - value: Outdoor use only
+    item_count: 11
+  variant_sensitive: false
+- canonical_name: light color
+  aliases:
+  - Light Color
+  item_count: 713
+  coverage_pct: 7.279224093925472
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Warm White
+    item_count: 103
+  - value: White
+    item_count: 87
+  - value: Multicolor
+    item_count: 83
+  - value: Daylight White
+    item_count: 40
+  - value: Soft White
+    item_count: 39
+  - value: RGB
+    item_count: 35
+  - value: Cool White
+    item_count: 27
+  - value: Warm white
+    item_count: 22
+  - value: Yellow
+    item_count: 12
+  - value: Blue
+    item_count: 10
+  variant_sensitive: true
+- canonical_name: recommended uses for product
+  aliases:
+  - Recommended Uses For Product
+  item_count: 694
+  coverage_pct: 7.085247575293517
+  value_type: text
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Security
+    item_count: 65
+  - value: Indoor
+    item_count: 37
+  - value: Power Tool
+    item_count: 35
+  - value: Home
+    item_count: 31
+  - value: Decoration
+    item_count: 29
+  - value: Kitchen
+    item_count: 27
+  - value: Drilling, Air Brushing, Spraying, Nailing
+    item_count: 21
+  - value: Bathroom
+    item_count: 20
+  - value: Cooling
+    item_count: 18
+  - value: Reading
+    item_count: 18
+  variant_sensitive: false
+- canonical_name: plug format
+  aliases:
+  - Plug Format
+  item_count: 692
+  coverage_pct: 7.06482899438489
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: A- US style
+    item_count: 519
+  - value: Type B
+    item_count: 29
+  - value: B - US style with ground plug.
+    item_count: 14
+  - value: USB
+    item_count: 13
+  - value: Type A
+    item_count: 9
+  - value: Solar powered
+    item_count: 7
+  - value: plug in
+    item_count: 7
+  - value: Plug in
+    item_count: 6
+  - value: Usb
+    item_count: 6
+  - value: solar powered
+    item_count: 5
+  variant_sensitive: false
+- canonical_name: battery cell type
+  aliases:
+  - Battery Cell Type
+  item_count: 646
+  coverage_pct: 6.5952016334864725
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Lithium Ion
+    item_count: 330
+  - value: Alkaline
+    item_count: 163
+  - value: Lithium
+    item_count: 51
+  - value: Lithium Metal
+    item_count: 23
+  - value: Lithium Manganese Dioxide
+    item_count: 21
+  - value: Lithium Polymer
+    item_count: 19
+  - value: NiMH
+    item_count: 18
+  - value: Manganese
+    item_count: 8
+  - value: NiCAD
+    item_count: 5
+  - value: Zinc Carbon
+    item_count: 3
+  variant_sensitive: false
+- canonical_name: installation method
+  aliases:
+  - Installation Method
+  item_count: 613
+  coverage_pct: 6.25829504849413
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Screw-In
+    item_count: 53
+  - value: Wall Mounted
+    item_count: 50
+  - value: Wall-Mounted
+    item_count: 48
+  - value: Self-Adhesive
+    item_count: 37
+  - value: Screw In
+    item_count: 33
+  - value: Tabletop
+    item_count: 33
+  - value: Freestanding
+    item_count: 31
+  - value: Wall Mount
+    item_count: 16
+  - value: Alcove
+    item_count: 15
+  - value: Nail Down
+    item_count: 12
+  variant_sensitive: false
+- canonical_name: handle material
+  aliases:
+  - Handle Material
+  item_count: 563
+  coverage_pct: 5.7478305257784585
+  value_type: categorical
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Brass
+    item_count: 102
+  - value: Stainless Steel
+    item_count: 72
+  - value: Metal
+    item_count: 52
+  - value: Alloy Steel
+    item_count: 43
+  - value: Plastic
+    item_count: 35
+  - value: Bronze
+    item_count: 25
+  - value: Aluminum
+    item_count: 21
+  - value: Zinc
+    item_count: 18
+  - value: Wood
+    item_count: 15
+  - value: Ceramic
+    item_count: 8
+  variant_sensitive: false
+- canonical_name: light fixture form
+  aliases:
+  - Light fixture form
+  item_count: 554
+  coverage_pct: 5.655946911689638
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Ceiling
+    item_count: 118
+  - value: Pendant
+    item_count: 55
+  - value: Chandelier
+    item_count: 52
+  - value: Floodlight
+    item_count: 45
+  - value: Path
+    item_count: 44
+  - value: Sconce
+    item_count: 43
+  - value: Wall
+    item_count: 43
+  - value: Recessed
+    item_count: 39
+  - value: Vanity
+    item_count: 35
+  - value: Close to Ceiling
+    item_count: 32
+  variant_sensitive: false
+- canonical_name: shade color
+  aliases:
+  - Shade Color
+  item_count: 545
+  coverage_pct: 5.564063297600817
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: White
+    item_count: 213
+  - value: Black
+    item_count: 47
+  - value: Multicolor
+    item_count: 40
+  - value: Clear
+    item_count: 32
+  - value: black
+    item_count: 21
+  - value: clear
+    item_count: 14
+  - value: white
+    item_count: 14
+  - value: Beige
+    item_count: 13
+  - value: Blue
+    item_count: 10
+  - value: Brown
+    item_count: 9
+  variant_sensitive: true
+- canonical_name: connectivity technology
+  aliases:
+  - Connectivity Technology
+  item_count: 523
+  coverage_pct: 5.339458907605922
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Normal bulb
+    item_count: 231
+  - value: USB
+    item_count: 157
+  - value: Infrared
+    item_count: 42
+  - value: Wi-Fi
+    item_count: 21
+  - value: IR
+    item_count: 13
+  - value: Radio Frequency
+    item_count: 11
+  - value: Bluetooth
+    item_count: 9
+  - value: Wireless
+    item_count: 7
+  - value: Infrared, Normal bulb
+    item_count: 6
+  - value: Wi-Fi, Infrared
+    item_count: 5
+  variant_sensitive: false
+- canonical_name: number of handles
+  aliases:
+  - Number of Handles
+  item_count: 506
+  coverage_pct: 5.1659009698825935
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - count
+  numeric_parse_pct: 100.0
+  top_10_example_values:
+  - value: '1'
+    item_count: 404
+  - value: '2'
+    item_count: 89
+  - value: '3'
+    item_count: 7
+  - value: '4'
+    item_count: 4
+  - value: '11'
+    item_count: 1
+  - value: '6'
+    item_count: 1
+  variant_sensitive: true
+- canonical_name: color temperature
+  aliases:
+  - Color Temperature
+  item_count: 489
+  coverage_pct: 4.992343032159265
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - kelvin
+  numeric_parse_pct: 100.0
+  top_10_example_values:
+  - value: 2700 Kelvin
+    item_count: 129
+  - value: 3000 Kelvin
+    item_count: 88
+  - value: 5000 Kelvin
+    item_count: 68
+  - value: 6000 Kelvin
+    item_count: 46
+  - value: 4000 Kelvin
+    item_count: 37
+  - value: 6500 Kelvin
+    item_count: 37
+  - value: 2200 Kelvin
+    item_count: 11
+  - value: 5500 Kelvin
+    item_count: 9
+  - value: 3500 Kelvin
+    item_count: 8
+  - value: 2500 Kelvin
+    item_count: 6
+  variant_sensitive: true
+- canonical_name: type of bulb
+  aliases:
+  - Type of Bulb
+  item_count: 471
+  coverage_pct: 4.808575803981623
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: LED
+    item_count: 294
+  - value: Incandescent
+    item_count: 44
+  - value: Led
+    item_count: 23
+  - value: Halogen
+    item_count: 18
+  - value: led
+    item_count: 10
+  - value: Neon
+    item_count: 7
+  - value: Fluorescent
+    item_count: 6
+  - value: Linear Fluorescent Lamp
+    item_count: 5
+  - value: halogen
+    item_count: 4
+  - value: Dimmable
+    item_count: 3
+  variant_sensitive: false
+- canonical_name: surface recommendation
+  aliases:
+  - Surface Recommendation
+  item_count: 462
+  coverage_pct: 4.716692189892802
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Wood
+    item_count: 103
+  - value: Wall
+    item_count: 44
+  - value: Metal
+    item_count: 37
+  - value: Walls
+    item_count: 14
+  - value: Metal,Wood
+    item_count: 12
+  - value: Tile
+    item_count: 12
+  - value: Plastic
+    item_count: 11
+  - value: Hardwood
+    item_count: 10
+  - value: Alloy Steel
+    item_count: 9
+  - value: Floors
+    item_count: 7
+  variant_sensitive: false
+- canonical_name: luminous flux
+  aliases:
+  - Luminous Flux
+  item_count: 449
+  coverage_pct: 4.583971413986728
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 800 Lumen
+    item_count: 39
+  - value: 400 Lumen
+    item_count: 16
+  - value: 500 Lumen
+    item_count: 14
+  - value: 1200 Lumen
+    item_count: 11
+  - value: 80 Lumen
+    item_count: 10
+  - value: 1000 Lumen
+    item_count: 9
+  - value: 1500 Lumen
+    item_count: 9
+  - value: 3000 Lumen
+    item_count: 9
+  - value: 200 Lumen
+    item_count: 8
+  - value: 2000 Lumen
+    item_count: 8
+  variant_sensitive: false
+- canonical_name: switch installation type
+  aliases:
+  - Switch Installation Type
+  item_count: 447
+  coverage_pct: 4.563552833078101
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Wall Mount
+    item_count: 109
+  - value: Ceiling Mount
+    item_count: 97
+  - value: Floor Mount
+    item_count: 20
+  - value: Hanging,Pendant Light
+    item_count: 17
+  - value: Tabletop
+    item_count: 15
+  - value: Tabletop Mount
+    item_count: 15
+  - value: Under Cabinet
+    item_count: 14
+  - value: Hanging
+    item_count: 11
+  - value: Surface
+    item_count: 7
+  - value: Ground Mount
+    item_count: 6
+  variant_sensitive: false
+- canonical_name: switch type
+  aliases:
+  - Switch Type
+  item_count: 436
+  coverage_pct: 4.451250638080653
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Push Button
+    item_count: 67
+  - value: Touch
+    item_count: 55
+  - value: Pull Chain
+    item_count: 49
+  - value: Remote
+    item_count: 37
+  - value: Toggle
+    item_count: 31
+  - value: Rotary
+    item_count: 24
+  - value: Rocker
+    item_count: 18
+  - value: Foot
+    item_count: 15
+  - value: Decorator
+    item_count: 13
+  - value: Dimmer
+    item_count: 12
+  variant_sensitive: false
+- canonical_name: operation mode
+  aliases:
+  - Operation Mode
+  item_count: 416
+  coverage_pct: 4.247064828994385
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Mechanical
+    item_count: 113
+  - value: Manual
+    item_count: 74
+  - value: ON-OFF
+    item_count: 36
+  - value: Automatic
+    item_count: 32
+  - value: 'Off'
+    item_count: 32
+  - value: Battery
+    item_count: 26
+  - value: ON-OFF-ON
+    item_count: 22
+  - value: Electrical
+    item_count: 16
+  - value: Electric
+    item_count: 11
+  - value: Pneumatic
+    item_count: 10
+  variant_sensitive: false
+- canonical_name: certification
+  aliases:
+  - Certification
+  item_count: 415
+  coverage_pct: 4.2368555385400715
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: UL
+    item_count: 41
+  - value: Certified frustration-free
+    item_count: 35
+  - value: certified frustration-free
+    item_count: 35
+  - value: ETL
+    item_count: 27
+  - value: UL Listed
+    item_count: 19
+  - value: ANSI Certified Tempered Glass
+    item_count: 13
+  - value: Watersense
+    item_count: 13
+  - value: Energy Star
+    item_count: 11
+  - value: 'No'
+    item_count: 11
+  - value: (unset)
+    item_count: 10
+  variant_sensitive: false
+- canonical_name: assembly required
+  aliases:
+  - Assembly Required
+  - Assembly required
+  item_count: 358
+  coverage_pct: 3.6549259826442064
+  value_type: boolean
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 'Yes'
+    item_count: 235
+  - value: 'No'
+    item_count: 122
+  - value: 'True'
+    item_count: 1
+  variant_sensitive: false
+- canonical_name: blade length
+  aliases:
+  - Blade Length
+  item_count: 356
+  coverage_pct: 3.634507401735579
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - centimeters
+  - feet
+  - inches
+  - meters
+  - millimeters
+  numeric_parse_pct: 100.0
+  top_10_example_values:
+  - value: 10 Inches
+    item_count: 43
+  - value: 4 Inches
+    item_count: 36
+  - value: 12 Inches
+    item_count: 25
+  - value: 2 Inches
+    item_count: 22
+  - value: 8 Inches
+    item_count: 18
+  - value: 52 Inches
+    item_count: 15
+  - value: 6 Inches
+    item_count: 12
+  - value: 7 Inches
+    item_count: 12
+  - value: 7.25 Inches
+    item_count: 8
+  - value: 16 Inches
+    item_count: 7
+  variant_sensitive: true
+- canonical_name: assembled height
+  aliases:
+  - Assembled Height
+  item_count: 355
+  coverage_pct: 3.624298111281266
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - centimeters
+  - feet
+  - inches
+  - millimeters
+  numeric_parse_pct: 100.0
+  top_10_example_values:
+  - value: 1 inches
+    item_count: 10
+  - value: 2 inches
+    item_count: 10
+  - value: 3 inches
+    item_count: 6
+  - value: 3.4 inches
+    item_count: 6
+  - value: 4 inches
+    item_count: 6
+  - value: 1.4 inches
+    item_count: 5
+  - value: 12 centimeters
+    item_count: 5
+  - value: 0.8 inches
+    item_count: 4
+  - value: 1.38 inches
+    item_count: 4
+  - value: 15.5 centimeters
+    item_count: 4
+  variant_sensitive: true
+- canonical_name: assembled width
+  aliases:
+  - Assembled Width
+  item_count: 353
+  coverage_pct: 3.603879530372639
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - centimeters
+  - feet
+  - inches
+  - millimeters
+  numeric_parse_pct: 100.0
+  top_10_example_values:
+  - value: 1 inches
+    item_count: 14
+  - value: 2.36 inches
+    item_count: 10
+  - value: 7 inches
+    item_count: 7
+  - value: 1.8 inches
+    item_count: 6
+  - value: 1.97 inches
+    item_count: 6
+  - value: 10 inches
+    item_count: 6
+  - value: 2 inches
+    item_count: 6
+  - value: 4.7 inches
+    item_count: 6
+  - value: 0.01 inches
+    item_count: 5
+  - value: 1 centimeters
+    item_count: 5
+  variant_sensitive: true
+- canonical_name: assembled length
+  aliases:
+  - Assembled Length
+  item_count: 352
+  coverage_pct: 3.5936702399183256
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - centimeters
+  - feet
+  - inches
+  - meters
+  - millimeters
+  numeric_parse_pct: 100.0
+  top_10_example_values:
+  - value: 12 inches
+    item_count: 9
+  - value: 2.36 inches
+    item_count: 9
+  - value: 48 inches
+    item_count: 9
+  - value: 7 inches
+    item_count: 7
+  - value: 1.97 inches
+    item_count: 5
+  - value: 10 inches
+    item_count: 5
+  - value: 11 inches
+    item_count: 4
+  - value: 12 centimeters
+    item_count: 4
+  - value: 16 inches
+    item_count: 4
+  - value: 24 inches
+    item_count: 4
+  variant_sensitive: true
+- canonical_name: head style
+  aliases:
+  - Head Style
+  item_count: 348
+  coverage_pct: 3.552833078101072
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Hex
+    item_count: 77
+  - value: Fixed Square
+    item_count: 46
+  - value: Flat
+    item_count: 31
+  - value: Open End
+    item_count: 20
+  - value: Box End
+    item_count: 15
+  - value: C Shaped
+    item_count: 15
+  - value: Philips
+    item_count: 11
+  - value: Fixed Square, Hex
+    item_count: 9
+  - value: Round
+    item_count: 8
+  - value: Chisel
+    item_count: 5
+  variant_sensitive: false
+- canonical_name: age range (description)
+  aliases:
+  - Age Range (Description)
+  item_count: 342
+  coverage_pct: 3.4915773353751915
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Adult
+    item_count: 291
+  - value: Kid
+    item_count: 33
+  - value: Adult,Kid
+    item_count: 5
+  - value: 18+ yrs
+    item_count: 3
+  - value: Adult,Youth
+    item_count: 2
+  - value: Baby
+    item_count: 2
+  - value: 2 - 4 Years
+    item_count: 1
+  - value: Adult,Tween,Teen,Child,Preemie
+    item_count: 1
+  - value: Child
+    item_count: 1
+  - value: Teen
+    item_count: 1
+  variant_sensitive: false
+- canonical_name: blade material
+  aliases:
+  - Blade Material
+  item_count: 329
+  coverage_pct: 3.358856559469117
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: High Speed Steel
+    item_count: 177
+  - value: Alloy Steel
+    item_count: 37
+  - value: Stainless Steel
+    item_count: 36
+  - value: Metal
+    item_count: 24
+  - value: Metal,Steel
+    item_count: 9
+  - value: Plastic
+    item_count: 5
+  - value: 8Cr13MoV
+    item_count: 4
+  - value: Iron
+    item_count: 4
+  - value: Carbon Steel
+    item_count: 3
+  - value: Iron,Steel
+    item_count: 3
+  variant_sensitive: false
+- canonical_name: speed
+  aliases:
+  - Speed
+  item_count: 326
+  coverage_pct: 3.3282286881061767
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 2000 RPM
+    item_count: 14
+  - value: 1500 RPM
+    item_count: 11
+  - value: 1725 RPM
+    item_count: 11
+  - value: 2800 RPM
+    item_count: 10
+  - value: 3000 RPM
+    item_count: 10
+  - value: 3400 RPM
+    item_count: 10
+  - value: 4500 RPM
+    item_count: 10
+  - value: '3.00'
+    item_count: 9
+  - value: 4000 RPM
+    item_count: 9
+  - value: 3600 RPM
+    item_count: 8
+  variant_sensitive: false
+- canonical_name: bulb base
+  aliases:
+  - Bulb Base
+  item_count: 322
+  coverage_pct: 3.287391526288923
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: E26
+    item_count: 157
+  - value: E12
+    item_count: 56
+  - value: E26 Medium
+    item_count: 28
+  - value: E27
+    item_count: 14
+  - value: G13
+    item_count: 12
+  - value: G4
+    item_count: 12
+  - value: GU10
+    item_count: 9
+  - value: GU24
+    item_count: 8
+  - value: GU5.3
+    item_count: 7
+  - value: E17
+    item_count: 4
+  variant_sensitive: false
+- canonical_name: lamp type
+  aliases:
+  - Lamp Type
+  item_count: 316
+  coverage_pct: 3.226135783563042
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Table Lamp
+    item_count: 68
+  - value: Floor Lamp
+    item_count: 67
+  - value: Night Light
+    item_count: 67
+  - value: Desk Lamp
+    item_count: 15
+  - value: LED
+    item_count: 8
+  - value: Mood Light
+    item_count: 7
+  - value: LED 4-8W G45 2700 KEVIN WARM LIGHT BULB
+    item_count: 5
+  - value: Book light
+    item_count: 4
+  - value: desk lamp,table lamp
+    item_count: 4
+  - value: reading light
+    item_count: 4
+  variant_sensitive: false
+- canonical_name: lighting method
+  aliases:
+  - Lighting Method
+  item_count: 312
+  coverage_pct: 3.1852986217457886
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Downlight
+    item_count: 145
+  - value: Adjustable
+    item_count: 78
+  - value: Up/Down Light
+    item_count: 52
+  - value: Uplight
+    item_count: 17
+  - value: 可调节
+    item_count: 2
+  - value: Adjustable outdoor spotlights
+    item_count: 1
+  - value: Adjustable, Solar Motion Sensor Light
+    item_count: 1
+  - value: Adjustable. Allows you to rotate the wall mounted reading light 90 degrees
+      to cast light directly where needed. Freedom to cast the perfect comfortable
+      spotlight
+    item_count: 1
+  - value: Down Light
+    item_count: 1
+  - value: Down light
+    item_count: 1
+  variant_sensitive: false
+- canonical_name: light type
+  aliases:
+  - Light Type
+  item_count: 306
+  coverage_pct: 3.124042879019908
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: LED
+    item_count: 179
+  - value: Incandescent
+    item_count: 49
+  - value: Fluorescent
+    item_count: 28
+  - value: Halogen
+    item_count: 27
+  - value: Neon, LED
+    item_count: 4
+  - value: CFL
+    item_count: 3
+  - value: Chandelier
+    item_count: 2
+  - value: Color Changing
+    item_count: 2
+  - value: Fluorescent, LED
+    item_count: 2
+  - value: Metal Halide
+    item_count: 2
+  variant_sensitive: false
+- canonical_name: water resistance level
+  aliases:
+  - Water Resistance Level
+  item_count: 305
+  coverage_pct: 3.1138335885655946
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Waterproof
+    item_count: 170
+  - value: Water Resistant
+    item_count: 75
+  - value: Not Water Resistant
+    item_count: 52
+  - value: Water Repellent
+    item_count: 8
+  variant_sensitive: false
+- canonical_name: light direction
+  aliases:
+  - Light Direction
+  item_count: 294
+  coverage_pct: 3.001531393568147
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Adjustable
+    item_count: 135
+  - value: Up/Down Light
+    item_count: 51
+  - value: Downlight
+    item_count: 49
+  - value: Uplight
+    item_count: 31
+  - value: LED
+    item_count: 2
+  - value: //
+    item_count: 1
+  - value: 0-700 lumen Adjustable Brightness
+    item_count: 1
+  - value: 21Key Remote Controller
+    item_count: 1
+  - value: 3 Modes
+    item_count: 1
+  - value: 360 degrees
+    item_count: 1
+  variant_sensitive: false
+- canonical_name: bulb shape size
+  aliases:
+  - Bulb Shape Size
+  item_count: 291
+  coverage_pct: 2.970903522205207
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: A19
+    item_count: 83
+  - value: T8
+    item_count: 27
+  - value: A15
+    item_count: 19
+  - value: G40
+    item_count: 17
+  - value: S14
+    item_count: 15
+  - value: C9
+    item_count: 14
+  - value: B11
+    item_count: 12
+  - value: G25
+    item_count: 11
+  - value: C7
+    item_count: 10
+  - value: B10
+    item_count: 9
+  variant_sensitive: true
+- canonical_name: occasion
+  aliases:
+  - Occasion
+  item_count: 285
+  coverage_pct: 2.909647779479326
+  value_type: categorical
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Christmas
+    item_count: 119
+  - value: Wedding, Christmas
+    item_count: 34
+  - value: Wedding
+    item_count: 25
+  - value: Wedding, Christmas, Halloween
+    item_count: 14
+  - value: Christmas, Halloween
+    item_count: 11
+  - value: Wedding, Christmas, Birthday
+    item_count: 11
+  - value: Wedding, Birthday
+    item_count: 8
+  - value: Birthday
+    item_count: 4
+  - value: Wedding, Christmas, Halloween, Thanksgiving
+    item_count: 4
+  - value: Christmas, Birthday
+    item_count: 2
+  variant_sensitive: false
+- canonical_name: number of batteries
+  aliases:
+  - Number of Batteries
+  item_count: 280
+  coverage_pct: 2.8586013272077593
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 1 Lithium Ion batteries required.
+    item_count: 63
+  - value: 1 Lithium Ion batteries required. (included)
+    item_count: 61
+  - value: 2 Lithium Ion batteries required. (included)
+    item_count: 44
+  - value: 1 Product Specific batteries required.
+    item_count: 13
+  - value: 2 AA batteries required.
+    item_count: 10
+  - value: 1 Lithium Metal batteries required. (included)
+    item_count: 8
+  - value: 1 Unknown batteries required.
+    item_count: 6
+  - value: 1 12V batteries required.
+    item_count: 5
+  - value: 1 AA batteries required.
+    item_count: 5
+  - value: 1 Lithium Polymer batteries required. (included)
+    item_count: 5
+  variant_sensitive: true
+- canonical_name: switch style
+  aliases:
+  - Switch Style
+  item_count: 280
+  coverage_pct: 2.8586013272077593
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Push Button
+    item_count: 49
+  - value: Touch
+    item_count: 22
+  - value: Toggle
+    item_count: 21
+  - value: Push button
+    item_count: 20
+  - value: Remote
+    item_count: 16
+  - value: Rocker
+    item_count: 9
+  - value: Pull Chain
+    item_count: 8
+  - value: Slide switch
+    item_count: 7
+  - value: Rotary
+    item_count: 6
+  - value: Duplex
+    item_count: 5
+  variant_sensitive: false
+- canonical_name: brightness
+  aliases:
+  - Brightness
+  item_count: 271
+  coverage_pct: 2.7667177131189384
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 800 Lumen
+    item_count: 24
+  - value: 1000 Lumen
+    item_count: 12
+  - value: 400 Lumen
+    item_count: 11
+  - value: 2000 Lumen
+    item_count: 9
+  - value: 300 Lumen
+    item_count: 9
+  - value: 500 Lumen
+    item_count: 9
+  - value: 700 Lumen
+    item_count: 9
+  - value: 600 Lumen
+    item_count: 8
+  - value: 750 Lumen
+    item_count: 8
+  - value: 900 Lumen
+    item_count: 7
+  variant_sensitive: false
+- canonical_name: amperage
+  aliases:
+  - Amperage
+  item_count: 269
+  coverage_pct: 2.746299132210311
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 15 Amps
+    item_count: 86
+  - value: 5 Amps
+    item_count: 24
+  - value: 2 Amps
+    item_count: 17
+  - value: 4 Amps
+    item_count: 14
+  - value: 4.5 Amps
+    item_count: 13
+  - value: 10 Amps
+    item_count: 9
+  - value: 6 Amps
+    item_count: 9
+  - value: 1.5 Amps
+    item_count: 8
+  - value: 13 Amps
+    item_count: 8
+  - value: 18 Amps
+    item_count: 7
+  variant_sensitive: false
+- canonical_name: exterior finish
+  aliases:
+  - Exterior Finish
+  item_count: 269
+  coverage_pct: 2.746299132210311
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Brass
+    item_count: 50
+  - value: Bronze
+    item_count: 29
+  - value: Nickel
+    item_count: 27
+  - value: Stainless Steel
+    item_count: 14
+  - value: Chrome
+    item_count: 13
+  - value: Zinc
+    item_count: 13
+  - value: Copper
+    item_count: 12
+  - value: Black
+    item_count: 11
+  - value: Wood
+    item_count: 11
+  - value: Stainless Steel, Nickel
+    item_count: 8
+  variant_sensitive: false
+- canonical_name: specification met
+  aliases:
+  - Specification Met
+  - Specification met
+  item_count: 259
+  coverage_pct: 2.644206227667177
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: ETL
+    item_count: 47
+  - value: UL
+    item_count: 45
+  - value: certified frustration-free
+    item_count: 15
+  - value: Energy Star
+    item_count: 14
+  - value: UL Listed
+    item_count: 7
+  - value: 'No'
+    item_count: 6
+  - value: (unset)
+    item_count: 5
+  - value: CSA
+    item_count: 5
+  - value: CSA, UL
+    item_count: 5
+  - value: Certified frustration-free
+    item_count: 5
+  variant_sensitive: false
+- canonical_name: thickness
+  aliases:
+  - Thickness
+  item_count: 259
+  coverage_pct: 2.644206227667177
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - centimeters
+  - inches
+  - millimeters
+  numeric_parse_pct: 96.91119691119691
+  top_10_example_values:
+  - value: 1 Inches
+    item_count: 86
+  - value: 11 Inches
+    item_count: 45
+  - value: 2 Inches
+    item_count: 9
+  - value: 1.38 Inches
+    item_count: 7
+  - value: 0.5 Inches
+    item_count: 6
+  - value: 3 Inches
+    item_count: 5
+  - value: 4 Inches
+    item_count: 5
+  - value: 60 Mils
+    item_count: 4
+  - value: 0.22 Inches
+    item_count: 3
+  - value: 0.6 Inches
+    item_count: 3
+  variant_sensitive: true
+- canonical_name: handle type
+  aliases:
+  - Handle Type
+  item_count: 245
+  coverage_pct: 2.501276161306789
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Lever
+    item_count: 133
+  - value: Pull Handle
+    item_count: 37
+  - value: Knob
+    item_count: 29
+  - value: Manual-Retractable
+    item_count: 12
+  - value: Knob, Lever
+    item_count: 8
+  - value: Knob, Pull Handle
+    item_count: 6
+  - value: Cross
+    item_count: 3
+  - value: Single Handle
+    item_count: 3
+  - value: Sensor
+    item_count: 2
+  - value: Beavertail Handle
+    item_count: 1
+  variant_sensitive: false
+- canonical_name: horsepower
+  aliases:
+  - Horsepower
+  item_count: 238
+  coverage_pct: 2.429811128126595
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 1 hp
+    item_count: 71
+  - value: '1'
+    item_count: 19
+  - value: '0.5'
+    item_count: 9
+  - value: '0.75'
+    item_count: 7
+  - value: '1.50'
+    item_count: 7
+  - value: '2'
+    item_count: 7
+  - value: 0.33 hp
+    item_count: 6
+  - value: '1.00'
+    item_count: 6
+  - value: 2 hp
+    item_count: 6
+  - value: '3'
+    item_count: 6
+  variant_sensitive: false
+- canonical_name: warranty type
+  aliases:
+  - Warranty Type
+  item_count: 237
+  coverage_pct: 2.419601837672282
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Manufacturer
+    item_count: 36
+  - value: Limited
+    item_count: 32
+  - value: Manufacturer and Seller Combination
+    item_count: 26
+  - value: manufacturer-and-seller-combination
+    item_count: 26
+  - value: seller
+    item_count: 21
+  - value: Manufacturer-and-seller-combination
+    item_count: 20
+  - value: Seller
+    item_count: 15
+  - value: manufacturer
+    item_count: 13
+  - value: 90 days limited warranty
+    item_count: 8
+  - value: Lifetime
+    item_count: 6
+  variant_sensitive: false
+- canonical_name: number of teeth
+  aliases:
+  - Number of Teeth
+  item_count: 232
+  coverage_pct: 2.3685553854007146
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - count
+  numeric_parse_pct: 100.0
+  top_10_example_values:
+  - value: '24'
+    item_count: 91
+  - value: '60'
+    item_count: 31
+  - value: '50'
+    item_count: 17
+  - value: '10'
+    item_count: 14
+  - value: '80'
+    item_count: 12
+  - value: '18'
+    item_count: 7
+  - value: '20'
+    item_count: 7
+  - value: '6'
+    item_count: 7
+  - value: '32'
+    item_count: 5
+  - value: '48'
+    item_count: 5
+  variant_sensitive: true
+- canonical_name: lock type
+  aliases:
+  - Lock Type
+  item_count: 225
+  coverage_pct: 2.2970903522205206
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Key Lock
+    item_count: 85
+  - value: Keypad
+    item_count: 40
+  - value: Combination Lock
+    item_count: 14
+  - value: Key
+    item_count: 14
+  - value: Combination
+    item_count: 6
+  - value: Electronic
+    item_count: 6
+  - value: Electronic, Key
+    item_count: 6
+  - value: Keyed One Side
+    item_count: 6
+  - value: Push Button Lock
+    item_count: 6
+  - value: Biometric, Keypad
+    item_count: 5
+  variant_sensitive: false
+- canonical_name: color rendering index
+  aliases:
+  - Color Rendering Index
+  item_count: 223
+  coverage_pct: 2.276671771311894
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: '80'
+    item_count: 115
+  - value: '80.00'
+    item_count: 28
+  - value: '100'
+    item_count: 18
+  - value: '90'
+    item_count: 9
+  - value: '85'
+    item_count: 8
+  - value: '85.00'
+    item_count: 8
+  - value: '50'
+    item_count: 7
+  - value: '90.00'
+    item_count: 4
+  - value: '100.00'
+    item_count: 3
+  - value: '62'
+    item_count: 3
+  variant_sensitive: true
+- canonical_name: coverage
+  aliases:
+  - Coverage
+  item_count: 217
+  coverage_pct: 2.2154160285860134
+  value_type: text
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: '325'
+    item_count: 7
+  - value: 10 square_feet
+    item_count: 4
+  - value: 12 sq. ft.
+    item_count: 4
+  - value: 14.5 square feet
+    item_count: 4
+  - value: 28.18 square feet
+    item_count: 4
+  - value: 35 square feet
+    item_count: 4
+  - value: 57 square feet
+    item_count: 4
+  - value: 12 sq ft
+    item_count: 3
+  - value: 15 sq ft
+    item_count: 3
+  - value: 30.75 square feet
+    item_count: 3
+  variant_sensitive: false
+- canonical_name: capacity
+  aliases:
+  - Capacity
+  item_count: 211
+  coverage_pct: 2.1541602858601325
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - feet
+  - gallons
+  - inches
+  - kilograms
+  - liters
+  - milliliters
+  - ounces
+  - pounds
+  - quarts
+  numeric_parse_pct: 81.04265402843602
+  top_10_example_values:
+  - value: 5 Gallons
+    item_count: 9
+  - value: 6 Gallons
+    item_count: 9
+  - value: 60 Gallons
+    item_count: 9
+  - value: 3 Gallons
+    item_count: 7
+  - value: 2.5 Gallons
+    item_count: 6
+  - value: 4 Gallons
+    item_count: 6
+  - value: 50 Gallons
+    item_count: 5
+  - value: 1 Gallons
+    item_count: 4
+  - value: 100 Gallons
+    item_count: 4
+  - value: 2 Gallons
+    item_count: 4
+  variant_sensitive: true
+- canonical_name: department
+  aliases:
+  - Department
+  item_count: 210
+  coverage_pct: 2.1439509954058193
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: unisex-adult
+    item_count: 47
+  - value: Unisex-adult
+    item_count: 43
+  - value: Unisex-Adult
+    item_count: 31
+  - value: Unisex Adult
+    item_count: 22
+  - value: mens
+    item_count: 9
+  - value: Unisex
+    item_count: 8
+  - value: Mens
+    item_count: 7
+  - value: Home & Garden
+    item_count: 6
+  - value: Safety
+    item_count: 4
+  - value: Accent
+    item_count: 3
+  variant_sensitive: false
+- canonical_name: product care instructions
+  aliases:
+  - Care instructions
+  - Product Care Instructions
+  item_count: 210
+  coverage_pct: 2.1439509954058193
+  value_type: text
+  value_type_source: configured
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: Wipe with Dry Cloth
+    item_count: 64
+  - value: Hand Wash
+    item_count: 47
+  - value: Wipe with Damp Cloth
+    item_count: 40
+  - value: Hand Wash Only
+    item_count: 16
+  - value: Laundry
+    item_count: 10
+  - value: Machine Wash
+    item_count: 4
+  - value: Pop-up
+    item_count: 4
+  - value: Spot Clean
+    item_count: 3
+  - value: Clean with a soft, dry cloth
+    item_count: 2
+  - value: Apply mild detergent or diluted vinegar if needed, Easy maintenance sink
+      cleans with gentle wipe - use soft towel or cloth
+    item_count: 1
+  variant_sensitive: false
+- canonical_name: maximum power
+  aliases:
+  - Maximum Power
+  item_count: 205
+  coverage_pct: 2.092904543134252
+  value_type: categorical
+  value_type_source: heuristic
+  observed_units: []
+  numeric_parse_pct: 0.0
+  top_10_example_values:
+  - value: 350 Watts
+    item_count: 32
+  - value: 300 Watts
+    item_count: 28
+  - value: 1800 Watts
+    item_count: 27
+  - value: 800 Watts
+    item_count: 25
+  - value: 850 Watts
+    item_count: 17
+  - value: 0.5 Horsepower
+    item_count: 4
+  - value: 1 Horsepower
+    item_count: 4
+  - value: 5 Horsepower
+    item_count: 4
+  - value: 2 Horsepower
+    item_count: 3
+  - value: 40 Watts
+    item_count: 3
+  variant_sensitive: false
+- canonical_name: cutting diameter
+  aliases:
+  - Cutting Diameter
+  item_count: 196
+  coverage_pct: 2.0010209290454313
+  value_type: numeric+unit
+  value_type_source: heuristic
+  observed_units:
+  - centimeters
+  - feet
+  - inches
+  - millimeters
+  numeric_parse_pct: 96.93877551020408
+  top_10_example_values:
+  - value: 52 Inches
+    item_count: 32
+  - value: 10 Inches
+    item_count: 9
+  - value: 14 Inches
+    item_count: 9
+  - value: 44 Inches
+    item_count: 7
+  - value: 3 Inches
+    item_count: 6
+  - value: 42 Inches
+    item_count: 6
+  - value: 0.5 Inches
+    item_count: 5
+  - value: 2 Inches
+    item_count: 5
+  - value: 30 Inches
+    item_count: 5
+  - value: 5 Inches
+    item_count: 5
+  variant_sensitive: true
+excluded_observed_keys:
+  ? ''
+  : 362
+  Best Sellers Rank: 8342
+  Date First Available: 9125
+  Domestic Shipping: 600
+  International Shipping: 600
+  Is Discontinued By Manufacturer: 5471
+  Is Discontinued by Manufacturer: 1
+  Item model number: 7073
+  Manufacturer Part Number: 120
+  Model Name: 644
+  Part Number: 6439
+  Part number: 1
+  UPC: 5
+below_threshold:
+- canonical_name: ac adapter current
+  item_count: 68
+- canonical_name: access location
+  item_count: 37
+- canonical_name: accessory connection type
+  item_count: 25
+- canonical_name: actuator type
+  item_count: 75
+- canonical_name: additional features
+  item_count: 1
+- canonical_name: additional product features
+  item_count: 9
+- canonical_name: age range description
+  item_count: 1
+- canonical_name: air flow capacity
+  item_count: 161
+- canonical_name: alarm
+  item_count: 37
+- canonical_name: alarm clock
+  item_count: 15
+- canonical_name: alert type
+  item_count: 2
+- canonical_name: amperage capacity
+  item_count: 72
+- canonical_name: area lighting classification
+  item_count: 24
+- canonical_name: assembled depth
+  item_count: 5
+- canonical_name: assembled diameter
+  item_count: 194
+- canonical_name: astm fluid rating
+  item_count: 1
+- canonical_name: auto part position
+  item_count: 4
+- canonical_name: auto shutoff
+  item_count: 1
+- canonical_name: average battery life
+  item_count: 87
+- canonical_name: average life
+  item_count: 99
+- canonical_name: back material type
+  item_count: 66
+- canonical_name: back style
+  item_count: 2
+- canonical_name: backing type
+  item_count: 13
+- canonical_name: backlight
+  item_count: 53
+- canonical_name: base diameter
+  item_count: 7
+- canonical_name: base material
+  item_count: 154
+- canonical_name: base type
+  item_count: 140
+- canonical_name: base width
+  item_count: 42
+- canonical_name: battery capacity
+  item_count: 19
+- canonical_name: battery cell composition
+  item_count: 140
+- canonical_name: battery description
+  item_count: 74
+- canonical_name: battery life
+  item_count: 3
+- canonical_name: battery type
+  item_count: 1
+- canonical_name: beam angle
+  item_count: 11
+- canonical_name: bearing type
+  item_count: 2
+- canonical_name: best uses
+  item_count: 5
+- canonical_name: blade color
+  item_count: 6
+- canonical_name: blade edge
+  item_count: 31
+- canonical_name: blade shape
+  item_count: 20
+- canonical_name: bowl material
+  item_count: 2
+- canonical_name: brightness rating
+  item_count: 2
+- canonical_name: bristle type
+  item_count: 22
+- canonical_name: bulb diameter
+  item_count: 27
+- canonical_name: bulb features
+  item_count: 128
+- canonical_name: bulb length
+  item_count: 30
+- canonical_name: bulb type
+  item_count: 4
+- canonical_name: burner type
+  item_count: 31
+- canonical_name: cable length
+  item_count: 9
+- canonical_name: cable type
+  item_count: 1
+- canonical_name: cache size
+  item_count: 1
+- canonical_name: capacity description
+  item_count: 22
+- canonical_name: capacity total
+  item_count: 1
+- canonical_name: cartoon character
+  item_count: 45
+- canonical_name: case material
+  item_count: 3
+- canonical_name: center to center spacing
+  item_count: 56
+- canonical_name: certificate type
+  item_count: 4
+- canonical_name: chamber depth
+  item_count: 20
+- canonical_name: chamber height
+  item_count: 17
+- canonical_name: chamber width
+  item_count: 25
+- canonical_name: charging time
+  item_count: 5
+- canonical_name: circuit breaker type
+  item_count: 22
+- canonical_name: circuit type
+  item_count: 58
+- canonical_name: closure
+  item_count: 2
+- canonical_name: closure type
+  item_count: 101
+- canonical_name: coating description
+  item_count: 14
+- canonical_name: collection
+  item_count: 87
+- canonical_name: collection name
+  item_count: 104
+- canonical_name: color code
+  item_count: 58
+- canonical_name: color name
+  item_count: 3
+- canonical_name: color rendering index (cri)
+  item_count: 61
+- canonical_name: compatible device
+  item_count: 19
+- canonical_name: compatible devices
+  item_count: 149
+- canonical_name: compatible fastener range
+  item_count: 104
+- canonical_name: compatible lubricant
+  item_count: 2
+- canonical_name: compatible material
+  item_count: 164
+- canonical_name: compatible phone models
+  item_count: 4
+- canonical_name: configuration
+  item_count: 46
+- canonical_name: connectivity protocol
+  item_count: 195
+- canonical_name: connectivity technologies
+  item_count: 1
+- canonical_name: connector gender
+  item_count: 98
+- canonical_name: connector type
+  item_count: 165
+- canonical_name: construction type
+  item_count: 15
+- canonical_name: contact material
+  item_count: 34
+- canonical_name: contact type
+  item_count: 40
+- canonical_name: control type
+  item_count: 79
+- canonical_name: controls type
+  item_count: 2
+- canonical_name: cooling method
+  item_count: 3
+- canonical_name: cord length
+  item_count: 27
+- canonical_name: country/region of origin
+  item_count: 2
+- canonical_name: cover included
+  item_count: 2
+- canonical_name: cover material
+  item_count: 1
+- canonical_name: cpsia cautionary statement
+  item_count: 14
+- canonical_name: current rating
+  item_count: 191
+- canonical_name: cut type
+  item_count: 4
+- canonical_name: cutting angle
+  item_count: 143
+- canonical_name: cutting angle string
+  item_count: 29
+- canonical_name: cutting width
+  item_count: 2
+- canonical_name: data transfer rate
+  item_count: 2
+- canonical_name: description pile
+  item_count: 104
+- canonical_name: diameter
+  item_count: 5
+- canonical_name: diameter of lampshade
+  item_count: 3
+- canonical_name: digital storage capacity
+  item_count: 1
+- canonical_name: dishwasher compatible
+  item_count: 1
+- canonical_name: display style
+  item_count: 24
+- canonical_name: display type
+  item_count: 59
+- canonical_name: door material type
+  item_count: 1
+- canonical_name: door style
+  item_count: 60
+- canonical_name: drain type
+  item_count: 91
+- canonical_name: drawer type
+  item_count: 1
+- canonical_name: drill type
+  item_count: 1
+- canonical_name: drive system
+  item_count: 115
+- canonical_name: duration
+  item_count: 44
+- canonical_name: edge style
+  item_count: 36
+- canonical_name: efficiency
+  item_count: 1
+- canonical_name: electric fan design
+  item_count: 187
+- canonical_name: embellishment
+  item_count: 49
+- canonical_name: end cut type
+  item_count: 1
+- canonical_name: engine type
+  item_count: 1
+- canonical_name: eu energy efficiency label
+  item_count: 1
+- canonical_name: extension length
+  item_count: 24
+- canonical_name: exterior
+  item_count: 5
+- canonical_name: external testing certification
+  item_count: 61
+- canonical_name: fabric type
+  item_count: 26
+- canonical_name: fastener material
+  item_count: 19
+- canonical_name: fastener size
+  item_count: 1
+- canonical_name: fastener type
+  item_count: 37
+- canonical_name: filter class
+  item_count: 62
+- canonical_name: filter type
+  item_count: 10
+- canonical_name: fishing technique
+  item_count: 2
+- canonical_name: fit type
+  item_count: 3
+- canonical_name: fixture type
+  item_count: 1
+- canonical_name: floor area
+  item_count: 1
+- canonical_name: floor type
+  item_count: 1
+- canonical_name: flow rate
+  item_count: 110
+- canonical_name: flow rate description
+  item_count: 28
+- canonical_name: flush type
+  item_count: 35
+- canonical_name: folded knife size
+  item_count: 8
+- canonical_name: folded size
+  item_count: 2
+- canonical_name: form factor
+  item_count: 20
+- canonical_name: frame material
+  item_count: 82
+- canonical_name: frame type
+  item_count: 16
+- canonical_name: frequency
+  item_count: 8
+- canonical_name: fuel type
+  item_count: 1
+- canonical_name: full cure time
+  item_count: 44
+- canonical_name: furniture finish
+  item_count: 9
+- canonical_name: gauge
+  item_count: 25
+- canonical_name: graduation range
+  item_count: 17
+- canonical_name: grip type
+  item_count: 44
+- canonical_name: grit description
+  item_count: 22
+- canonical_name: grit material
+  item_count: 26
+- canonical_name: grit number
+  item_count: 58
+- canonical_name: grit rating
+  item_count: 16
+- canonical_name: grit type
+  item_count: 76
+- canonical_name: hand orientation
+  item_count: 30
+- canonical_name: handle location
+  item_count: 45
+- canonical_name: handle/lever placement
+  item_count: 50
+- canonical_name: has image stabilization
+  item_count: 2
+- canonical_name: has nonstick coating
+  item_count: 1
+- canonical_name: has self-timer
+  item_count: 2
+- canonical_name: head material
+  item_count: 9
+- canonical_name: head size
+  item_count: 8
+- canonical_name: head type
+  item_count: 1
+- canonical_name: heat output
+  item_count: 27
+- canonical_name: heating coverage
+  item_count: 3
+- canonical_name: heating method
+  item_count: 4
+- canonical_name: hole count
+  item_count: 97
+- canonical_name: hose length
+  item_count: 107
+- canonical_name: human interface input
+  item_count: 26
+- canonical_name: import
+  item_count: 36
+- canonical_name: incandescent equivalent
+  item_count: 9
+- canonical_name: incandescent equivalent wattage
+  item_count: 136
+- canonical_name: included security features
+  item_count: 26
+- canonical_name: ink color
+  item_count: 3
+- canonical_name: inlet connection size
+  item_count: 9
+- canonical_name: inlet connection type
+  item_count: 36
+- canonical_name: input current
+  item_count: 75
+- canonical_name: input voltage
+  item_count: 42
+- canonical_name: instrument
+  item_count: 2
+- canonical_name: insulation material
+  item_count: 6
+- canonical_name: insulation resistance
+  item_count: 1
+- canonical_name: international protection rating
+  item_count: 94
+- canonical_name: is cordless
+  item_count: 10
+- canonical_name: is customizable
+  item_count: 1
+- canonical_name: is dishwasher safe
+  item_count: 9
+- canonical_name: is foldable
+  item_count: 4
+- canonical_name: is microwaveable
+  item_count: 2
+- canonical_name: is stain resistant
+  item_count: 104
+- canonical_name: is waterproof
+  item_count: 28
+- canonical_name: item depth
+  item_count: 5
+- canonical_name: item diameter
+  item_count: 10
+- canonical_name: item display dimensions
+  item_count: 11
+- canonical_name: item form
+  item_count: 180
+- canonical_name: item length
+  item_count: 75
+- canonical_name: item package dimensions l x w x h
+  item_count: 104
+- canonical_name: item thickness
+  item_count: 33
+- canonical_name: item torque
+  item_count: 102
+- canonical_name: item volume
+  item_count: 107
+- canonical_name: item width
+  item_count: 1
+- canonical_name: lamp power factor
+  item_count: 1
+- canonical_name: laser beam color
+  item_count: 13
+- canonical_name: league
+  item_count: 32
+- canonical_name: leg style
+  item_count: 12
+- canonical_name: lens color
+  item_count: 8
+- canonical_name: lens material
+  item_count: 1
+- canonical_name: lift type
+  item_count: 2
+- canonical_name: light path distance
+  item_count: 20
+- canonical_name: light source wattage
+  item_count: 6
+- canonical_name: line weight
+  item_count: 8
+- canonical_name: liquid volume
+  item_count: 15
+- canonical_name: load capacity
+  item_count: 70
+- canonical_name: locking
+  item_count: 1
+- canonical_name: lower temperature rating
+  item_count: 29
+- canonical_name: lumen maintenance factor at the end of life
+  item_count: 1
+- canonical_name: manufacturer recommended age
+  item_count: 14
+- canonical_name: manufacturer warranty
+  item_count: 7
+- canonical_name: material feature
+  item_count: 7
+- canonical_name: material type
+  item_count: 71
+- canonical_name: material type free
+  item_count: 2
+- canonical_name: material type(s)
+  item_count: 3
+- canonical_name: material_composition
+  item_count: 1
+- canonical_name: max input sheet capacity
+  item_count: 1
+- canonical_name: max number of supported devices
+  item_count: 19
+- canonical_name: maximum chuck size
+  item_count: 114
+- canonical_name: maximum compatible light source wattage
+  item_count: 2
+- canonical_name: maximum compatible wattage
+  item_count: 146
+- canonical_name: maximum flow rate
+  item_count: 122
+- canonical_name: maximum frequency
+  item_count: 2
+- canonical_name: maximum height
+  item_count: 30
+- canonical_name: maximum lifting height
+  item_count: 7
+- canonical_name: maximum operating pressure
+  item_count: 17
+- canonical_name: maximum pressure
+  item_count: 53
+- canonical_name: maximum range
+  item_count: 14
+- canonical_name: maximum rotational speed
+  item_count: 175
+- canonical_name: maximum speed
+  item_count: 1
+- canonical_name: maximum suction
+  item_count: 1
+- canonical_name: maximum switching current
+  item_count: 1
+- canonical_name: maximum temperature
+  item_count: 4
+- canonical_name: maximum torque
+  item_count: 19
+- canonical_name: maximum voltage
+  item_count: 3
+- canonical_name: maximum weight capacity
+  item_count: 57
+- canonical_name: maximum weight recommendation
+  item_count: 101
+- canonical_name: measurement accuracy
+  item_count: 19
+- canonical_name: measurement type
+  item_count: 5
+- canonical_name: mechanical life expectancy
+  item_count: 4
+- canonical_name: memory storage capacity
+  item_count: 1
+- canonical_name: merv rating
+  item_count: 88
+- canonical_name: metal type
+  item_count: 132
+- canonical_name: minimum bore diameter
+  item_count: 10
+- canonical_name: minimum compatible size
+  item_count: 1
+- canonical_name: minimum efficiency reporting values (merv)
+  item_count: 64
+- canonical_name: minimum frequency
+  item_count: 1
+- canonical_name: minimum height
+  item_count: 3
+- canonical_name: minimum speed
+  item_count: 21
+- canonical_name: minimum system requirements
+  item_count: 1
+- canonical_name: minimum weight capacity
+  item_count: 6
+- canonical_name: model
+  item_count: 38
+- canonical_name: model info
+  item_count: 24
+- canonical_name: model year
+  item_count: 17
+- canonical_name: motor horsepower
+  item_count: 19
+- canonical_name: movement type
+  item_count: 1
+- canonical_name: national stock number
+  item_count: 61
+- canonical_name: no. of wires
+  item_count: 13
+- canonical_name: noise level
+  item_count: 80
+- canonical_name: nominal wall thickness
+  item_count: 13
+- canonical_name: 'null'
+  item_count: 19
+- canonical_name: number of basins
+  item_count: 26
+- canonical_name: number of blades
+  item_count: 154
+- canonical_name: number of buttons
+  item_count: 2
+- canonical_name: number of cable strands
+  item_count: 21
+- canonical_name: number of channels
+  item_count: 1
+- canonical_name: number of circuits
+  item_count: 13
+- canonical_name: number of compartments
+  item_count: 51
+- canonical_name: number of dividers
+  item_count: 1
+- canonical_name: number of doors
+  item_count: 40
+- canonical_name: number of drawers
+  item_count: 43
+- canonical_name: number of fasteners
+  item_count: 7
+- canonical_name: number of flutes
+  item_count: 5
+- canonical_name: number of holes
+  item_count: 50
+- canonical_name: number of hooks
+  item_count: 29
+- canonical_name: number of jets
+  item_count: 65
+- canonical_name: number of lights
+  item_count: 68
+- canonical_name: number of panels
+  item_count: 13
+- canonical_name: number of pockets
+  item_count: 17
+- canonical_name: number of poles
+  item_count: 10
+- canonical_name: number of ports
+  item_count: 13
+- canonical_name: number of positions
+  item_count: 42
+- canonical_name: number of sets
+  item_count: 5
+- canonical_name: number of settings
+  item_count: 88
+- canonical_name: number of shelves
+  item_count: 40
+- canonical_name: number of speeds
+  item_count: 104
+- canonical_name: number of wheels
+  item_count: 3
+- canonical_name: oem part number
+  item_count: 4
+- canonical_name: opacity
+  item_count: 6
+- canonical_name: opening mechanism
+  item_count: 1
+- canonical_name: operating life
+  item_count: 1
+- canonical_name: operating pressure range
+  item_count: 3
+- canonical_name: operating voltage
+  item_count: 97
+- canonical_name: optical sensor technology
+  item_count: 1
+- canonical_name: orientation
+  item_count: 6
+- canonical_name: other camera features
+  item_count: 1
+- canonical_name: other display features
+  item_count: 7
+- canonical_name: outer material
+  item_count: 1
+- canonical_name: outlet connection size
+  item_count: 6
+- canonical_name: outlet connection type
+  item_count: 20
+- canonical_name: output voltage
+  item_count: 9
+- canonical_name: output wattage
+  item_count: 1
+- canonical_name: outside diameter
+  item_count: 10
+- canonical_name: package information
+  item_count: 165
+- canonical_name: package type
+  item_count: 132
+- canonical_name: package weight
+  item_count: 107
+- canonical_name: paint type
+  item_count: 118
+- canonical_name: pattern match
+  item_count: 54
+- canonical_name: performance description
+  item_count: 32
+- canonical_name: perfume
+  item_count: 3
+- canonical_name: phase type
+  item_count: 6
+- canonical_name: pile height
+  item_count: 5
+- canonical_name: pin type
+  item_count: 1
+- canonical_name: ply rating
+  item_count: 4
+- canonical_name: pocket description
+  item_count: 4
+- canonical_name: point style
+  item_count: 8
+- canonical_name: pre-printed
+  item_count: 3
+- canonical_name: product benefits
+  item_count: 23
+- canonical_name: product grade
+  item_count: 5
+- canonical_name: projection distance
+  item_count: 10
+- canonical_name: purification method
+  item_count: 47
+- canonical_name: r value
+  item_count: 2
+- canonical_name: real angle of view
+  item_count: 1
+- canonical_name: refill
+  item_count: 1
+- canonical_name: release date
+  item_count: 1
+- canonical_name: reservoir capacity
+  item_count: 1
+- canonical_name: resolution
+  item_count: 1
+- canonical_name: reusability
+  item_count: 122
+- canonical_name: roll quantity
+  item_count: 3
+- canonical_name: rough-in
+  item_count: 3
+- canonical_name: rug form type
+  item_count: 3
+- canonical_name: runtime
+  item_count: 34
+- canonical_name: safety rating
+  item_count: 1
+- canonical_name: scent
+  item_count: 10
+- canonical_name: screen size
+  item_count: 18
+- canonical_name: seasons
+  item_count: 3
+- canonical_name: seat material type
+  item_count: 18
+- canonical_name: seat width
+  item_count: 1
+- canonical_name: sensor type
+  item_count: 1
+- canonical_name: series
+  item_count: 1
+- canonical_name: series id
+  item_count: 1
+- canonical_name: setting type
+  item_count: 70
+- canonical_name: shank type
+  item_count: 69
+- canonical_name: sheet count
+  item_count: 6
+- canonical_name: sheet size
+  item_count: 1
+- canonical_name: shelf type
+  item_count: 13
+- canonical_name: shelf weight capacity
+  item_count: 1
+- canonical_name: shell type
+  item_count: 1
+- canonical_name: skin type
+  item_count: 1
+- canonical_name: sound level
+  item_count: 73
+- canonical_name: specific instructions for use
+  item_count: 29
+- canonical_name: specific uses
+  item_count: 182
+- canonical_name: specifications
+  item_count: 7
+- canonical_name: speed rating
+  item_count: 1
+- canonical_name: sport
+  item_count: 7
+- canonical_name: sport type
+  item_count: 12
+- canonical_name: spout height
+  item_count: 90
+- canonical_name: spout reach
+  item_count: 87
+- canonical_name: start up time
+  item_count: 7
+- canonical_name: state of matter
+  item_count: 1
+- canonical_name: strap type
+  item_count: 35
+- canonical_name: string material type
+  item_count: 1
+- canonical_name: suggested users
+  item_count: 64
+- canonical_name: table design
+  item_count: 1
+- canonical_name: tank volume
+  item_count: 24
+- canonical_name: target audience
+  item_count: 2
+- canonical_name: target gender
+  item_count: 3
+- canonical_name: target species
+  item_count: 1
+- canonical_name: team name
+  item_count: 2
+- canonical_name: teeth per
+  item_count: 2
+- canonical_name: temperature range
+  item_count: 29
+- canonical_name: temperature rating
+  item_count: 3
+- canonical_name: tensile strength
+  item_count: 8
+- canonical_name: terminal
+  item_count: 72
+- canonical_name: thread size
+  item_count: 26
+- canonical_name: thread type
+  item_count: 25
+- canonical_name: tick-repellent material
+  item_count: 2
+- canonical_name: tolerance held
+  item_count: 1
+- canonical_name: tool flute type
+  item_count: 57
+- canonical_name: tool tip description
+  item_count: 8
+- canonical_name: top material type
+  item_count: 8
+- canonical_name: top style
+  item_count: 2
+- canonical_name: top width
+  item_count: 23
+- canonical_name: torque
+  item_count: 25
+- canonical_name: total power outlets
+  item_count: 16
+- canonical_name: total recycled content percentage
+  item_count: 1
+- canonical_name: total usb ports
+  item_count: 2
+- canonical_name: tv size
+  item_count: 2
+- canonical_name: ul listed
+  item_count: 2
+- canonical_name: ultraviolet light protection
+  item_count: 18
+- canonical_name: units
+  item_count: 1
+- canonical_name: upper temperature rating
+  item_count: 45
+- canonical_name: use for
+  item_count: 3
+- canonical_name: uv protection
+  item_count: 18
+- canonical_name: valve type
+  item_count: 19
+- canonical_name: vehicle service type
+  item_count: 27
+- canonical_name: viewing area
+  item_count: 8
+- canonical_name: volume
+  item_count: 24
+- canonical_name: wall art form
+  item_count: 1
+- canonical_name: washer type
+  item_count: 3
+- canonical_name: watch movement
+  item_count: 16
+- canonical_name: water consumption
+  item_count: 102
+- canonical_name: weave type
+  item_count: 4
+- canonical_name: weight limit
+  item_count: 37
+- canonical_name: whats in the box
+  item_count: 2
+- canonical_name: wheel size
+  item_count: 1
+- canonical_name: wheel type
+  item_count: 1
+- canonical_name: white brightness
+  item_count: 3
+- canonical_name: wireless communication technologies
+  item_count: 1
+- canonical_name: wireless communication technology
+  item_count: 4
+- canonical_name: with lid
+  item_count: 1
+- canonical_name: writing instrument form
+  item_count: 1

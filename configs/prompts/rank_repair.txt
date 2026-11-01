@@ -1,0 +1,3 @@
+Your previous answer was not a complete permutation of the candidates.
+Return each integer from 1 through {n} exactly once, best candidate first.
+Use a comma-separated list of numbers only, with no explanation.

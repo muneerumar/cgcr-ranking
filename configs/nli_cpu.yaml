@@ -1,0 +1,12 @@
+# Pinned CPU NLI classifier, revision and label mapping.
+model_id: cross-encoder/nli-deberta-v3-base
+revision: 6c749ce3425cd33b46d187e45b92bbf96ee12ec7
+label_order: [contradiction, entailment, neutral]
+device: cpu
+threads: 4
+batch_size: 4
+max_length: 256
+dtype: float32
+cache_dir: models/cache
+benchmark_pairs: 200
+benchmark_seed: 13

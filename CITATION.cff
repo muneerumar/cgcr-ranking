@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this research software, please cite it using these metadata."
+title: "CGCR: Claim-Grounded Counterfactual Ranking"
+type: software
+version: 1.0.0
+authors:
+  - family-names: Umar
+    given-names: Muhammad Muneer
+    email: muneer.umar@kust.edu.pk
+    orcid: https://orcid.org/0000-0003-2459-6470
+    affiliation: "Institute of Computing, Kohat University of Science & Technology, Kohat 26000, Khyber Pakhtunkhwa, Pakistan"
+  - family-names: Perveen
+    given-names: Salma
+    email: salmaperveen89@gmail.com
+    affiliation: "Institute of Computing, Kohat University of Science & Technology, Kohat 26000, Khyber Pakhtunkhwa, Pakistan"
+abstract: "Research software for claim extraction, evidence verification, deterministic product rendering and ranking evaluation."
