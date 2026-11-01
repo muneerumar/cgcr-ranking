@@ -30,6 +30,12 @@ the distributed Mac lock is the reproducibility reference.
 
 ## Regenerate the publication artifacts
 
+For the standalone TikZ pipeline install `brew install tectonic poppler` first.
+The export uses Tectonic 0.17.0 in deterministic mode and Poppler 26.05.0 at
+300 dpi. The compiler fetches its TeX resources on first use; later builds reuse
+its cache. F1 is exported as PDF/PNG as well as editable TikZ source.
+
+
 No data, model downloads or inference are needed:
 
 ```sh
@@ -129,9 +135,10 @@ excludes idle gaps without a worker; it is not a guarantee for another machine.
 
 Per-call latency/tokens and offline extraction/verification per 1,000 indexed
 items are in `paper/tables/T6a_ranking_cost.csv` and `T6b_offline_cost.csv`.
-On the same machine the saved publication rendering took 1.82 s for tables and
-2.33 s for figures (warm font cache, excluding installation), from the logged
-publication build (`results/publication_build_cost.json`). Download/install time is separate. For new long computations,
+The original five-chart publication build took 1.82 s for tables and 2.33 s
+for figures (warm font cache, excluding installation), as recorded in
+`results/publication_build_cost.json`. Those historical timings predate the
+standalone F1 export; its first build also fetches TeX resources. Download/install time is separate. For new long computations,
 use a detached terminal multiplexer and `caffeinate -imsu`, save resumable
 checkpoints, keep at least 1.5 GB available for MLX and 2.5 GB for CPU work, and
 log resident and Metal memory separately. Source claims and the frozen catalog

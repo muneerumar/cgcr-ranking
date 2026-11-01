@@ -1,52 +1,61 @@
 {
   "artifacts": {
+    "figures/F1_pipeline.pdf": {
+      "sha256": "b84ce7b35befa365d7fde23ea6f673a68209dbb5fb60331432aca83f4b7bdd96"
+    },
+    "figures/F1_pipeline.png": {
+      "sha256": "efb1db4316556ca9ee383601e080f1c0dd72237c29c3f5263c7935027098a0b4"
+    },
+    "figures/F1_pipeline.tex": {
+      "sha256": "fe4d8587646e13c1161530c22ef9588719e677f6ab4d3a1292837dfa5c006034"
+    },
     "figures/F2_strongest_attack.pdf": {
-      "sha256": "9f3407d4852b0a3af44e4a35597375a1dd6422671b086433e04b623cf95927d7"
+      "sha256": "13b16ca9a436d5ecfaeef9cd17381051529d0a6444047a240d5ae9087683c7f3"
     },
     "figures/F2_strongest_attack.png": {
-      "sha256": "45f1a87d596d39c51c41c0c0a526d39d39c3e4bfeb733f612586ed7bbeecf63f"
+      "sha256": "b5d7bd6041d87a6e0c1741b679b8f72ef3beb0af8c2637c5c9433be41b1c2d07"
     },
     "figures/F2_strongest_attack.tex": {
       "sha256": "e4f109bacf002e003e6de3066687956b03d9a0bceb9109af8c077a97f0c7aac3"
     },
     "figures/F3_robustness_responsiveness.pdf": {
-      "sha256": "fa5cd4a72eaae8752551ad2a4c46695ebfa45c1f542b0f2d1fb45e6cdfb0621a"
+      "sha256": "99fc150c5ddd65879bdafdbb142a467d5678ef7e205385e68ea25c81f8824d78"
     },
     "figures/F3_robustness_responsiveness.png": {
-      "sha256": "26b04f3879e113797f4fd82c337f05241168365af982953e3e8e6819ec61cd56"
+      "sha256": "76088278a8eee6b0c8d7d4711b69a12592ba7e4b7d2cc4a3dfd4a3ea2e6a937f"
     },
     "figures/F3_robustness_responsiveness.tex": {
       "sha256": "417af488ae9b017b09691ed03167948407c632447c514faf9e85595d3ad5c7c6"
     },
     "figures/F4_clean_quality.pdf": {
-      "sha256": "44b1ad921db5dfa9a97be9eb1143326911a1b7ed7c6b1a7f510ed16c3a8254c8"
+      "sha256": "54a453468d773a3dba989026b9e3f559258c67b6850743d278837f36ff81651d"
     },
     "figures/F4_clean_quality.png": {
-      "sha256": "b53efe0a5bea859a9d2619142fdc066a9b68570a9a1c2a6e2ef3de104c559441"
+      "sha256": "78bf36438dc08b75e42904965f875668bdb881eb23e51145d6dcbee086537f0b"
     },
     "figures/F4_clean_quality.tex": {
-      "sha256": "a59f535d9b7f2695903258bb56c751cb79392b5130967bea63736e278ea97a92"
+      "sha256": "fa0954ffb591915c6e8b62085614284315cf03027581848eaef1baf1a53a95de"
     },
     "figures/F5_review_flooding.pdf": {
-      "sha256": "82026422cf962abd9d91a7b0c7978b061a28e442c575bcbc1956c89a0311d8fd"
+      "sha256": "ecaecba32cc6dfb1c6e8a7f7b2d548bf2e92d8aa269d2c77c04c21876184e248"
     },
     "figures/F5_review_flooding.png": {
-      "sha256": "c31adc970e9804b5834132455960eb2ecd4672ab3ef3afed9469577f762f42ec"
+      "sha256": "dfd1939538c7784e20be7eb1aff3d410096b98c7030d532940a31290e5653e16"
     },
     "figures/F5_review_flooding.tex": {
-      "sha256": "81ff4ed122a8e6cb38443b57c025e89240e9ce07d1de78574d588b19d5211c2f"
+      "sha256": "2f01bf784735f7a93b84780f2eee09e1505defa4fd617e0f39dfe9d5f88696ac"
     },
     "figures/S1_home_kitchen_six_attacks.pdf": {
-      "sha256": "e4d4501077420ae6c025b5f48e200804554156bf3977d2ceca36a586fa6d705d"
+      "sha256": "5981bad58ac8d2f6e4978c09c81f1cdd2bfbe66d6c7fd2303cc45a60c3dcd70d"
     },
     "figures/S1_home_kitchen_six_attacks.png": {
-      "sha256": "7cf7c6828e8afc290072d634f540096b8ea9d3f80b36866bf38cbd68cfabfbea"
+      "sha256": "50facce659d543fb9689a5efd0199575b534a41b5efb286d03fa3b1000ac2f84"
     },
     "figures/S1_home_kitchen_six_attacks.tex": {
       "sha256": "8d34c0fb7d7f4090d7ec8ef57b342be60c457c350a5d5e932ba1518ba08162c9"
     },
     "figures/pipeline.tex": {
-      "sha256": "855ac5b395ffd3a33d657439c62b6bf29cb4362d8e30a30957c22c318a568d9a"
+      "sha256": "0fc5a139f0d7be71014eccd00492a697828dbf32f8559040841a2c1d9ac91911"
     },
     "tables/F3_common_attacks_data.csv": {
       "sha256": "95929650f1f313c9e132653f307d7d4a88c589d2fdcb055b0ba92258c75802c8"
@@ -110,9 +119,18 @@
     }
   },
   "figures": {
+    "F1_pipeline": {
+      "height_in": 2.46,
+      "kind": "qualitative_pipeline",
+      "png_dpi": 300,
+      "points": [],
+      "source": "figures/pipeline.tex",
+      "standalone_source": "figures/F1_pipeline.tex",
+      "width_in": 7.203333333333333
+    },
     "F2_strongest_attack": {
       "attack": "core_reasoning_opt5",
-      "height_in": 2.75,
+      "height_in": 3.0,
       "png_dpi": 300,
       "points": [
         {
@@ -512,7 +530,7 @@
       "width_in": 7.2
     },
     "F4_clean_quality": {
-      "height_in": 2.75,
+      "height_in": 3.0,
       "png_dpi": 300,
       "points": [
         {
@@ -700,7 +718,30 @@
       "width_in": 7.2
     },
     "F5_review_flooding": {
-      "height_in": 2.7,
+      "annotations": [
+        {
+          "label": "n",
+          "value_nodes": [
+            "adaptive/cgcr/flood_B0_unverified/promote3/n",
+            "adaptive/cgcr/flood_B0_verified/promote3/n",
+            "adaptive/cgcr/flood_B10_unverified/promote3/n",
+            "adaptive/cgcr/flood_B10_verified/promote3/n",
+            "adaptive/cgcr/flood_B20_unverified/promote3/n",
+            "adaptive/cgcr/flood_B20_verified/promote3/n",
+            "adaptive/cgcr/flood_B3_unverified/promote3/n",
+            "adaptive/cgcr/flood_B3_verified/promote3/n",
+            "adaptive/flood_B0_unverified/requested_claim_licensed/n",
+            "adaptive/flood_B0_verified/requested_claim_licensed/n",
+            "adaptive/flood_B10_unverified/requested_claim_licensed/n",
+            "adaptive/flood_B10_verified/requested_claim_licensed/n",
+            "adaptive/flood_B20_unverified/requested_claim_licensed/n",
+            "adaptive/flood_B20_verified/requested_claim_licensed/n",
+            "adaptive/flood_B3_unverified/requested_claim_licensed/n",
+            "adaptive/flood_B3_verified/requested_claim_licensed/n"
+          ]
+        }
+      ],
+      "height_in": 2.85,
       "method": "cgcr",
       "png_dpi": 300,
       "points": [
@@ -945,13 +986,13 @@
   },
   "generator_sources": {
     "scripts/make_paper_figures.py": {
-      "sha256": "deefc05cdd7bc0fbb874f63aeeee19ee4043263dd07e870639be20f89f7ea457"
+      "sha256": "058affc05984b149d6e0ca38875bd78deaa9093e0016442f2d99f1f9191370b2"
     },
     "scripts/make_paper_tables.py": {
       "sha256": "8e717dd17dd0e365768600893f3f9411002c9ff0999b815854a1eafce1fdcfa6"
     },
     "scripts/paper_common.py": {
-      "sha256": "70a008e2b93c23b6625f4ff535b59f7b44ed21b40625eab12ea53c2026d42fe7"
+      "sha256": "de62dbd4b024c4d4b30731997063827f8a7708a8c863847970f79815a12daa40"
     }
   },
   "notes": [

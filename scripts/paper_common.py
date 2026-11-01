@@ -206,7 +206,22 @@ def write_tables(p, output):
 
 
 
+def register_figure_details(p, output):
+    """Register qualitative diagram exports and data-linked sample annotations."""
+    folder=Path(output)/'figures'
+    if (folder/'F1_pipeline.png').exists() and (folder/'F1_pipeline.pdf').exists():
+        import struct
+        width,height=struct.unpack('>II',(folder/'F1_pipeline.png').read_bytes()[16:24])
+        p.figures['F1_pipeline']=dict(kind='qualitative_pipeline',source='figures/pipeline.tex',
+            standalone_source='figures/F1_pipeline.tex',points=[],width_in=width/300,height_in=height/300,png_dpi=300)
+    if 'F5_review_flooding' in p.figures:
+        rows=[row for row in p.tables['T5_adaptive']['rows'] if row['method']=='cgcr' and row['budget'] is not None]
+        nodes=sorted({row[prefix+'_n']['node'] for row in rows for prefix in ('licensed','promote3')})
+        p.figures['F5_review_flooding']['annotations']=[dict(label='n',value_nodes=nodes)]
+
+
 def write_manifest(p,output):
+    register_figure_details(p,output)
     output=Path(output)
     tables={key:dict(csv='tables/'+key+'.csv',latex='tables/'+key+'.tex',
         rows=[{col:row[col]['node'] for col in table['columns'] if isinstance(row.get(col),dict) and 'node' in row[col]} for row in table['rows']])
