@@ -80,3 +80,43 @@ def test_booktabs_column_counts():
         for line in text.splitlines():
             if line.endswith(r' \\') and not line.startswith(r'\multicolumn'):
                 assert len(re.findall(r'(?<!\\)&',line))+1==count
+
+
+def test_figure_layouts_use_paired_values_compact_groups_and_plain_legends(monkeypatch,tmp_path):
+    common=module('paper_common');figures=module('make_paper_figures')
+    from matplotlib import colors
+    from matplotlib.lines import Line2D
+    p=common.build(ROOT,common.RUN);captured={}
+    monkeypatch.setattr(figures,'save',lambda p,fig,folder,name,rows,caption:captured.update({name:(fig,rows)}))
+    with figures.plt.rc_context(figures.STYLE):
+        figures.grouped(p,tmp_path,'F2_strongest_attack','T1_main_robustness','promote3','fixture','core_reasoning_opt5')
+        figures.quality(p,tmp_path);figures.flooding(p,tmp_path)
+    f2,rows=captured['F2_strongest_attack'];ax=f2.axes[0]
+    assert len(ax.patches)==18 and len(ax.texts)==18
+    chosen=[(i,r) for i,r in enumerate(p.tables['T1_main_robustness']['rows']) if r['attack']=='core_reasoning_opt5']
+    positions=figures.category_positions(chosen)
+    for category,expected in zip(figures.CATS,(8,5,5)):
+        selected=[(x,i,r) for x,i,r in positions if r['category']==category]
+        assert len(selected)==expected
+        xs=[x for x,i,r in selected]
+        assert all(abs(b-a-.092)<1e-10 for a,b in zip(xs,xs[1:]))
+        assert [r['method'] for x,i,r in selected]==[m for m in common.METHODS if any(r['method']==m for x,i,r in selected)]
+    for bar,label,(x,index,row) in zip(ax.patches,ax.texts,positions):
+        assert bar.get_height()==figures.val(p,row,'promote3_mean')
+        assert label.get_text()==f"{bar.get_height():.2f}"
+        assert colors.to_hex(bar.get_facecolor())==figures.COLORS[row['method']].lower()
+    assert f2.legends[0]._ncols==4
+    assert len(f2.legends[0].get_texts())<=8 and ax.get_position().y1>=.83
+    f4,rows=captured['F4_clean_quality'];quality_ax=f4.axes[0]
+    assert not quality_ax.patches and len(quality_ax.containers)==18
+    assert quality_ax.get_ylim()==pytest.approx((.70,.95))
+    assert [t.get_text() for t in f4.legends[0].get_texts()]==[t.get_text() for t in f2.legends[0].get_texts()]
+    f5,rows=captured['F5_review_flooding']
+    assert all(a.get_ylim()==pytest.approx((0,.30)) for a in f5.axes)
+    assert all('n=48' in [t.get_text() for t in a.texts] for a in f5.axes)
+    handles=f5.legends[0].legend_handles
+    assert all(isinstance(h,Line2D) for h in handles)
+    assert [h.get_marker() for h in handles]==['o','s']
+    assert all(h.get_linestyle()=='None' for h in handles)
+    assert all(p.get(node)==48 for node in p.figures['F5_review_flooding']['annotations'][0]['value_nodes'])
+    for fig,rows in captured.values():figures.plt.close(fig)
